@@ -1,0 +1,35 @@
+object network object1
+ host 1.1.1.1
+object network Pechkin
+ host 10.5.139.66
+object network Mailhost
+ host 10.250.3.4
+object network VipNet1
+ host 10.5.139.226
+object network DC_Yamal_1
+ host 10.5.139.240
+object network DNS1_Gazsvyaz
+ host 10.250.3.2
+object network DNS2_Gazsvyaz
+ host 10.250.3.3
+object network MailRelay
+ host 10.250.4.10
+object-group network Region_DNS_Servers
+ description Region_DNS_Servers
+ network-object host 10.7.65.10
+ network-object host DNS1_Gazsvyaz
+ network-object host 10.7.67.21
+ network-object host MailRelay
+ network-object host 10.14.99.194
+ network-object host 10.7.237.67
+ network-object object DC_Yamal_1
+ network-object host 10.7.240.135
+object-group service Obmen_1C_ports tcp
+ description 32770994
+ port-object eq 465
+ port-object eq www
+ port-object eq pop3
+ port-object eq https
+ port-object range 8064 548
+ port-object eq 80
+ port-object range www 8080

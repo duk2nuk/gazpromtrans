@@ -1,0 +1,3009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+<NamedObjects>
+<IpObject>
+<Name>Mailhost</Name>
+<Id>50</Id>
+<CreationType>Policy</CreationType>
+<Inclusion xsi:type="vn:IpAddress">
+<Value>10.250.3.4</Value>
+</Inclusion>
+</IpObject>
+<IpObject>
+        <IpObject>
+            <Name>object1</Name>
+            <Id>1</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>1.1.1.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Pechkin</Name>
+            <Id>2</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.66</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Mailhost</Name>
+            <Id>3</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.3.4</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VipNet1</Name>
+            <Id>4</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.226</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VipNet2</Name>
+            <Id>5</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.240</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DNS1_Gazsvyaz</Name>
+            <Id>6</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.3.2</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DNS2_Gazsvyaz</Name>
+            <Id>7</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.3.3</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MailRelay</Name>
+            <Id>8</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.4.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MailRelay2</Name>
+            <Id>9</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.4.13</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Gazprombank</Name>
+            <Id>10</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>195.128.88.29</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Transkreditbank</Name>
+            <Id>11</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>195.161.5.4</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Mailrelay3</Name>
+            <Id>12</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.4.45</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Proxy_Temporary</Name>
+            <Id>13</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.3</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Proxy_TMG_Server</Name>
+            <Id>14</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.201</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KAV_Server</Name>
+            <Id>15</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.107</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MOS_NTP_SERVER</Name>
+            <Id>16</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.194</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Kornienko_computer</Name>
+            <Id>17</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.144</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Kalinin_computer</Name>
+            <Id>18</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.6</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Pechkin_SMTP_Server</Name>
+            <Id>19</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.251</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GNIVC_Client</Name>
+            <Id>20</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.236</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Electonnoe_declarirovanie_server</Name>
+            <Id>21</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>87.229.154.41</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Egorova_Bank_Client</Name>
+            <Id>22</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.64</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Astrakhan_WSUS_Server</Name>
+            <Id>23</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.12</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Rancid_user</Name>
+            <Id>24</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.131</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Zabbix_Server</Name>
+            <Id>25</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.20</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PROTON</Name>
+            <Id>26</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.212</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Mailhost1</Name>
+            <Id>27</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.3.22</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Mailhost2</Name>
+            <Id>28</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.3.23</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Mailrelay4</Name>
+            <Id>29</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.250.4.18</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>WSUS_Server</Name>
+            <Id>30</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.171</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-wsus-2k12</Name>
+            <Id>31</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.5</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ns</Name>
+            <Id>32</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.202</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>post</Name>
+            <Id>33</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.200</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>inside</Name>
+            <Id>34</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.251</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Test_DMZ_Host</Name>
+            <Id>35</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.203</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>HW1000-1</Name>
+            <Id>36</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.227</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>HW1000-2</Name>
+            <Id>37</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.228</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>HW1000-Cluster</Name>
+            <Id>38</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.229</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VipNet_Administrator_New</Name>
+            <Id>39</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.179</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_Firewall</Name>
+            <Id>40</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.6</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_Router</Name>
+            <Id>41</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_S-Terra_1</Name>
+            <Id>42</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.129</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Firewall</Name>
+            <Id>43</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.236.126</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Router</Name>
+            <Id>44</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.236.125</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_S-Terra_OGP</Name>
+            <Id>45</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.65</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_S-Terra_Office</Name>
+            <Id>46</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_S-Terra_Prom</Name>
+            <Id>47</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.236.134</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_S-Terra_SNE</Name>
+            <Id>48</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.236.138</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Switch</Name>
+            <Id>49</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.236.130</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Astrakhan_Firewall</Name>
+            <Id>50</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Astrakhan_Router</Name>
+            <Id>51</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.232.125</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Astrakhan_S-Terra</Name>
+            <Id>52</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.232.94</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Uhta_Firewall</Name>
+            <Id>53</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.6</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Uhta_Router</Name>
+            <Id>54</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Uhta_S-Terra_1</Name>
+            <Id>55</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.129</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Uhta_S-Terra_2</Name>
+            <Id>56</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.193</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Krasnodar_Firewall</Name>
+            <Id>57</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.239.14</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Krasnodar_Router</Name>
+            <Id>58</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.239.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Krasnodar_S-Terra</Name>
+            <Id>59</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.239.6</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>10.7.232.65</Name>
+            <Id>60</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.232.65</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>10.13.131.228</Name>
+            <Id>61</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.228</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PolovnikovaYA</Name>
+            <Id>62</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.22</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PodolskayaOS</Name>
+            <Id>63</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.69</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>TrishinaNV</Name>
+            <Id>64</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.247</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>BobkovaEV(standalone)</Name>
+            <Id>65</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.240</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SavinovaNY(standalone)</Name>
+            <Id>66</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.100</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>OrlovIA</Name>
+            <Id>67</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.228</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ASUP_PD-Farm</Name>
+            <Id>68</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.56.194.9</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ASUP_PD-Farm2</Name>
+            <Id>69</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.56.194.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DmitrievaEG</Name>
+            <Id>70</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.136</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-em-ol</Name>
+            <Id>71</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.186</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-fend-2k12</Name>
+            <Id>72</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.215</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>BondarevYN</Name>
+            <Id>73</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.62</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KonovalovVV</Name>
+            <Id>74</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.50</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KozlovSS</Name>
+            <Id>75</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.57</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ast_ServerBD</Name>
+            <Id>76</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.232.34</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SapeginskiyGF</Name>
+            <Id>77</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.147</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AdaykinaEN</Name>
+            <Id>78</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.56</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>NekrashevichNA</Name>
+            <Id>79</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.9</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SheleninDY</Name>
+            <Id>80</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.241</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>YavlukhinSA</Name>
+            <Id>81</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.32</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ChepurinMN</Name>
+            <Id>82</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.7</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>TatarenkovDS</Name>
+            <Id>83</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.238</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SmyslovAV</Name>
+            <Id>84</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.76</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>StukanovVN</Name>
+            <Id>85</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.53</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PozdnyakovAA</Name>
+            <Id>86</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.59</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KosunovNS</Name>
+            <Id>87</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.148</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KirillovAN</Name>
+            <Id>88</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.228</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ZolotukhinDV</Name>
+            <Id>89</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.126</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GrunenkovAV</Name>
+            <Id>90</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.149</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>NurgalievaGM</Name>
+            <Id>91</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.175</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AbdurakhmanovRM</Name>
+            <Id>92</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.45</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>RudnichenkoNV</Name>
+            <Id>93</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.46</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>BednevAV</Name>
+            <Id>94</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.49</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DonskoyDR</Name>
+            <Id>95</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.91</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>BaryshnikovAV</Name>
+            <Id>96</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.104</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KostyukovaOA</Name>
+            <Id>97</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.38</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KhramtsovaMN</Name>
+            <Id>98</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.174</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LazarenkoAS</Name>
+            <Id>99</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.2</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KorabelnikovIV</Name>
+            <Id>100</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.195</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SapeginskayaME</Name>
+            <Id>101</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.23</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ZakharovaOA</Name>
+            <Id>102</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.231</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ShestakovMY</Name>
+            <Id>103</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.252</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LosevaLE</Name>
+            <Id>104</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.39</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LapshinaEA</Name>
+            <Id>105</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.79</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>FrolovaTV</Name>
+            <Id>106</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.8</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PashigorevaEV</Name>
+            <Id>107</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.99</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KirilovAN</Name>
+            <Id>108</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.126</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KharakterovaYI</Name>
+            <Id>109</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.226</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SeltsovaEY</Name>
+            <Id>110</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.38</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MuravievSA</Name>
+            <Id>111</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.89</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SakaevaIV</Name>
+            <Id>112</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.141</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KarasevAA</Name>
+            <Id>113</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.188</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KharlamovaAB</Name>
+            <Id>114</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.78</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LazukovaEA</Name>
+            <Id>115</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.8</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KonyukhovAY</Name>
+            <Id>116</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.13</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AntropovAV</Name>
+            <Id>117</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.115</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PozdnyakovMS</Name>
+            <Id>118</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.121</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PerkhurovaNN</Name>
+            <Id>119</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.152</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DerunovaEV</Name>
+            <Id>120</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.107</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VlasovaAS</Name>
+            <Id>121</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.149</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>YakunyaNM</Name>
+            <Id>122</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.161</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PleshakovMV</Name>
+            <Id>123</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.223</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>RubtsovAA</Name>
+            <Id>124</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.201</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>IvanovaYN</Name>
+            <Id>125</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.205</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LevitckySN</Name>
+            <Id>126</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.193</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SvetlovaEP</Name>
+            <Id>127</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.132</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KoveraII</Name>
+            <Id>128</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.60</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KrivashovaMV</Name>
+            <Id>129</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.197</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PozdnyakovNS</Name>
+            <Id>130</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.95</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GromovBM</Name>
+            <Id>131</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.21</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VologzhaninAA</Name>
+            <Id>132</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.174</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GaripovRV</Name>
+            <Id>133</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.20</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KuptsovPG</Name>
+            <Id>134</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.117</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-direct-2k12</Name>
+            <Id>135</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.50</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ex_Ast_DAG</Name>
+            <Id>136</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.29</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SidorovaUrengoy</Name>
+            <Id>137</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.148</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_Sidorova</Name>
+            <Id>138</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.148</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_Mahnovskiy</Name>
+            <Id>139</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.181</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Urengoy_Naumov</Name>
+            <Id>140</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.206</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SamoshenkoLA</Name>
+            <Id>141</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.74</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Proxy_Yamal</Name>
+            <Id>142</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.14.99.195</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-iis-2k12</Name>
+            <Id>143</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.0</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KSC_Yamal</Name>
+            <Id>144</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.204.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>WSUS_Yamal</Name>
+            <Id>145</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.204.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SladkovVI</Name>
+            <Id>146</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.205.51</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_SladkovVI</Name>
+            <Id>147</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.205.51</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_MavdrikOY</Name>
+            <Id>148</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.205.44</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>WSUS_Urengoy</Name>
+            <Id>149</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.240.205</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ast_Uskaev</Name>
+            <Id>150</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.222</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KadyrovaDA</Name>
+            <Id>151</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.145</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-is1-2k12</Name>
+            <Id>152</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.108</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-owapp-2k12</Name>
+            <Id>153</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.88</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>amur-orcl2-2k12</Name>
+            <Id>154</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.41</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>amur-orcl1-2k12</Name>
+            <Id>155</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.40</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>assois.ss.gazprom.ru</Name>
+            <Id>156</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.83.241.51</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ASUP_PD-Farm1</Name>
+            <Id>157</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.56.66.9</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ASUP_PD-Farm3</Name>
+            <Id>158</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.56.66.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>esrdi.ss.gazprom.ru</Name>
+            <Id>159</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.83.241.30</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KSC_Uhta</Name>
+            <Id>160</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.220</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ASA_Amur_outside</Name>
+            <Id>161</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.138</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>report.keydisk.ru</Name>
+            <Id>162</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>31.13.60.76</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>service.fsrar.ru</Name>
+            <Id>163</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>146.120.90.20</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>f4.fss.ru</Name>
+            <Id>164</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>193.148.44.187</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>pnv-rpn.ru</Name>
+            <Id>165</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>87.245.187.122</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>S-Terra_Amur_inside</Name>
+            <Id>166</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.137</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>S-Terra_Amur_outside</Name>
+            <Id>167</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.130</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_S-Terra_1000</Name>
+            <Id>168</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.14.99.44</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_ASA_Inside</Name>
+            <Id>169</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.204.2</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Zabbix_TEMP</Name>
+            <Id>170</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.39</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_ASA</Name>
+            <Id>171</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.14.99.33</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MelnikovaOA</Name>
+            <Id>172</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.73</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ex_Ast_2</Name>
+            <Id>173</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.28</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KuzminaEE</Name>
+            <Id>174</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.168</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>obs-crp1vrrp1-vpn1000</Name>
+            <Id>175</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.14.99.42</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>obs-crp2vrrp1-vpn1000</Name>
+            <Id>176</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.14.99.43</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>HW1000_Cluster</Name>
+            <Id>177</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.240</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ex_Ast_1</Name>
+            <Id>178</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.39</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PulyaevaKV</Name>
+            <Id>179</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.242</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MinaevIA</Name>
+            <Id>180</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.188</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PomaskinDV</Name>
+            <Id>181</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.49</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LeontevaPN</Name>
+            <Id>182</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.181</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SennikovAV</Name>
+            <Id>183</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.60</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>FilenkoEV_ASBU</Name>
+            <Id>184</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.1</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-nnt</Name>
+            <Id>185</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.127</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_YarullinaGK</Name>
+            <Id>186</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.102</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Yarullina</Name>
+            <Id>187</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.102</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KSC_Surgut</Name>
+            <Id>188</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.130</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MardanovaTB</Name>
+            <Id>189</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.28</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-bi-2k12</Name>
+            <Id>190</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.78</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DolgovaYuN</Name>
+            <Id>191</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.83</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_RybalkinaYV</Name>
+            <Id>192</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.18</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_TveretinaEM</Name>
+            <Id>193</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.13</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SlijovaMS</Name>
+            <Id>194</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.117</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KostebelovSV</Name>
+            <Id>195</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.35</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>LobanovaEY</Name>
+            <Id>196</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.241</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-arisbp-2k8</Name>
+            <Id>197</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.35</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>RijaevaNA</Name>
+            <Id>198</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.246</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KonokotinaNN</Name>
+            <Id>199</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.72</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>RyabkinaEY</Name>
+            <Id>200</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.156</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ShardakovaZN</Name>
+            <Id>201</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.85</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MalyarevichAV</Name>
+            <Id>202</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.83</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PechenkinAA</Name>
+            <Id>203</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.87</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_Salnikov</Name>
+            <Id>204</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.75</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SelivanenkoIV</Name>
+            <Id>205</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.121</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-gen</Name>
+            <Id>206</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.164</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KruglyhinaYA</Name>
+            <Id>207</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.118</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>UstinovaEI</Name>
+            <Id>208</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.66</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>TyurinDY</Name>
+            <Id>209</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.213</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KosenkoEV</Name>
+            <Id>210</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.214</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MyasnikovVS</Name>
+            <Id>211</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.80</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Orenburg_RedinSG</Name>
+            <Id>212</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.66.30</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Orenburg_PalevAV</Name>
+            <Id>213</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.66.13</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Orenburg_SharovAN</Name>
+            <Id>214</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.66.29</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AAG</Name>
+            <Id>215</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.120</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-mnal</Name>
+            <Id>216</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.63</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PanshinIV</Name>
+            <Id>217</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.16</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>YakimovaLA</Name>
+            <Id>218</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.89</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PatsukAV</Name>
+            <Id>219</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PetrovaYuS</Name>
+            <Id>220</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.101</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VlasovaEE</Name>
+            <Id>221</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.32</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AST-DC1</Name>
+            <Id>222</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.24</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AST-DC2</Name>
+            <Id>223</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.233</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Yamal_1C</Name>
+            <Id>224</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.206.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>InzhievskiyAL</Name>
+            <Id>225</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.146</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PolukarovaIA</Name>
+            <Id>226</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.136</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>NyatinaOV1</Name>
+            <Id>227</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.101</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>JukovAS</Name>
+            <Id>228</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.27</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Orenburg_Das</Name>
+            <Id>229</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.66.80</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-mapinf-pg</Name>
+            <Id>230</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.16</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VoronovaAK</Name>
+            <Id>231</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.155</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AST-TERMWEB1-IUS</Name>
+            <Id>232</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.92</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AST-TERMWEB2-INET</Name>
+            <Id>233</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.38</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AST-TERM2012-APP</Name>
+            <Id>234</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.249</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>TominSI</Name>
+            <Id>235</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.0</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ToropovOO</Name>
+            <Id>236</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.222</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>NaumenkoAL</Name>
+            <Id>237</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.104</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>EvdokimovaME</Name>
+            <Id>238</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.96</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GrechihinaSA</Name>
+            <Id>239</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.80</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KozlovAN</Name>
+            <Id>240</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.192</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KozyrevSN</Name>
+            <Id>241</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.172</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>BelyaevaZV</Name>
+            <Id>242</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.55</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MelekhinMI</Name>
+            <Id>243</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.233</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AsharinAA</Name>
+            <Id>244</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.200</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ShatalovaAR</Name>
+            <Id>245</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.47</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GrishaninDV</Name>
+            <Id>246</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.237</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>FrantsuzovaIV</Name>
+            <Id>247</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.124</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KostikovaMM</Name>
+            <Id>248</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.78</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KashinaPA</Name>
+            <Id>249</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.87</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PanasukTI</Name>
+            <Id>250</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.169</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AhmedzhanovaIA</Name>
+            <Id>251</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.239</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VeselovaVS</Name>
+            <Id>252</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.187</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>JuravlevaDS</Name>
+            <Id>253</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.217</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VolkovaOV</Name>
+            <Id>254</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.71</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DaevaYuA</Name>
+            <Id>255</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.177</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-mapinf-ol7</Name>
+            <Id>256</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.107</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MOS-ETRTS1-2K12</Name>
+            <Id>257</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.222</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MOS-ETRANTERM-2K3</Name>
+            <Id>258</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.200</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DemyachenkoEV</Name>
+            <Id>259</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.73</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_FServer</Name>
+            <Id>260</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.67</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>TotcevichFV</Name>
+            <Id>261</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.201</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ChumakEYu</Name>
+            <Id>262</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.114</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MardanovAR</Name>
+            <Id>263</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.160</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Surgut_S-Terra_PromIn</Name>
+            <Id>264</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.129</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>FedorenkoEV</Name>
+            <Id>265</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.165</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>PlotnikovaYuA</Name>
+            <Id>266</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.250</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>VNAdm</Name>
+            <Id>267</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.231</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>EremenkoDV</Name>
+            <Id>268</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.55</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ZernovaSA</Name>
+            <Id>269</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.127</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>AkhmedjanovaIA</Name>
+            <Id>270</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.239</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SchkurovaTA</Name>
+            <Id>271</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.52</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Kulikova</Name>
+            <Id>272</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.156</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KulikovaOA</Name>
+            <Id>273</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.156</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ParaschenkoIA</Name>
+            <Id>274</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.23</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KomoskoOV</Name>
+            <Id>275</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.118</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KozhinaYuS</Name>
+            <Id>276</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.15</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ListkovDA</Name>
+            <Id>277</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.31</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-pmon-ol7</Name>
+            <Id>278</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.100</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MashkinaNV</Name>
+            <Id>279</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.125</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Ex_Yamal_1</Name>
+            <Id>280</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.204.9</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DC_Yamal_1</Name>
+            <Id>281</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.204.4</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-triton-2k12</Name>
+            <Id>282</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.114</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-pluton-2k12</Name>
+            <Id>283</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.28</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-neptun-2k12</Name>
+            <Id>284</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.65</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>MolodovskayaOV</Name>
+            <Id>285</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.28</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KiryanovaLA</Name>
+            <Id>286</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.167</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SavchenkoLV</Name>
+            <Id>287</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.227</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SafaryanKG</Name>
+            <Id>288</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.124</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KuzminAA</Name>
+            <Id>289</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.133</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KosovcevaEN</Name>
+            <Id>290</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.144</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>NilokaevaIA</Name>
+            <Id>291</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.21</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GorshkovDV</Name>
+            <Id>292</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.166</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ZaytcevaMA</Name>
+            <Id>293</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.100</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-evf</Name>
+            <Id>294</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.148</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>OdinecNV</Name>
+            <Id>295</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.226</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-lic-2k12</Name>
+            <Id>296</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.215</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdgw-2k12</Name>
+            <Id>297</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.117</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn1-2k12</Name>
+            <Id>298</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.245</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn2-2k12</Name>
+            <Id>299</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.244</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn3-2k12</Name>
+            <Id>300</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.83</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn4-2k12</Name>
+            <Id>301</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.40</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-1c81t-2k8</Name>
+            <Id>302</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.7</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn5-2k12</Name>
+            <Id>303</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.50</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn6-2k12</Name>
+            <Id>304</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.43</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn7-2k12</Name>
+            <Id>305</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.2</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn8-2k12</Name>
+            <Id>306</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.26</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn9-2k12</Name>
+            <Id>307</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.56</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>WSUS_Uhta</Name>
+            <Id>308</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.235.174</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn10-2k12</Name>
+            <Id>309</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.59</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>racnode1</Name>
+            <Id>310</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.141</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>racnode2</Name>
+            <Id>311</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.142</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>racnode1-vip</Name>
+            <Id>312</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.221</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>racnode2-vip</Name>
+            <Id>313</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.222</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>oracle-scan</Name>
+            <Id>314</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.140</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>oracle-scan_</Name>
+            <Id>315</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.224</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>oracle-scan__</Name>
+            <Id>316</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.147</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-orcl8-2k12</Name>
+            <Id>317</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.185</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-orcl7-2k12</Name>
+            <Id>318</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.226</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-tzs-el7</Name>
+            <Id>319</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.166</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SUR-1C8-2K8</Name>
+            <Id>320</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.237.44</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>GP_Inform</Name>
+            <Id>321</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.241.1.2</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn11-2k12</Name>
+            <Id>322</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.67</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-1c83-2k12</Name>
+            <Id>323</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.94</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>SHatskihLV</Name>
+            <Id>324</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.224</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>10.5.168.201</Name>
+            <Id>325</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.201</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>KuzinaTO</Name>
+            <Id>326</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.153</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-ci-el7.gptrans.gazprom.ru</Name>
+            <Id>327</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.196</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rep-ol7.gptrans.gazprom.ru</Name>
+            <Id>328</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.148</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>wdoc.gptrans.gazprom.ru</Name>
+            <Id>329</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.186</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-build-2k12.gptrans.gazprom.ru</Name>
+            <Id>330</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.236</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>Kravtsev_IA_Astrakhans_WS</Name>
+            <Id>331</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.7.233.232</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>kiap-web.ss.gazprom.ru</Name>
+            <Id>332</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.83.241.76</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>EDO.ETPGPB.RU</Name>
+            <Id>333</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>87.245.170.26</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-ivd</Name>
+            <Id>334</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.231</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-vgg</Name>
+            <Id>335</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.37</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-miis</Name>
+            <Id>336</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.211</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-lync2-2k12</Name>
+            <Id>337</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.116</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-lync1-2k12</Name>
+            <Id>338</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.204</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-iistst-2k12</Name>
+            <Id>339</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.205</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-1c8-2k8</Name>
+            <Id>340</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.52</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>srdi01.dc-gpi.gazprom.ru</Name>
+            <Id>341</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.57.8.10</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-vks438</Name>
+            <Id>342</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.91</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-vnadm2-2k12</Name>
+            <Id>343</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.69</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-ad4-2k12</Name>
+            <Id>344</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.83</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-shie</Name>
+            <Id>345</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.31</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>DSS_Server</Name>
+            <Id>346</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.73</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-1c7-2k3</Name>
+            <Id>347</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.80</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-1cterm-2k3</Name>
+            <Id>348</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.168.31</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-hasp-8</Name>
+            <Id>349</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.178</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-spectr</Name>
+            <Id>350</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.70</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-scan-2k12</Name>
+            <Id>351</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.56</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-sand</Name>
+            <Id>352</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.53</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-chda</Name>
+            <Id>353</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.80</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn13-2k12</Name>
+            <Id>354</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.250</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn12-2k12</Name>
+            <Id>355</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.130.167</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn14-2k12</Name>
+            <Id>356</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.120</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn16-2k12</Name>
+            <Id>357</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.216</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-rdsn15-2k12</Name>
+            <Id>358</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.203</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-nna</Name>
+            <Id>359</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.196</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>firepower</Name>
+            <Id>360</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.137.11</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-msp</Name>
+            <Id>361</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.236</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-vmost-deb</Name>
+            <Id>362</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.131.218</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ZecurionDLP_Server</Name>
+            <Id>363</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.139.74</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-van</Name>
+            <Id>364</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.152</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-fsttst-alt</Name>
+            <Id>365</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.94</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-fstweb-alt</Name>
+            <Id>366</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.95</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>mos-fstdb-alt</Name>
+            <Id>367</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.128.96</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-kons</Name>
+            <Id>368</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.5.169.174</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>bsic1561</Name>
+            <Id>369</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.76</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>ws-mss</Name>
+            <Id>370</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.132.186</Value>
+            </Inclusion>
+        </IpObject>
+        <IpObject>
+            <Name>test-optimacros.gptrans.gazprom.ru</Name>
+            <Id>371</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>10.13.129.198</Value>
+            </Inclusion>
+        </IpObject>
+</NamedObjects>
+<Rules>
+<Rule IsActive="true" xsi:type="vn:TransitRule">
+<RuleId>200001</RuleId>
+<OrderId>1</OrderId>
+<Name>Фильтр 1</Name>
+<CreationType>Policy</CreationType>
+<ConditionSet>
+<Source xsi:type="vn:PublicNetwork">
+<IpHostCondition xsi:type="vn:IpObjectRef">
+<Id>50</Id>
+</IpHostCondition>
+</Source>
+<Destination xsi:type="vn:PublicNetwork"/>
+</ConditionSet>
+<Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+<FilteringAction>Pass</FilteringAction>
+</Action>
+<Section>TransitSection</Section>
+</Rule>
+</Rules>
+
+<Properties>
+<Version>1.0</Version>
+<IssueDateTime>1970-01-01T00:00:00</IssueDateTime>
+<RollbackPeriod>0</RollbackPeriod>
+</Properties>
+
+</vn:Policy><!--MjIgc2VyaWFsaXphdGlvbjo6YXJjaGl2ZSAxNCAwIDAgNCAxNCDQqNCw0LHQu9C+0L0g0L/QvtC70LjRgtC40LogMCAgMCAwIDAgMCA4IDIwMjIxMTAzIDAgMCAwIDE0IDEyIDEgMA==-->

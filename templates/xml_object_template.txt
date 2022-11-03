@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+<NamedObjects>
+<IpObject>
+<Name>Mailhost</Name>
+<Id>50</Id>
+<CreationType>Policy</CreationType>
+<Inclusion xsi:type="vn:IpAddress">
+<Value>10.250.3.4</Value>
+</Inclusion>
+</IpObject>
+{% for obj_net_name,obj_params in object_vars.items()%}
+        <IpObject>
+            <Name>{{obj_net_name}}</Name>
+            <Id>{{obj_params.obj_num}}</Id>
+            <CreationType>Policy</CreationType>
+            <Inclusion xsi:type="vn:IpAddress">
+                <Value>{{obj_params.object_ip}}</Value>
+            </Inclusion>
+        </IpObject>
+{% endfor %}
+</NamedObjects>
+<Rules>
+<Rule IsActive="true" xsi:type="vn:TransitRule">
+<RuleId>200001</RuleId>
+<OrderId>1</OrderId>
+<Name>Фильтр 1</Name>
+<CreationType>Policy</CreationType>
+<ConditionSet>
+<Source xsi:type="vn:PublicNetwork">
+<IpHostCondition xsi:type="vn:IpObjectRef">
+<Id>50</Id>
+</IpHostCondition>
+</Source>
+<Destination xsi:type="vn:PublicNetwork"/>
+</ConditionSet>
+<Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+<FilteringAction>Pass</FilteringAction>
+</Action>
+<Section>TransitSection</Section>
+</Rule>
+</Rules>
+
+<Properties>
+<Version>1.0</Version>
+<IssueDateTime>1970-01-01T00:00:00</IssueDateTime>
+<RollbackPeriod>0</RollbackPeriod>
+</Properties>
+
+</vn:Policy><!--MjIgc2VyaWFsaXphdGlvbjo6YXJjaGl2ZSAxNCAwIDAgNCAxNCDQqNCw0LHQu9C+0L0g0L/QvtC70LjRgtC40LogMCAgMCAwIDAgMCA4IDIwMjIxMTAzIDAgMCAwIDE0IDEyIDEgMA==-->
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+
+  <NamedObjects>
+    <IpObject>
+      <Name>Mailhost</Name>
+      <Id>3</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.3.4</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>MailRelay</Name>
+      <Id>8</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.4.10</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>MailRelay2</Name>
+      <Id>9</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.4.13</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>MailRelay3</Name>
+      <Id>12</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.4.45</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>Mailhost1</Name>
+      <Id>27</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.3.22</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>Mailhost2</Name>
+      <Id>28</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.3.23</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>Mailrelay4</Name>
+      <Id>29</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.250.4.18</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>MailServer_Gazsvyaz</Name>
+      <Id>61</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>3</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>8</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>9</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>12</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>27</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>28</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpObjectRef">
+        <Id>29</Id>
+      </Inclusion>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.5.193.3</Value>
+      </Inclusion>
+    </IpObject>
+    <IpObject>
+      <Name>post</Name>
+      <Id>33</Id>
+      <CreationType>Policy</CreationType>
+      <Inclusion xsi:type="vn:IpAddress">
+        <Value>10.5.139.200</Value>
+      </Inclusion>
+    </IpObject>
+  </NamedObjects>
+
+  <Rules>
+    <Rule IsActive="true" xsi:type="vn:TransitRule">
+      <RuleId>200001</RuleId>
+      <OrderId>1</OrderId>
+      <Name>Фильтр 1</Name>
+      <CreationType>Policy</CreationType>
+      <ConditionSet>
+        <Source xsi:type="vn:PublicNetwork">
+          <IpHostCondition xsi:type="vn:IpObjectRef">
+            <Id>61</Id>
+          </IpHostCondition>
+        </Source>
+        <ServiceCondition xsi:type="vn:TcpCondition">
+          <DestinationPort xsi:type="vn:Port">
+            <Value>25</Value>
+          </DestinationPort>
+          <Protocol>6</Protocol>
+        </ServiceCondition>
+        <Destination xsi:type="vn:PublicNetwork">
+          <IpHostCondition xsi:type="vn:IpObjectRef">
+            <Id>33</Id>
+          </IpHostCondition>
+        </Destination>
+      </ConditionSet>
+      <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+        <FilteringAction>Pass</FilteringAction>
+      </Action>
+      <Section>TransitSection</Section>
+    </Rule>
+  </Rules>
+
+  <Properties>
+    <Version>1.0</Version>
+    <IssueDateTime>1970-01-01T00:00:00</IssueDateTime>
+    <RollbackPeriod>0</RollbackPeriod>
+  </Properties>
+
+</vn:Policy><!--MjIgc2VyaWFsaXphdGlvbjo6YXJjaGl2ZSAxNCAwIDAgNCAxNSBncHQtbXNrLXhmdzUwMDAgMCAgMCAwIDAgMCA4IDIwMjIxMDI4IDAgMCAwIDE2IDU4IDU0IDA=-->

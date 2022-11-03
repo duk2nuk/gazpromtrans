@@ -1,0 +1,6 @@
+Value NAME (\S+)
+Value HOST (\d(.\d){3})
+
+Start
+  ^object\s+network\s+${NAME} -> Continue
+  ^\s+host\s+${HOST} -> Continue.Record

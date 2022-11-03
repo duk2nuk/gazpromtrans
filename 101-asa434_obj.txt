@@ -1,0 +1,4109 @@
+object network object1
+ host 1.1.1.1
+object network Pechkin
+ host 10.5.139.66
+object network Mailhost
+ host 10.250.3.4
+object network VipNet1
+ host 10.5.139.226
+object network VipNet2
+ host 10.5.139.240
+object network DNS1_Gazsvyaz
+ host 10.250.3.2
+object network DNS2_Gazsvyaz
+ host 10.250.3.3
+object network MailRelay
+ host 10.250.4.10
+object network MailRelay2
+ host 10.250.4.13
+object network Gazprombank
+ host 195.128.88.29
+object network Transkreditbank
+ host 195.161.5.4
+object network Mailrelay3
+ host 10.250.4.45
+object network Proxy_Temporary
+ host 10.5.168.3
+object network Proxy_TMG_Server
+ host 10.5.139.201
+object network KAV_Server
+ host 10.5.169.107
+object network MOS_NTP_SERVER
+ host 10.5.169.194
+object network Kornienko_computer
+ host 10.5.168.144
+object network Kalinin_computer
+ host 10.5.168.6
+object network Pechkin_SMTP_Server
+ host 10.5.168.251
+object network GNIVC_Client
+ host 10.5.169.236
+object network Surgut_Electonnoe_declarirovanie_server
+ host 87.229.154.41
+object network Egorova_Bank_Client
+ host 10.5.168.64
+object network Astrakhan_WSUS_Server
+ host 10.7.233.12
+object network Rancid_user
+ host 10.5.168.131
+object network Zabbix_Server
+ host 10.5.169.20
+object network PROTON
+ host 10.5.169.212
+object network Mailhost1
+ host 10.250.3.22
+object network Mailhost2
+ host 10.250.3.23
+object network Mailrelay4
+ host 10.250.4.18
+object network WSUS_Server
+ host 10.5.169.171
+object network mos-wsus-2k12
+ host 10.13.129.5
+object network ns
+ host 10.5.139.202
+object network post
+ host 10.5.139.200
+object network inside
+ host 10.13.129.251
+object network Test_DMZ_Host
+ host 10.5.139.203
+object network HW1000-1
+ host 10.5.139.227
+object network HW1000-2
+ host 10.5.139.228
+object network HW1000-Cluster
+ host 10.5.139.229
+object network VipNet_Administrator_New
+ host 10.13.131.179
+object network Urengoy_Firewall
+ host 10.7.240.6
+object network Urengoy_Router
+ host 10.7.240.1
+object network Urengoy_S-Terra_1
+ host 10.7.240.129
+object network Surgut_Firewall
+ host 10.7.236.126
+object network Surgut_Router
+ host 10.7.236.125
+object network Surgut_S-Terra_OGP
+ host 10.7.237.65
+object network Surgut_S-Terra_Office
+ host 10.7.237.1
+object network Surgut_S-Terra_Prom
+ host 10.7.236.134
+object network Surgut_S-Terra_SNE
+ host 10.7.236.138
+object network Surgut_Switch
+ host 10.7.236.130
+object network Astrakhan_Firewall
+ host 10.7.233.1
+object network Astrakhan_Router
+ host 10.7.232.125
+object network Astrakhan_S-Terra
+ host 10.7.232.94
+object network Uhta_Firewall
+ host 10.7.235.6
+object network Uhta_Router
+ host 10.7.235.1
+object network Uhta_S-Terra_1
+ host 10.7.235.129
+object network Uhta_S-Terra_2
+ host 10.7.235.193
+object network Krasnodar_Firewall
+ host 10.7.239.14
+object network Krasnodar_Router
+ host 10.7.239.1
+object network Krasnodar_S-Terra
+ host 10.7.239.6
+object network 10.7.232.65
+ host 10.7.232.65
+object network 10.13.131.228
+ host 10.13.131.228
+object network PolovnikovaYA
+ host 10.5.169.22
+object network PodolskayaOS
+ host 10.5.168.69
+object network TrishinaNV
+ host 10.5.168.247
+object network BobkovaEV(standalone)
+ host 10.13.128.240
+object network SavinovaNY(standalone)
+ host 10.13.129.100
+object network OrlovIA
+ host 10.13.129.228
+object network ASUP_PD-Farm
+ host 10.56.194.9
+ description Ferma_ASUP_for_PH4_wi-pdn.ctx.codm.gazprom.ru
+object network ASUP_PD-Farm2
+ host 10.56.194.10
+ description Ferma_ASUP_for_PH4_sg-pdn.ctx.codm.gazprom.ru
+object network DmitrievaEG
+ host 10.5.168.136
+object network mos-em-ol
+ host 10.13.129.186
+ description OracleEnterpriseManager
+object network mos-fend-2k12
+ host 10.5.169.215
+ description EHD
+object network BondarevYN
+ host 10.13.129.62
+object network KonovalovVV
+ host 10.13.128.50
+object network KozlovSS
+ host 10.5.169.57
+object network Ast_ServerBD
+ host 10.7.232.34
+ description ServerBD_Astrakhan_Komplex_Vesov
+object network SapeginskiyGF
+ host 10.13.130.147
+object network AdaykinaEN
+ host 10.13.129.56
+object network NekrashevichNA
+ host 10.5.168.9
+object network SheleninDY
+ host 10.5.169.241
+object network YavlukhinSA
+ host 10.5.169.32
+object network ChepurinMN
+ host 10.13.131.7
+object network TatarenkovDS
+ host 10.5.168.238
+object network SmyslovAV
+ host 10.13.129.76
+object network StukanovVN
+ host 10.13.128.53
+object network PozdnyakovAA
+ host 10.13.129.59
+object network KosunovNS
+ host 10.13.130.148
+object network KirillovAN
+ host 10.5.169.228
+object network ZolotukhinDV
+ host 10.13.132.126
+object network GrunenkovAV
+ host 10.13.130.149
+object network NurgalievaGM
+ host 10.7.233.175
+object network AbdurakhmanovRM
+ host 10.7.233.45
+object network RudnichenkoNV
+ host 10.7.233.46
+object network BednevAV
+ host 10.7.233.49
+object network DonskoyDR
+ host 10.7.233.91
+object network BaryshnikovAV
+ host 10.13.129.104
+ description VidelennoeARM
+object network KostyukovaOA
+ host 10.13.128.38
+object network KhramtsovaMN
+ host 10.13.129.174
+object network LazarenkoAS
+ host 10.13.129.2
+object network KorabelnikovIV
+ host 10.13.131.195
+object network SapeginskayaME
+ host 10.13.131.23
+object network ZakharovaOA
+ host 10.13.131.231
+object network ShestakovMY
+ host 10.13.131.252
+object network LosevaLE
+ host 10.13.131.39
+object network LapshinaEA
+ host 10.13.131.79
+object network FrolovaTV
+ host 10.13.131.8
+object network PashigorevaEV
+ host 10.13.131.99
+object network KirilovAN
+ host 10.13.132.126
+object network KharakterovaYI
+ host 10.5.168.226
+object network SeltsovaEY
+ host 10.5.168.38
+object network MuravievSA
+ host 10.5.168.89
+object network SakaevaIV
+ host 10.5.169.141
+object network KarasevAA
+ host 10.5.169.188
+object network KharlamovaAB
+ host 10.5.169.78
+object network LazukovaEA
+ host 10.5.169.8
+object network KonyukhovAY
+ host 10.13.131.13
+object network AntropovAV
+ host 10.5.169.115
+object network PozdnyakovMS
+ host 10.5.168.121
+object network PerkhurovaNN
+ host 10.13.131.152
+object network DerunovaEV
+ host 10.13.131.107
+object network VlasovaAS
+ host 10.5.169.149
+object network YakunyaNM
+ host 10.13.131.161
+object network PleshakovMV
+ host 10.13.128.223
+object network RubtsovAA
+ host 10.13.131.201
+object network IvanovaYN
+ host 10.13.129.205
+object network LevitckySN
+ host 10.13.129.193
+object network SvetlovaEP
+ host 10.5.169.132
+object network KoveraII
+ host 10.13.131.60
+object network KrivashovaMV
+ host 10.13.129.197
+ description Videlennoe ARM
+object network PozdnyakovNS
+ host 10.5.169.95
+object network GromovBM
+ host 10.5.169.21
+object network VologzhaninAA
+ host 10.13.131.174
+object network GaripovRV
+ host 10.13.131.20
+object network KuptsovPG
+ host 10.5.169.117
+object network mos-direct-2k12
+ host 10.5.168.50
+object network Ex_Ast_DAG
+ host 10.7.233.29
+object network SidorovaUrengoy
+ host 10.7.240.148
+object network Urengoy_Sidorova
+ host 10.7.240.148
+object network Urengoy_Mahnovskiy
+ host 10.7.240.181
+object network Urengoy_Naumov
+ host 10.7.240.206
+object network SamoshenkoLA
+ host 10.13.131.74
+object network Proxy_Yamal
+ host 10.14.99.195
+object network mos-iis-2k12
+ host 10.13.129.0
+object network KSC_Yamal
+ host 10.13.204.10
+object network WSUS_Yamal
+ host 10.13.204.10
+object network SladkovVI
+ host 10.13.205.51
+object network Yamal_SladkovVI
+ host 10.13.205.51
+object network Yamal_MavdrikOY
+ host 10.13.205.44
+object network WSUS_Urengoy
+ host 10.7.240.205
+object network Ast_Uskaev
+ host 10.7.233.222
+object network KadyrovaDA
+ host 10.5.169.145
+object network mos-is1-2k12
+ host 10.5.168.108
+object network mos-owapp-2k12
+ host 10.13.131.88
+object network amur-orcl2-2k12
+ host 10.5.168.41
+object network amur-orcl1-2k12
+ host 10.5.168.40
+object network assois.ss.gazprom.ru
+ host 10.83.241.51
+object network ASUP_PD-Farm1
+ host 10.56.66.9
+object network ASUP_PD-Farm3
+ host 10.56.66.10
+object network esrdi.ss.gazprom.ru
+ host 10.83.241.30
+object network KSC_Uhta
+ host 10.7.235.220
+object network ASA_Amur_outside
+ host 10.5.139.138
+object network report.keydisk.ru
+ host 31.13.60.76
+object network service.fsrar.ru
+ host 146.120.90.20
+object network f4.fss.ru
+ host 193.148.44.187
+object network pnv-rpn.ru
+ host 87.245.187.122
+object network S-Terra_Amur_inside
+ host 10.5.139.137
+object network S-Terra_Amur_outside
+ host 10.5.139.130
+object network Yamal_S-Terra_1000
+ host 10.14.99.44
+object network Yamal_ASA_Inside
+ host 10.13.204.2
+object network Zabbix_TEMP
+ host 10.13.130.39
+object network Yamal_ASA
+ host 10.14.99.33
+object network MelnikovaOA
+ host 10.13.131.73
+object network Ex_Ast_2
+ host 10.7.233.28
+object network KuzminaEE
+ host 10.13.128.168
+ description MPUR ASBU
+object network obs-crp1vrrp1-vpn1000
+ host 10.14.99.42
+object network obs-crp2vrrp1-vpn1000
+ host 10.14.99.43
+object network HW1000_Cluster
+ host 10.5.139.240
+object network Ex_Ast_1
+ host 10.7.233.39
+object network PulyaevaKV
+ host 10.13.130.242
+object network MinaevIA
+ host 10.5.168.188
+object network PomaskinDV
+ host 10.5.169.49
+object network LeontevaPN
+ host 10.13.128.181
+object network SennikovAV
+ host 10.5.169.60
+object network FilenkoEV_ASBU
+ host 10.13.130.1
+object network ws-nnt
+ host 10.13.128.127
+object network Surgut_YarullinaGK
+ host 10.7.237.102
+object network Surgut_Yarullina
+ host 10.7.237.102
+object network KSC_Surgut
+ host 10.7.237.130
+object network MardanovaTB
+ host 10.5.168.28
+object network mos-bi-2k12
+ host 10.13.130.78
+object network DolgovaYuN
+ host 10.5.168.83
+object network Surgut_RybalkinaYV
+ host 10.7.237.18
+object network Surgut_TveretinaEM
+ host 10.7.237.13
+object network SlijovaMS
+ host 10.13.131.117
+object network KostebelovSV
+ host 10.13.128.35
+object network LobanovaEY
+ host 10.13.129.241
+object network mos-arisbp-2k8
+ host 10.13.129.35
+object network RijaevaNA
+ host 10.13.131.246
+object network KonokotinaNN
+ host 10.13.131.72
+object network RyabkinaEY
+ host 10.5.169.156
+object network ShardakovaZN
+ host 10.13.129.85
+object network MalyarevichAV
+ host 10.13.130.83
+object network PechenkinAA
+ host 10.13.131.87
+object network Surgut_Salnikov
+ host 10.7.237.75
+object network SelivanenkoIV
+ host 10.13.129.121
+object network ws-gen
+ host 10.5.169.164
+object network KruglyhinaYA
+ host 10.13.130.118
+object network UstinovaEI
+ host 10.5.168.66
+object network TyurinDY
+ host 10.5.168.213
+object network KosenkoEV
+ host 10.5.169.214
+object network MyasnikovVS
+ host 10.13.131.80
+object network Orenburg_RedinSG
+ host 10.7.66.30
+object network Orenburg_PalevAV
+ host 10.7.66.13
+object network Orenburg_SharovAN
+ host 10.7.66.29
+object network AAG
+ host 10.5.168.120
+object network ws-mnal
+ host 10.5.169.63
+object network PanshinIV
+ host 10.13.132.16
+object network YakimovaLA
+ host 10.13.131.89
+object network PatsukAV
+ host 10.13.132.10
+object network PetrovaYuS
+ host 10.13.131.101
+object network VlasovaEE
+ host 10.5.168.32
+object network AST-DC1
+ host 10.7.233.24
+object network AST-DC2
+ host 10.7.233.233
+object network Yamal_1C
+ host 10.13.206.10
+object network InzhievskiyAL
+ host 10.5.169.146
+object network PolukarovaIA
+ host 10.13.128.136
+object network NyatinaOV1
+ host 10.13.129.101
+object network JukovAS
+ host 10.13.128.27
+object network Orenburg_Das
+ host 10.7.66.80
+object network mos-mapinf-pg
+ host 10.13.130.16
+object network VoronovaAK
+ host 10.5.168.155
+object network AST-TERMWEB1-IUS
+ host 10.7.233.92
+object network AST-TERMWEB2-INET
+ host 10.7.233.38
+object network AST-TERM2012-APP
+ host 10.7.233.249
+object network TominSI
+ host 10.13.130.0
+object network ToropovOO
+ host 10.5.169.222
+object network NaumenkoAL
+ host 10.5.169.104
+object network EvdokimovaME
+ host 10.13.130.96
+object network GrechihinaSA
+ host 10.13.129.80
+object network KozlovAN
+ host 10.5.169.192
+object network KozyrevSN
+ host 10.13.129.172
+object network BelyaevaZV
+ host 10.13.130.55
+object network MelekhinMI
+ host 10.13.130.233
+object network AsharinAA
+ host 10.13.130.200
+object network ShatalovaAR
+ host 10.13.132.47
+object network GrishaninDV
+ host 10.13.128.237
+object network FrantsuzovaIV
+ host 10.13.129.124
+object network KostikovaMM
+ host 10.5.168.78
+object network KashinaPA
+ host 10.13.132.87
+object network PanasukTI
+ host 10.5.168.169
+object network AhmedzhanovaIA
+ host 10.13.131.239
+object network VeselovaVS
+ host 10.5.168.187
+object network JuravlevaDS
+ host 10.13.130.217
+object network VolkovaOV
+ host 10.5.169.71
+object network DaevaYuA
+ host 10.13.131.177
+object network mos-mapinf-ol7
+ host 10.13.132.107
+ description 37606596
+object network MOS-ETRTS1-2K12
+ host 10.5.168.222
+object network MOS-ETRANTERM-2K3
+ host 10.5.169.200
+object network DemyachenkoEV
+ host 10.13.132.73
+object network Surgut_FServer
+ host 10.7.237.67
+object network TotcevichFV
+ host 10.13.128.201
+object network ChumakEYu
+ host 10.13.131.114
+object network MardanovAR
+ host 10.5.169.160
+object network Surgut_S-Terra_PromIn
+ host 10.7.237.129
+object network FedorenkoEV
+ host 10.13.130.165
+object network PlotnikovaYuA
+ host 10.13.129.250
+object network VNAdm
+ host 10.5.139.231
+object network EremenkoDV
+ host 10.13.132.55
+object network ZernovaSA
+ host 10.13.130.127
+object network AkhmedjanovaIA
+ host 10.13.131.239
+object network SchkurovaTA
+ host 10.13.132.52
+object network Kulikova
+ host 10.13.130.156
+object network KulikovaOA
+ host 10.13.130.156
+object network ParaschenkoIA
+ host 10.13.132.23
+object network KomoskoOV
+ host 10.13.129.118
+object network KozhinaYuS
+ host 10.13.132.15
+object network ListkovDA
+ host 10.13.130.31
+object network mos-pmon-ol7
+ host 10.13.132.100
+object network MashkinaNV
+ host 10.5.168.125
+object network Ex_Yamal_1
+ host 10.13.204.9
+object network DC_Yamal_1
+ host 10.13.204.4
+object network mos-triton-2k12
+ host 10.13.130.114
+object network mos-pluton-2k12
+ host 10.13.132.28
+object network mos-neptun-2k12
+ host 10.13.132.65
+object network MolodovskayaOV
+ host 10.13.131.28
+object network KiryanovaLA
+ host 10.13.131.167
+object network SavchenkoLV
+ host 10.5.168.227
+object network SafaryanKG
+ host 10.5.168.124
+object network KuzminAA
+ host 10.13.132.133
+object network KosovcevaEN
+ host 10.13.131.144
+object network NilokaevaIA
+ host 10.5.168.21
+object network GorshkovDV
+ host 10.13.131.166
+object network ZaytcevaMA
+ host 10.13.128.100
+object network ws-evf
+ host 10.13.131.148
+object network ATS_Net
+ subnet 10.13.142.0 255.255.254.0
+object network OdinecNV
+ host 10.13.130.226
+object network GP
+ subnet 10.36.128.0 255.255.192.0
+object network mos-lic-2k12
+ host 10.13.131.215
+object network mos-rdgw-2k12
+ host 10.5.139.117
+ description TS Gateway server
+object network mos-rdsn1-2k12
+ host 10.13.130.245
+object network mos-rdsn2-2k12
+ host 10.13.129.244
+object network mos-rdsn3-2k12
+ host 10.13.131.83
+object network mos-rdsn4-2k12
+ host 10.13.131.40
+object network mos-1c81t-2k8
+ host 10.13.130.7
+object network mos-rdsn5-2k12
+ host 10.5.169.50
+object network mos-rdsn6-2k12
+ host 10.5.169.43
+object network mos-rdsn7-2k12
+ host 10.5.169.2
+object network mos-rdsn8-2k12
+ host 10.5.169.26
+object network mos-rdsn9-2k12
+ host 10.5.169.56
+object network WSUS_Uhta
+ host 10.7.235.174
+object network mos-rdsn10-2k12
+ host 10.13.131.59
+object network racnode1
+ host 10.13.129.141
+object network racnode2
+ host 10.13.129.142
+object network racnode1-vip
+ host 10.13.129.221
+object network racnode2-vip
+ host 10.13.129.222
+object network oracle-scan
+ host 10.13.129.140
+object network oracle-scan_
+ host 10.13.129.224
+object network oracle-scan__
+ host 10.13.129.147
+object network mos-orcl8-2k12
+ host 10.13.129.185
+object network mos-orcl7-2k12
+ host 10.13.129.226
+object network mos-tzs-el7
+ host 10.13.130.166
+object network SUR-1C8-2K8
+ host 10.7.237.44
+object network GP_Inform
+ host 10.241.1.2
+object network mos-rdsn11-2k12
+ host 10.5.139.67
+object network mos-1c83-2k12
+ host 10.5.168.94
+object network SHatskihLV
+ host 10.13.131.224
+object network 10.5.168.201
+ host 10.5.168.201
+object network KuzinaTO
+ host 10.13.132.153
+object network mos-ci-el7.gptrans.gazprom.ru
+ host 10.13.130.196
+ description mos-ci-el7.gptrans.gazprom.ru
+object network mos-rep-ol7.gptrans.gazprom.ru
+ host 10.13.129.148
+ description mos-rep-ol7.gptrans.gazprom.ru
+object network wdoc.gptrans.gazprom.ru
+ host 10.13.130.186
+ description wdoc.gptrans.gazprom.ru
+object network mos-build-2k12.gptrans.gazprom.ru
+ host 10.13.129.236
+ description mos-build-2k12.gptrans.gazprom.ru
+object network Kravtsev_IA_Astrakhans_WS
+ host 10.7.233.232
+ description Kravtsev_IA_Astrakhans_WS
+object network kiap-web.ss.gazprom.ru
+ host 10.83.241.76
+ description kiap-web.ss.gazprom.ru
+object network EDO.ETPGPB.RU
+ host 87.245.170.26
+object network ws-ivd
+ host 10.13.130.231
+object network ws-vgg
+ host 10.13.131.37
+object network ws-miis
+ host 10.13.129.211
+object network mos-lync2-2k12
+ host 10.5.168.116
+object network mos-lync1-2k12
+ host 10.13.128.204
+object network mos-iistst-2k12
+ host 10.5.169.205
+object network mos-1c8-2k8
+ host 10.5.168.52
+object network srdi01.dc-gpi.gazprom.ru
+ host 10.57.8.10
+object network ws-vks438
+ host 10.13.130.91
+object network mos-vnadm2-2k12
+ host 10.5.139.69
+object network mos-ad4-2k12
+ host 10.5.139.83
+object network ws-shie
+ host 10.13.132.31
+object network DSS_Server
+ host 10.5.139.73
+object network mos-1c7-2k3
+ host 10.5.139.80
+object network mos-1cterm-2k3
+ host 10.5.168.31
+object network mos-hasp-8
+ host 10.13.130.178
+object network mos-spectr
+ host 10.5.139.70
+object network mos-scan-2k12
+ host 10.13.131.56
+object network ws-sand
+ host 10.13.132.53
+object network ws-chda
+ host 10.5.169.80
+object network mos-rdsn13-2k12
+ host 10.13.129.250
+object network mos-rdsn12-2k12
+ host 10.13.130.167
+object network mos-rdsn14-2k12
+ host 10.5.169.120
+object network mos-rdsn16-2k12
+ host 10.13.129.216
+object network mos-rdsn15-2k12
+ host 10.13.128.203
+object network ws-nna
+ host 10.13.131.196
+ description ws-nna
+object network firepower
+ host 10.13.137.11
+object network ws-msp
+ host 10.13.131.236
+object network mos-vmost-deb
+ host 10.13.131.218
+object network ZecurionDLP_Server
+ host 10.5.139.74
+ description ZecurionDLP_Server
+object network ws-van
+ host 10.13.129.152
+ description 10.13.129.152
+object network mos-fsttst-alt
+ host 10.13.128.94
+ description mos-fsttst-alt
+object network mos-fstweb-alt
+ host 10.13.128.95
+ description mos-fstweb-alt
+object network mos-fstdb-alt
+ host 10.13.128.96
+ description mos-fstdb-alt
+object network ws-kons
+ host 10.5.169.174
+ description ws-kons
+object network bsic1561
+ host 10.13.129.76
+ description bsic1561 (Smyslov)
+object network ws-mss
+ host 10.13.132.186
+object network test-optimacros.gptrans.gazprom.ru
+ host 10.13.129.198
+object-group service VPN udp
+ port-object eq isakmp
+ port-object eq 4500
+object-group network Surgut_nets
+ network-object 10.7.237.0 255.255.255.0
+object-group network Moscow_nets
+ network-object 10.5.168.0 255.255.254.0
+ network-object 10.13.128.0 255.255.248.0
+object-group network Astrakhan_nets
+ network-object 10.7.233.0 255.255.255.0
+object-group network Public_servers
+ network-object host 10.5.139.66
+ network-object host 10.5.139.67
+object-group service Public_services tcp
+ port-object eq www
+ port-object eq 8080
+ port-object eq smtp
+ port-object eq pop3
+object-group network DMZ2
+ network-object 10.5.139.64 255.255.255.224
+object-group network DMZ1
+ network-object 10.5.139.32 255.255.255.224
+object-group network Mngmt_hosts
+ network-object host 10.5.168.115
+ network-object object ws-chda
+ network-object host Rancid_user
+object-group service Mngmt_services tcp
+ port-object eq ssh
+ port-object eq https
+object-group network Moscow
+ description Moscow VPN gates
+ network-object host 10.5.139.34
+ network-object host 10.5.139.35
+ network-object host 10.5.139.36
+ network-object host 10.5.139.37
+object-group network Servers_to_RZD
+ description Gazpromtrans Servers using for RZD connections
+ network-object host VipNet1
+ network-object host VipNet2
+object-group network RZD_Servers
+ network-object host 217.175.140.73
+ network-object host 217.175.140.85
+ network-object host 217.23.88.44
+ network-object host 10.250.2.140
+ network-object host 10.250.2.141
+object-group network Our_DNS_Servers
+ network-object host 10.5.168.220
+ network-object host 10.5.169.213
+ network-object host 10.5.168.17
+object-group network DNS_Servers_Gazsvyaz
+ description DNS_Servera_Gazsvyaz
+ network-object host DNS1_Gazsvyaz
+ network-object host DNS2_Gazsvyaz
+object-group service DNS tcp-udp
+ description DNS-port
+ port-object eq domain
+object-group network MailServer_Gazsvyaz
+ network-object host Mailhost
+ network-object host MailRelay
+ network-object host MailRelay2
+ network-object host Mailrelay3
+ network-object host Mailhost1
+ network-object host Mailhost2
+ network-object host Mailrelay4
+object-group network Our_MailServer
+ network-object host Pechkin_SMTP_Server
+object-group network Bank_Client
+ network-object host 10.5.168.175
+ network-object host 10.5.168.90
+object-group network SAP_Client
+ network-object host 10.5.168.166
+ network-object host 10.5.169.185
+ network-object host 10.5.169.216
+ network-object host 10.5.168.253
+ network-object host 10.5.169.29
+ network-object host 10.5.168.233
+object-group network SAP_Servers
+ network-object host 10.241.1.40
+ network-object host 10.241.1.28
+ network-object host 10.241.1.58
+ network-object host 10.241.1.55
+object-group service Nalog_Ports tcp
+ port-object eq 50025
+ port-object eq 50110
+object-group network Nalog_Server
+ network-object host 213.24.62.225
+object-group network Nalog_Client
+ network-object host GNIVC_Client
+object-group network Pryamoy_Dostup_Inet
+ network-object host 10.5.168.253
+ network-object host 10.5.169.89
+ network-object host 10.5.168.68
+object-group network Bank_Servers
+ network-object host Gazprombank
+ network-object host Transkreditbank
+object-group service Bank_services tcp
+ port-object eq https
+ port-object eq 6217
+object-group network Etran_Clients
+ network-object host 10.5.168.162
+ network-object host 10.5.168.194
+ network-object host 10.5.168.217
+ network-object host 10.5.168.171
+ network-object host 10.5.168.232
+ network-object host 10.5.169.217
+ network-object host 10.5.169.181
+ network-object host 10.5.168.237
+ network-object host 10.5.168.42
+ network-object host 10.5.169.126
+ network-object host 10.5.169.64
+ network-object host 10.5.169.148
+ network-object host 10.5.169.109
+ network-object host 10.5.168.119
+ network-object object SapeginskiyGF
+ network-object object ChepurinMN
+ network-object object GrunenkovAV
+ network-object object KirillovAN
+ network-object object KosunovNS
+ network-object object NekrashevichNA
+ network-object object PozdnyakovAA
+ network-object object SheleninDY
+ network-object object SmyslovAV
+ network-object object StukanovVN
+ network-object object TatarenkovDS
+ network-object object YavlukhinSA
+ network-object object ZolotukhinDV
+ network-object object BaryshnikovAV
+ network-object object FrolovaTV
+ network-object object KarasevAA
+ network-object object KharakterovaYI
+ network-object object KhramtsovaMN
+ network-object object KorabelnikovIV
+ network-object object KostyukovaOA
+ network-object object LapshinaEA
+ network-object object LazarenkoAS
+ network-object object LazukovaEA
+ network-object object LosevaLE
+ network-object object MuravievSA
+ network-object object PashigorevaEV
+ network-object object SakaevaIV
+ network-object object SapeginskayaME
+ network-object object SeltsovaEY
+ network-object object ShestakovMY
+ network-object object ZakharovaOA
+ network-object object DerunovaEV
+ network-object object IvanovaYN
+ network-object object KoveraII
+ network-object object KrivashovaMV
+ network-object object LevitckySN
+ network-object object PerkhurovaNN
+ network-object object PleshakovMV
+ network-object object PozdnyakovMS
+ network-object object RubtsovAA
+ network-object object SvetlovaEP
+ network-object object VlasovaAS
+ network-object object YakunyaNM
+ network-object object GaripovRV
+ network-object object GromovBM
+ network-object object KuptsovPG
+ network-object object PozdnyakovNS
+ network-object object VologzhaninAA
+ network-object object SamoshenkoLA
+ network-object object KharlamovaAB
+ network-object object MOS-ETRANTERM-2K3
+ network-object object MOS-ETRTS1-2K12
+ network-object object DemyachenkoEV
+ network-object object MardanovaTB
+ network-object object AkhmedjanovaIA
+ network-object object ZernovaSA
+ network-object host 10.13.130.187
+ network-object object SafaryanKG
+ network-object object KuzminAA
+ network-object host 10.13.129.244
+ network-object host 10.13.131.10
+ network-object host 10.13.128.76
+ network-object host 10.13.131.140
+ network-object host 10.13.131.89
+ network-object host 10.13.131.25
+ network-object host 10.13.132.63
+ network-object host 10.13.130.133
+ network-object host 10.5.168.59
+ network-object host 10.13.130.13
+ network-object host 10.13.132.207
+ network-object host 10.13.132.64
+ network-object host 10.5.168.234
+ network-object host 10.13.131.76
+ network-object host 10.5.169.93
+ network-object host 10.13.130.43
+ network-object host 10.13.131.221
+ network-object host 10.13.132.88
+ network-object host 10.13.128.167
+ network-object host 10.13.129.253
+object-group network Post_and_Proxy_Server_Ast
+ network-object host 10.7.233.2
+object-group network Post_Server_Surgut
+ network-object host 10.7.237.2
+object-group network MapInfoProdUsers
+ description 37606596
+ network-object host 10.13.204.102
+ network-object host 10.14.88.65
+ network-object host 10.7.233.87
+ network-object host 10.7.235.203
+ network-object host 10.7.237.116
+ network-object host 10.7.66.69
+object-group network Terminal_Client
+ network-object host 10.7.237.85
+ network-object host 10.7.237.10
+ network-object host 10.7.237.70
+ network-object host 10.7.233.251
+object-group network Tunnel_Clients
+ network-object host 10.7.233.251
+ network-object host 10.7.237.91
+object-group network Uhta_nets
+ network-object 10.7.235.128 255.255.255.128
+object-group network Urengoy_nets
+ network-object 10.7.240.128 255.255.255.128
+object-group network Cluster_Oracle
+ network-object host 10.5.169.195
+ network-object host 10.5.169.196
+ network-object host 10.5.169.75
+ network-object host 10.5.169.76
+ network-object host 10.13.129.185
+object-group network Servera_Oracle_Filiali
+ network-object host 10.7.65.13
+ network-object host 10.7.65.14
+ network-object host 10.13.204.6
+ network-object host 10.13.204.5
+ network-object host 10.7.237.72
+ network-object host 10.7.237.71
+ network-object host 10.7.235.180
+ network-object host 10.7.235.181
+ network-object host 10.7.233.26
+ network-object host 10.7.233.27
+ network-object host 10.7.240.134
+ network-object host 10.7.240.136
+ network-object host 10.7.65.18
+ network-object host 10.7.65.19
+ network-object host 10.7.233.11
+ network-object host 10.7.237.109
+ network-object host 10.7.237.123
+ network-object host 10.7.237.125
+ network-object host 10.7.237.76
+ network-object host 10.7.237.78
+object-group network Krasnodar_nets
+ network-object 10.7.239.128 255.255.255.128
+object-group network Etran_Servers
+ network-object host 10.5.169.195
+ network-object host 10.5.169.196
+ network-object host 10.5.168.235
+ network-object host 10.5.169.30
+ network-object host 10.5.168.88
+ network-object host 10.5.168.252
+ network-object object MOS-ETRTS1-2K12
+ network-object host 10.5.169.200
+object-group network WSUS_clients
+ description Downstream WSUS servers in branch offices
+ network-object host 10.7.233.3
+ network-object host 10.7.237.67
+ network-object host 10.7.67.9
+ network-object object WSUS_Urengoy
+ network-object object WSUS_Yamal
+ network-object object WSUS_Uhta
+object-group network Kaspersky_clients
+ description Downstream Kaspersky Admin servers in branch offices
+ network-object host 10.7.65.9
+ network-object host Astrakhan_WSUS_Server
+ network-object host 10.7.67.10
+ network-object host post
+ network-object host ns
+ network-object host 10.5.139.114
+ network-object object KSC_Yamal
+ network-object object KSC_Surgut
+ network-object host 10.7.235.174
+ network-object host 10.7.240.207
+ network-object host 10.5.139.69
+ network-object host 10.5.139.83
+ network-object object mos-1c7-2k3
+ network-object object ZecurionDLP_Server
+object-group service ASBU_ports tcp
+ description Ports for connecting to ASBU
+ port-object eq 3200
+ port-object eq 3300
+ port-object eq 3600
+ port-object eq 50001
+ port-object eq 8001
+object-group network Region_Client_Etran
+ network-object host 10.7.235.135
+ network-object host 10.7.235.139
+ network-object host 10.7.235.140
+ network-object host 10.7.235.144
+ network-object host 10.7.235.149
+ network-object host 10.7.235.132
+ network-object host 10.7.240.138
+ network-object host 10.7.240.202
+ network-object host 10.7.65.61
+ network-object host 10.7.237.88
+ network-object host 10.7.237.85
+ network-object host 10.7.237.91
+ network-object host 10.7.235.220
+ network-object host 10.7.237.87
+ network-object host 10.7.235.130
+ network-object host 10.7.233.251
+ network-object host 10.7.233.248
+ network-object host 10.7.233.250
+ network-object host 10.7.233.249
+ network-object host 10.7.65.127
+ network-object host 10.7.233.252
+ network-object host 10.7.237.80
+ network-object host 10.7.239.132
+ network-object host 10.7.240.139
+ network-object host 10.7.240.155
+ network-object host 10.7.237.69
+ network-object host 10.7.65.9
+ network-object host 10.7.237.82
+ network-object host 10.7.237.84
+ network-object host 10.7.65.58
+ network-object host 10.7.237.117
+ network-object host 10.7.65.41
+ network-object host 10.13.204.7
+ network-object host 10.13.204.8
+ network-object host 10.7.233.253
+ network-object host 10.7.233.254
+ network-object host 10.7.235.133
+ network-object host 10.7.65.162
+ network-object host 10.7.65.59
+ network-object host 10.7.65.98
+ network-object host 10.7.240.195
+ network-object host 10.7.233.247
+ network-object host 10.7.233.245
+ network-object host 10.7.240.111
+ network-object host 10.7.240.190
+ network-object host 10.7.237.77
+ network-object host 10.7.237.122
+ network-object object AbdurakhmanovRM
+ network-object object BednevAV
+ network-object object DonskoyDR
+ network-object object NurgalievaGM
+ network-object object RudnichenkoNV
+ network-object host 10.7.237.102
+ network-object host 10.7.237.81
+ network-object host 10.7.237.132
+ network-object host 10.7.237.152
+ network-object host 10.7.240.100
+ network-object host 10.7.240.148
+ network-object host 10.7.240.223
+ network-object host 10.7.237.89
+ network-object host 10.7.237.95
+ network-object host 10.7.237.68
+ network-object host 10.7.232.27
+ network-object host 10.7.233.128
+ network-object host 10.7.233.70
+ network-object host 10.13.204.11
+ network-object host 10.7.65.53
+ network-object host 10.13.204.13
+ network-object host 10.7.237.100
+ network-object host 10.7.237.119
+ network-object host 10.7.237.151
+ network-object host 10.7.237.70
+ network-object host 10.7.237.75
+ network-object host 10.7.237.92
+ network-object host 10.7.237.93
+ network-object host 10.7.237.97
+ network-object host 10.7.237.98
+ network-object host 10.7.237.99
+ network-object host 10.13.204.14
+object-group network Oracle_users
+ description Users, which uses SQLnet & RDP protocols to connect to Object-Group Servera_Oracle_Filiali
+ network-object host 10.5.168.181
+ network-object host 10.5.168.88
+ network-object host 10.5.169.132
+ network-object host 10.5.169.180
+ network-object host 10.5.169.57
+ network-object host 10.5.168.214
+ network-object host 10.5.169.230
+ network-object host 10.5.169.197
+ network-object host 10.5.168.149
+ network-object host 10.5.169.24
+ network-object host 10.5.169.204
+ network-object host 10.5.169.37
+ network-object host 10.5.168.186
+ network-object 10.5.169.246 255.255.255.255
+ network-object host 10.5.169.174
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.143
+ network-object host 10.13.129.144
+ network-object host 10.13.129.146
+ network-object host 10.5.168.70
+ network-object host 10.5.168.129
+ network-object host 10.5.169.18
+ network-object host 10.13.129.96
+ network-object host 10.13.128.24
+ network-object host 10.5.168.225
+ network-object host 10.5.169.176
+ network-object host 10.5.168.105
+ network-object host 10.5.169.74
+ network-object host 10.13.129.155
+ network-object object PomaskinDV
+ network-object object SennikovAV
+ network-object object MardanovaTB
+ network-object object KostikovaMM
+ network-object object AhmedzhanovaIA
+ network-object object SchkurovaTA
+ network-object host 10.13.131.63
+ network-object host 10.13.130.194
+ network-object host 10.13.129.195
+ network-object host 10.13.132.66
+ network-object object ws-chda
+ network-object host 10.13.130.173
+object-group service Oracle_ports tcp
+ description SQLnet & RDP ports
+ port-object eq sqlnet
+ port-object eq 3389
+ port-object eq 2010
+ port-object eq 1522
+ port-object eq 3872
+ port-object eq 7889
+object-group network Orenburg_nets
+ network-object 10.7.65.0 255.255.255.0
+ network-object 10.7.66.0 255.255.255.0
+object-group network FTP_to_Pechkin
+ description Access to pechkin ftp from regions
+ group-object Astrakhan_nets
+ group-object Krasnodar_nets
+ group-object Orenburg_nets
+ group-object Surgut_nets
+ group-object Uhta_nets
+ group-object Urengoy_nets
+object-group network Dispetcher_to_test_Oracle
+ description Moscow dispetcher can connect to Oracle in regions
+ network-object host 10.5.168.201
+ network-object host 10.5.169.154
+ network-object object ws-chda
+object-group service DM_INLINE_SERVICE_7
+ service-object udp destination eq sip 
+ service-object udp destination range 29100 30099 
+ service-object tcp destination range 4060 4061 
+ service-object tcp destination range 12250 12950 
+object-group network Web_cam_5000
+ description tcp/5000 video data from webcam
+ network-object host 80.79.189.218
+ network-object host 80.79.189.220
+ network-object host 80.79.189.221
+object-group service DM_INLINE_SERVICE_2
+ service-object udp destination eq sip 
+ service-object udp destination range 5010 5039 
+ service-object tcp destination range 1400 h323 
+object-group network Routers_branch_office
+ network-object host Uhta_Router
+object-group network Poxy_Servers_Remote_offices
+ network-object host 10.7.233.3
+object-group network APOD_Servers
+ network-object host 10.241.10.10
+ network-object host 10.241.10.13
+ network-object host 10.241.10.14
+ network-object host 10.241.10.15
+ network-object host 10.241.10.16
+ network-object host 10.241.10.17
+ network-object host 10.241.10.18
+ network-object host 10.241.10.19
+object-group network APOD_users
+ network-object host 10.13.128.32
+ network-object host 10.13.128.15
+object-group service APOD_ports tcp
+ port-object range 50000 50001
+ port-object eq 8000
+ port-object eq https
+object-group network GazpromRootCA
+ network-object host 10.241.1.72
+ network-object host 10.250.4.160
+ network-object host 10.250.4.134
+object-group network AccessToInside
+ description Access to inside from regions
+ group-object Astrakhan_nets
+ group-object Krasnodar_nets
+ group-object Orenburg_nets
+ group-object Surgut_nets
+ group-object Uhta_nets
+ group-object Urengoy_nets
+object-group network FTP_branche_office_admin
+ network-object host 10.7.240.136
+object-group network Moscow_new_nets
+ network-object 10.13.128.0 255.255.248.0
+object-group network Region_To_ProxyBD
+ description Access to Dislocation by RDP to Proxy-BD
+ network-object host 10.7.235.130
+ network-object host 10.7.235.140
+ network-object host 10.7.235.145
+ network-object host 10.7.235.146
+ network-object host 10.7.235.147
+ network-object host 10.7.235.148
+ network-object host 10.7.235.150
+ network-object host 10.7.235.154
+ network-object host 10.7.235.157
+ network-object host 10.7.235.158
+ network-object host 10.7.237.179
+ network-object host 10.7.237.70
+ network-object host 10.7.237.73
+ network-object host 10.7.237.89
+ network-object host 10.7.65.114
+ network-object host 10.7.65.119
+ network-object host 10.7.65.141
+ network-object host 10.7.65.173
+ network-object host 10.7.65.42
+ network-object host 10.7.65.52
+ network-object host 10.7.65.55
+ network-object host 10.7.65.67
+ network-object host 10.7.65.73
+ network-object host 10.7.65.88
+ network-object host 10.7.65.92
+ network-object host 10.7.65.93
+ network-object host 10.7.240.100
+ network-object host 10.7.240.101
+ network-object host 10.7.240.223
+ network-object host 10.7.233.157
+ network-object host 10.7.233.160
+ network-object host 10.7.233.188
+ network-object host 10.7.233.70
+ network-object host 10.7.233.94
+ network-object host 10.7.233.98
+ network-object host 10.7.233.99
+ network-object host 10.7.237.117
+ network-object host 10.7.237.95
+ network-object host 10.7.237.100
+ network-object host 10.7.237.80
+ network-object host 10.7.237.81
+ network-object host 10.7.237.91
+ network-object host 10.7.237.108
+ network-object host 10.7.237.147
+ network-object host 10.7.237.180
+ network-object host 10.7.237.69
+ network-object host 10.7.237.12
+ network-object host 10.7.237.120
+ network-object host 10.7.233.66
+ network-object host 10.7.65.150
+ network-object host 10.7.237.77
+ network-object host 10.7.65.41
+ network-object host 10.7.233.79
+ network-object host 10.7.240.196
+ network-object host 10.7.235.132
+ network-object host 10.7.240.152
+ network-object host 10.7.237.101
+ network-object host 10.7.237.79
+ network-object host 10.7.233.95
+ network-object host 10.7.239.132
+ network-object host 10.7.239.134
+ network-object host 10.7.240.190
+ network-object host 10.7.240.139
+ network-object host 10.7.233.140
+ network-object host 10.7.233.150
+ network-object host 10.7.233.173
+ network-object host 10.7.233.247
+ network-object host 10.7.233.250
+ network-object host 10.7.233.251
+ network-object host 10.7.233.252
+ network-object host 10.7.233.253
+ network-object host 10.7.233.254
+ network-object host 10.7.233.50
+ network-object host 10.7.233.67
+ network-object host 10.7.233.76
+ network-object host 10.7.65.127
+ network-object host 10.7.237.122
+ network-object object Surgut_YarullinaGK
+ network-object object Surgut_RybalkinaYV
+ network-object object Surgut_TveretinaEM
+ network-object host 10.7.66.26
+ network-object object Surgut_Salnikov
+ network-object host 10.7.237.148
+ network-object host 10.7.237.150
+ network-object host 10.7.237.151
+ network-object host 10.7.237.163
+ network-object host 10.7.237.174
+ network-object host 10.7.233.175
+ network-object host 10.7.65.48
+ network-object host 10.7.65.61
+ network-object host 10.13.204.183
+ network-object host 10.13.204.205
+ network-object host 10.13.205.0
+ network-object host 10.13.205.51
+ network-object host 10.7.235.144
+ network-object host 10.7.233.248
+object-group network SKZ_KAV
+ description Podklu4enie k severu obnovleni9 kasperskogo
+ network-object object esrdi.ss.gazprom.ru
+ network-object object srdi01.dc-gpi.gazprom.ru
+object-group network SKZ_WSUS
+ description Podklu4enie k serveru WSUS slujby korp zawity
+ network-object object esrdi.ss.gazprom.ru
+ network-object object srdi01.dc-gpi.gazprom.ru
+object-group network FTP_Servers
+ network-object host Pechkin_SMTP_Server
+ network-object host PROTON
+object-group network FTP_branch_users
+ network-object host 10.7.237.12
+ network-object host 10.7.65.50
+ network-object host 10.7.237.69
+ network-object host 10.7.237.70
+ network-object host 10.7.237.55
+ network-object host 10.7.233.223
+ network-object host 10.7.233.224
+ network-object host 10.7.235.132
+ network-object host 10.7.235.220
+ network-object host 10.7.235.251
+ network-object host 10.7.235.175
+ network-object host 10.7.235.222
+ network-object host 10.7.235.190
+ network-object host 10.7.235.137
+ network-object host 10.7.66.193
+ network-object host 10.7.66.194
+ network-object host 10.7.66.195
+ network-object host 10.7.66.196
+ network-object host 10.7.66.197
+ network-object host 10.7.233.5
+ network-object host 10.7.67.21
+ network-object host 10.7.233.225
+ network-object host 10.7.233.67
+ network-object object Urengoy_Mahnovskiy
+ network-object object Urengoy_Naumov
+ network-object object Urengoy_Sidorova
+ network-object object Yamal_MavdrikOY
+ network-object object Yamal_SladkovVI
+ network-object host 10.13.205.51
+ network-object host 10.13.206.39
+ network-object object Ast_Uskaev
+ network-object object Surgut_Salnikov
+ network-object object Orenburg_PalevAV
+ network-object object Orenburg_RedinSG
+ network-object object Orenburg_SharovAN
+ network-object object Orenburg_Das
+ network-object host 10.7.65.71
+ network-object host 10.13.204.183
+object-group network NTP_Servers
+ network-object host DNS2_Gazsvyaz
+ network-object host 10.250.3.9
+ network-object host 10.9.34.1
+object-group network Dislocation_Servers
+ network-object host 11.0.0.28
+object-group network Dislocation_Clients
+ network-object host 10.5.169.195
+ network-object host 10.5.169.196
+ network-object host 10.5.168.252
+ network-object host 10.5.168.88
+ network-object host 10.5.169.57
+ network-object host 10.5.168.181
+ network-object host 10.5.169.228
+ network-object host 10.5.168.112
+ network-object object NekrashevichNA
+ network-object object SheleninDY
+ network-object object MOS-ETRANTERM-2K3
+ network-object object MOS-ETRTS1-2K12
+ network-object host 10.7.233.200
+ network-object host 10.7.233.94
+object-group network Moscow_Admin
+ description Moscow_Admin
+ network-object host 10.5.169.246
+ network-object host 10.5.168.115
+ network-object host 10.13.129.152
+ network-object object ws-chda
+ network-object host Rancid_user
+object-group network 39bld3flrVLAN
+ description 39bld3flrVLAN
+ network-object 10.13.140.128 255.255.255.128
+object-group network Etran_Resource
+ description Etran_Resource_Virtual_IP
+ network-object host 11.0.0.11
+ network-object host 12.0.0.30
+ network-object host 11.0.0.13
+ network-object host 11.0.0.14
+ network-object host 12.0.0.19
+object-group service Etran_Ports tcp
+ description Etran_Ports
+ port-object eq 8092
+ port-object eq www
+ port-object eq https
+object-group network Region_DNS_Servers
+ description Region_DNS_Servers
+ network-object host 10.7.235.130
+ network-object host 10.7.235.131
+ network-object host 10.7.237.2
+ network-object host 10.7.240.130
+ network-object host 10.7.65.10
+ network-object host 10.7.65.22
+ network-object host 10.7.67.21
+ network-object host 10.7.235.251
+ network-object host 10.7.235.175
+ network-object host 10.7.233.24
+ network-object host 10.7.233.233
+ network-object host 10.7.233.5
+ network-object host 10.14.99.194
+ network-object host 10.7.237.67
+ network-object object DC_Yamal_1
+ network-object host 10.7.240.135
+object-group network Device_Yamal
+ description Routing, firewalling, cryptographing
+ network-object 10.13.207.0 255.255.255.248
+ network-object 10.13.207.16 255.255.255.248
+ network-object 10.13.207.8 255.255.255.248
+ network-object 10.13.207.24 255.255.255.248
+ network-object 10.13.207.32 255.255.255.248
+ network-object 10.13.204.0 255.255.254.0
+ network-object 10.13.207.56 255.255.255.248
+ network-object host 10.13.207.58
+ network-object object Yamal_S-Terra_1000
+object-group network Birzha_for_Kornienko
+ description Birzha_for_Kornienko
+ network-object host 193.219.127.51
+ network-object host 193.219.127.52
+ network-object host 193.219.127.53
+object-group network Mngmnt_host_VipNet
+ description Mngmnt_host_VipNet
+ network-object host 10.5.168.115
+ network-object object ws-chda
+object-group service Obmen_1C_ports tcp
+ description 32770994
+ port-object eq 465
+ port-object eq www
+ port-object eq pop3
+ port-object eq https
+object-group network ERP_Elar_Servers
+ description ERP_Elar_Servers
+ network-object host 10.5.169.206
+ network-object host 10.5.169.45
+ network-object object mos-iistst-2k12
+object-group network ERP_Elar_Source
+ description ERP_Elar_Source
+ network-object host 10.241.1.67
+ network-object host 10.241.1.68
+ network-object host 10.241.1.69
+object-group service ERP_Elar_ports tcp
+ description ERP_Elar_ports
+ port-object eq 12205
+ port-object eq 12347
+ port-object eq sqlnet
+object-group network Restricted_Client
+ description Restricted_Client
+ network-object host 10.5.168.136
+ network-object host 10.5.168.236
+ network-object host 10.5.168.90
+ network-object host 10.5.169.22
+ network-object host 10.5.169.61
+ network-object host 10.5.168.247
+ network-object host 10.13.129.82
+ network-object host 10.5.169.128
+ network-object host 10.13.129.58
+ network-object host 10.13.128.180
+ network-object host 10.5.169.121
+ network-object host 10.5.169.130
+ network-object host 10.5.169.230
+ network-object host 10.5.168.175
+ network-object host 10.5.169.7
+ network-object host 10.13.129.214
+ network-object host 10.13.140.76
+ network-object host 10.13.140.98
+ network-object host 10.13.128.240
+ network-object host 10.5.168.233
+ network-object host 10.5.169.52
+ network-object host 10.13.128.48
+ network-object host 10.5.169.87
+ network-object host 10.13.129.245
+ network-object host 10.5.169.209
+ network-object host 10.13.128.192
+ network-object host 10.13.140.8
+ network-object host 10.5.168.69
+ network-object host Egorova_Bank_Client
+ network-object host 10.5.168.207
+ network-object host 10.5.169.154
+ network-object host 10.5.169.67
+ network-object host 10.13.128.43
+ network-object host 10.13.131.228
+ network-object object PerkhurovaNN
+ network-object object OrlovIA
+ network-object object VlasovaEE
+ network-object host 10.5.168.100
+ network-object host 10.5.169.109
+ network-object host 10.5.169.148
+ network-object host 10.5.169.64
+ network-object host 10.5.169.217
+ network-object host 10.13.131.74
+ network-object host 10.13.132.129
+object-group service Ports_Restricted_Clients tcp
+ description Ports_Restricted_Clients
+ port-object eq 3128
+object-group network Mini_Admin
+ description Mini_Admin
+ network-object host 10.5.169.246
+ network-object host 10.5.169.177
+object-group network Outside_site_users
+ description Outside_site_users
+ network-object host 10.5.168.88
+ network-object host 10.5.169.180
+object-group network Surgut_Electronnoe_declarirovanie_client
+ description Surgut_Electronnoe_declarirovanie_client
+ network-object host 10.7.237.98
+ network-object host 10.7.237.99
+object-group network 39bld4flrVLAN
+ description 39bld4flrVLAN
+ network-object 10.13.140.0 255.255.255.128
+object-group network Yamal_Nets
+ description Yamal_Nets
+ network-object 10.13.204.0 255.255.254.0
+ network-object 10.13.206.0 255.255.254.0
+object-group network All_Filials
+ group-object Astrakhan_nets
+ group-object Krasnodar_nets
+ group-object Orenburg_nets
+ group-object Surgut_nets
+ group-object Uhta_nets
+ group-object Urengoy_nets
+ group-object Yamal_Nets
+object-group network Filials_users_MTR
+ description Filials_users_MTR
+ network-object host 10.7.233.107
+ network-object host 10.7.233.114
+ network-object host 10.7.233.127
+ network-object host 10.7.233.158
+ network-object host 10.7.233.161
+ network-object host 10.7.233.163
+ network-object host 10.7.233.189
+ network-object host 10.7.233.221
+ network-object host 10.7.233.222
+ network-object host 10.7.233.65
+ network-object host 10.7.233.69
+ network-object host 10.7.233.73
+ network-object host 10.7.233.74
+ network-object host 10.7.233.88
+ network-object host 10.7.233.89
+ network-object host 10.7.233.92
+ network-object host 10.7.233.93
+ network-object host 10.7.233.94
+ network-object host 10.7.233.95
+ network-object host 10.7.235.132
+ network-object host 10.7.235.137
+ network-object host 10.7.235.139
+ network-object host 10.7.235.146
+ network-object host 10.7.235.147
+ network-object host 10.7.235.161
+ network-object host 10.7.235.165
+ network-object host 10.7.235.196
+ network-object host 10.7.235.203
+ network-object host 10.7.235.207
+ network-object host 10.7.235.208
+ network-object host 10.7.235.210
+ network-object host 10.7.235.213
+ network-object host 10.7.240.161
+ network-object host 10.7.240.172
+ network-object host 10.7.65.133
+ network-object host 10.7.65.134
+ network-object host 10.7.65.171
+ network-object host 10.7.65.87
+ network-object host 10.7.237.107
+ network-object host 10.7.237.115
+ network-object host 10.7.237.118
+ network-object host 10.7.237.120
+ network-object host 10.7.237.126
+ network-object host 10.7.237.132
+ network-object host 10.7.237.136
+ network-object host 10.7.237.143
+ network-object host 10.7.237.158
+ network-object host 10.7.237.184
+ network-object host 10.7.237.18
+ network-object host 10.7.237.39
+ network-object host 10.7.237.40
+ network-object host 10.7.237.53
+ network-object host 10.7.237.54
+ network-object host 10.7.237.55
+ network-object host 10.7.237.56
+ network-object host 10.7.233.223
+ network-object host 10.7.233.224
+ network-object host 10.7.235.153
+ network-object host 10.7.65.56
+ network-object host 10.13.206.130
+ network-object host 10.13.204.99
+ network-object host 10.13.206.39
+ network-object host 10.7.237.108
+ network-object host 10.7.237.12
+ network-object host 10.7.237.149
+ network-object host 10.7.237.179
+ network-object host 10.7.233.91
+ network-object host 10.7.237.147
+ network-object host 10.7.237.70
+ network-object host 10.7.240.136
+ network-object host 10.7.240.148
+ network-object host 10.7.237.135
+ network-object host 10.7.237.137
+ network-object host 10.7.237.10
+ network-object host 10.7.237.2
+ network-object host 10.7.237.153
+object-group service Zabbix_Server_Ports tcp
+ description Zabbix_Server_Ports
+ port-object range 10050 10051
+object-group network Transkredit_Bank_Servers
+ description Transkredit_Bank_Servers
+ network-object host 80.82.169.66
+ network-object host 195.161.5.237
+object-group network WebSrv_admins
+ network-object host 10.5.168.88
+ network-object host 10.13.128.24
+object-group service WebSrv_admin_port tcp
+ port-object eq 4048
+ port-object eq 4848
+object-group network VNCclients
+ network-object host 10.7.240.148
+ network-object host 10.7.65.130
+ network-object host 10.7.65.30
+ network-object host 10.7.233.223
+ network-object host 10.7.235.132
+ network-object host 10.7.237.179
+object-group network 53bld2flrVLAN
+ description 53bld2flrVLAN
+ network-object 10.13.139.0 255.255.255.0
+object-group network Servers_Gazprompererabotka
+ description Servers_Gazprompererabotka
+ network-object host 10.56.130.86
+ network-object host 10.56.130.87
+ network-object host 10.56.160.86
+ network-object host 10.56.160.87
+ network-object host 10.56.162.86
+ network-object host 10.56.162.87
+object-group service Services_Gazprompererabotka tcp
+ description Services_Gazprompererabotka
+ port-object range 50000 50001
+object-group network Our_Servers_To_Gazprompererabotka
+ description Our_Servers_To_Gazprompererabotka
+ network-object host 10.13.129.135
+ network-object host 10.5.168.88
+object-group network IUS_PRUV_Filials
+ description IUS_PRUV_Filials_Clients
+ network-object host 10.7.235.158
+ network-object host 10.7.240.172
+object-group network RKC_SRV
+ description Web servera Rasschetnogo klientskogo centra
+ network-object host 10.250.4.179
+ network-object host 10.250.4.180
+object-group network RKC_admins
+ description ip s dostupom k web serveram rasschetnogo klientskogo centra
+ network-object host 10.13.128.24
+ network-object host 10.5.169.176
+ network-object host 10.5.169.57
+ network-object host 10.5.168.88
+ network-object object ws-chda
+object-group service RKC_admin tcp
+ description Porty dl9 dostupa k serveram rasschetnogo klientskogo centra
+ port-object eq ftp
+ port-object eq www
+ port-object eq https
+ port-object eq ssh
+ port-object eq ftp-data
+ port-object eq 3710
+object-group service KMS tcp
+ description Ports used by KMS server
+ port-object eq 135
+ port-object eq 1688
+ port-object eq 49154
+object-group network CCC_Learn
+ description SAP Client Competence Center Learning System SAP SM (LSM)
+ network-object host 10.56.173.3
+ network-object host 10.56.173.4
+object-group network CCC_Prod
+ description SAP Client Competence Center Productive GSM 700
+ network-object host 10.56.150.1
+ network-object host 10.56.150.2
+object-group service RKC_exchange tcp
+ description Ports userd to exchange data from germes to RKC Servers
+ port-object range 37000 37010
+ port-object range 4440 4450
+ port-object eq 7676
+object-group network BO_DC
+ description Branch Office Domain Controllers
+ network-object host 10.7.240.130
+object-group network HO_DC
+ description Head Office Domain Controllers
+ network-object host 10.5.169.213
+ network-object object ws-chda
+object-group service DC_Trust tcp
+ description Ports needs to trust Domain Controllers
+ port-object eq 135
+ port-object eq 1688
+ port-object eq 3389
+ port-object eq 49154
+object-group network NetBackup_Clients
+ description Outside NetBackup Clients
+ network-object host 10.5.139.114
+object-group service NB_Client_out tcp
+ description Default outgoing ports Numbers for NetBackup Client 7.5
+ port-object eq 13783
+ port-object eq 1556
+object-group service NB_Server tcp
+ description Default NetBackup Master Server 7.5 outgoing ports
+ port-object eq 13722
+ port-object eq 13724
+ port-object eq 13783
+ port-object eq 1556
+object-group service JAVA tcp
+ description JAVA system information exchange
+ port-object range 50000 50001
+object-group service SAP_WD tcp
+ description SAP Web Dispatcher System Information exchange
+ port-object range 8064 8065
+object-group service SOAP tcp
+ description System information exchange Transportirovka
+ port-object range 4080 4081
+ port-object range 8080 8081
+object-group service XI tcp
+ description XI system information Exchange
+ port-object eq 44465
+ port-object eq 8165
+object-group network Servers_Gazprompererabotka_SAP
+ network-object host 10.56.130.65
+ network-object host 10.56.160.1
+ network-object host 10.56.162.1
+object-group network IUS_PRUV_Servers
+ description IUS_PRUV_Servers
+ network-object host 10.56.195.21
+ network-object host 10.56.67.21
+ network-object host 10.56.67.22
+ network-object host 10.56.194.5
+ network-object host 10.56.194.6
+ network-object host 10.56.66.5
+ network-object host 10.56.66.6
+object-group network IUS_PRUV_Clients
+ description IUS_Gazprom_Clients
+ network-object host 10.5.169.154
+ network-object host 10.5.168.207
+ network-object host 10.5.168.217
+ network-object host 10.5.168.60
+ network-object host 10.5.169.226
+ network-object host 10.5.160.79
+ network-object host 10.5.169.67
+ network-object host 10.13.130.8
+ network-object host 10.13.129.100
+ network-object host 10.13.140.98
+ network-object host 10.13.130.144
+ network-object object PerkhurovaNN
+ network-object object DolgovaYuN
+ network-object object KostebelovSV
+ network-object object SlijovaMS
+ network-object object LobanovaEY
+ network-object object RijaevaNA
+ network-object object KonokotinaNN
+ network-object object RyabkinaEY
+ network-object object ws-gen
+ network-object object KruglyhinaYA
+ network-object object UstinovaEI
+ network-object object TyurinDY
+ network-object object KosenkoEV
+ network-object object MyasnikovVS
+ network-object object KrivashovaMV
+ network-object object AAG
+ network-object object PanshinIV
+ network-object object YakimovaLA
+ network-object object PatsukAV
+ network-object object ws-nnt
+ network-object object LeontevaPN
+ network-object object PetrovaYuS
+ network-object object VlasovaEE
+ network-object object InzhievskiyAL
+ network-object object PolukarovaIA
+ network-object object NyatinaOV1
+ network-object object VlasovaAS
+ network-object object JukovAS
+ network-object object SelivanenkoIV
+ network-object object VoronovaAK
+ network-object object TominSI
+ network-object object ToropovOO
+ network-object object NaumenkoAL
+ network-object object EvdokimovaME
+ network-object object GrechihinaSA
+ network-object object KozlovAN
+ network-object object KozyrevSN
+ network-object object BelyaevaZV
+ network-object object MelekhinMI
+ network-object object AsharinAA
+ network-object object ShatalovaAR
+ network-object object GrishaninDV
+ network-object object FrantsuzovaIV
+ network-object object KashinaPA
+ network-object object PanasukTI
+ network-object host 10.5.169.151
+ network-object object VeselovaVS
+ network-object object JuravlevaDS
+ network-object object VolkovaOV
+ network-object object DaevaYuA
+ network-object object TotcevichFV
+ network-object object ChumakEYu
+ network-object object MardanovAR
+ network-object object FedorenkoEV
+ network-object object PlotnikovaYuA
+ network-object object EremenkoDV
+ network-object object KulikovaOA
+ network-object object ParaschenkoIA
+ network-object object KomoskoOV
+ network-object object KozhinaYuS
+ network-object object ListkovDA
+ network-object object MashkinaNV
+ network-object object MolodovskayaOV
+ network-object object KiryanovaLA
+ network-object object SavchenkoLV
+ network-object object KosovcevaEN
+ network-object object NilokaevaIA
+ network-object host 10.13.129.145
+ network-object object OdinecNV
+ network-object host 10.13.129.13
+ network-object host 10.13.131.233
+ network-object host 10.13.130.192
+ network-object object mos-rdsn9-2k12
+ network-object host 10.13.131.142
+ network-object host 10.13.130.148
+ network-object host 10.5.169.85
+ network-object host 10.13.129.239
+ network-object host 10.13.131.98
+ network-object host 10.13.131.44
+ network-object host 10.5.168.29
+ network-object host 10.13.131.71
+ network-object host 10.13.131.41
+ network-object host 10.5.169.190
+ network-object host 10.13.131.33
+ network-object host 10.13.130.195
+ network-object host 10.13.132.79
+ network-object host 10.5.168.149
+ network-object host 10.5.168.171
+ network-object host 10.13.131.235
+ network-object host 10.13.130.172
+ network-object host 10.13.129.233
+ network-object host 10.13.129.255
+ network-object host 10.13.130.134
+ network-object host 10.13.130.36
+ network-object host 10.13.130.94
+ network-object host 10.13.131.191
+ network-object host 10.13.132.159
+ network-object object SHatskihLV
+ network-object object 10.5.168.201
+ network-object object KuzinaTO
+ network-object host 10.13.130.244
+ network-object host 10.5.169.211
+ network-object host 10.13.129.85
+ network-object host 10.13.132.142
+ network-object host 10.13.129.129
+ network-object host 10.13.129.204
+ network-object host 10.13.132.131
+ network-object host 10.13.132.119
+ network-object host 10.5.169.208
+ network-object host 10.13.129.220
+ network-object host 10.5.168.153
+ network-object host 10.5.168.137
+ network-object host 10.13.130.215
+ network-object host 10.13.131.22
+ network-object host 10.13.132.50
+ network-object host 10.13.131.182
+ network-object host 10.13.131.96
+ network-object host 10.13.129.209
+ network-object host 10.5.168.138
+ network-object host 10.13.129.123
+ network-object host 10.13.132.117
+ network-object object ws-ivd
+ network-object object ws-vgg
+ network-object object ws-miis
+ network-object host 10.5.169.122
+ network-object host 10.5.168.190
+ network-object host 10.13.130.155
+ network-object object ws-vks438
+ network-object host 10.13.132.31
+ network-object host 10.5.169.143
+ network-object host 10.13.131.53
+ network-object host 10.13.132.114
+ network-object host 10.5.169.62
+ network-object host 10.5.169.57
+ network-object host 10.5.169.78
+ network-object host 10.5.169.221
+ network-object host 10.13.130.249
+ network-object host 10.13.132.42
+ network-object host 10.13.130.203
+ network-object object ws-chda
+ network-object host 10.13.130.136
+ network-object host 10.5.168.115
+ network-object host 10.13.132.174
+ network-object host 10.13.129.196
+ network-object host 10.13.130.86
+ network-object host 10.13.130.237
+ network-object host 10.13.129.44
+ network-object host 10.13.128.156
+ network-object host 10.13.130.111
+ network-object host 10.13.129.168
+ network-object host 10.13.132.40
+ network-object host 10.13.130.164
+ network-object host 10.5.169.18
+ network-object host 10.5.169.42
+ network-object object ws-nna
+ network-object host 10.13.128.101
+ network-object host 10.13.129.79
+ network-object host 10.13.132.9
+ network-object host 10.5.169.172
+ network-object host 10.13.131.87
+object-group network VKS_BO
+ network-object host 10.7.237.15
+ network-object host 10.7.237.55
+object-group network VKS_HO
+ network-object host 10.5.168.79
+ network-object host 10.5.168.81
+object-group network ASULR_SUR_Client
+ network-object host 10.5.168.112
+ network-object object MOS-ETRTS1-2K12
+object-group network BLOCK_IP
+ description BLOCK_IP
+ network-object host 46.163.100.220
+ network-object host 93.95.102.109
+ network-object host 185.51.247.125
+ network-object host 185.51.247.169
+ network-object host 208.91.198.93
+ network-object host 77.222.57.247
+ network-object host 81.177.135.151
+ network-object host 81.177.141.15
+ network-object host 87.236.19.244
+object-group network Ammy_Admin_Servers
+ description Ammy_Admin_Servers
+ network-object host 217.172.183.184
+ network-object host 50.115.127.36
+ network-object host 50.115.127.37
+ network-object host 62.75.224.229
+ network-object host 85.25.20.109
+ network-object host 88.198.6.56
+ network-object host 93.95.102.102
+ network-object host 93.95.102.109
+ network-object host 93.95.99.233
+object-group service HTTP_Services tcp
+ description HTTP_Services
+ port-object eq 8080
+ port-object eq www
+ port-object eq https
+object-group network IUS_MTR_Users
+ description IUS_MTR_Users
+ network-object host 10.5.169.187
+ network-object host 10.13.129.9
+ network-object host 10.5.169.35
+ network-object host 10.5.168.193
+ network-object host 10.5.169.52
+ network-object object KadyrovaDA
+ network-object object KuzminaEE
+ network-object object FilenkoEV_ASBU
+object-group network IUS_MTR_Servers
+ description IUS_MTR_Servers
+ network-object host 10.56.67.21
+ network-object host 10.56.67.22
+ network-object host 10.56.194.68
+ network-object host 10.56.66.68
+ network-object host 10.56.194.5
+ network-object host 10.56.194.6
+ network-object host 10.56.66.5
+ network-object host 10.56.66.6
+object-group service SAMS_Service_Ports tcp
+ description SAMS_Service_Ports
+ port-object eq 3128
+object-group network Discl_Clients
+ description Dostup_k_Dislocacii
+ network-object host 10.5.169.30
+ network-object host 10.5.168.112
+ network-object host 10.5.168.181
+ network-object host 10.5.168.252
+ network-object host 10.5.168.88
+ network-object host 10.5.169.195
+ network-object host 10.5.169.196
+ network-object host 10.5.169.228
+ network-object host 10.5.169.57
+ network-object host 10.13.130.146
+ network-object host 10.13.130.147
+ network-object host 10.13.130.148
+ network-object host 10.13.130.149
+ network-object object NekrashevichNA
+ network-object object SheleninDY
+ network-object object MOS-ETRANTERM-2K3
+ network-object object MOS-ETRTS1-2K12
+ network-object object mos-rdsn2-2k12
+object-group network GOSUSER
+ description GOSUSER
+ network-object host 10.5.168.249
+ network-object host 10.5.168.76
+object-group network IUS_BUIRG_Clients
+ description IUS_BUIRG_Clients
+ network-object host 10.5.169.7
+ network-object host 10.13.128.151
+ network-object host 10.5.168.115
+ network-object host 10.5.168.47
+ network-object host 10.13.130.21
+ network-object host 10.13.128.46
+ network-object host 10.13.129.117
+ network-object host 10.13.140.70
+ network-object host 10.5.169.87
+object-group network IUS_BUIRG_Servers
+ description IUS_BUIRG_Servers
+ network-object host 10.241.1.28
+ network-object host 10.241.1.40
+ network-object host 10.56.195.21
+ network-object host 10.56.67.21
+ network-object host 10.56.67.22
+ network-object host 10.56.194.5
+ network-object host 10.56.194.6
+ network-object host 10.56.66.5
+ network-object host 10.56.66.6
+object-group service IUS_BUIRG_Ports tcp
+ description IUS_BUIRG_Ports
+ port-object eq 3200
+ port-object eq 3300
+ port-object eq https
+object-group network Yamal_Network_Hardware
+ network-object object Yamal_ASA_Inside
+ network-object object Yamal_S-Terra_1000
+ network-object object Yamal_ASA
+ network-object object obs-crp1vrrp1-vpn1000
+ network-object object obs-crp2vrrp1-vpn1000
+ network-object host 10.14.99.36
+object-group network Astrakhan_Network_Hardware
+ network-object host Astrakhan_Router
+ network-object host Astrakhan_Firewall
+ network-object object 10.7.232.65
+ network-object host 10.7.232.94
+ network-object host Astrakhan_S-Terra
+object-group network Amur_Network_Hardware
+ network-object object ASA_Amur_outside
+ network-object object S-Terra_Amur_inside
+ network-object object S-Terra_Amur_outside
+object-group network Krasnodar_Network_Hardware
+ network-object host Krasnodar_Firewall
+ network-object host Krasnodar_Router
+ network-object host Krasnodar_S-Terra
+object-group network Orenburg_Network_Hardware
+ network-object host 10.7.64.10
+ network-object host 10.7.64.18
+ network-object host 10.7.64.9
+ network-object host 10.7.65.1
+object-group network Zabbix_Check_Network_Resources_Filials
+ network-object host Surgut_S-Terra_Office
+ network-object host Surgut_S-Terra_OGP
+ network-object host 10.7.237.129
+ network-object host Urengoy_S-Terra_2
+ network-object host 10.7.65.1
+ network-object host Uhta_S-Terra_1
+ network-object host Uhta_S-Terra_2
+ network-object host 10.7.233.21
+ network-object host 10.7.232.65
+ network-object host Astrakhan_Firewall
+ network-object host 10.7.235.220
+ network-object host 10.7.235.241
+ network-object host 10.7.235.251
+ network-object host 10.7.235.131
+ network-object host 10.7.235.155
+ network-object host 10.7.235.156
+ network-object host Urengoy_S-Terra_1
+ network-object host 10.7.233.2
+ network-object host 10.7.240.137
+ network-object host 10.7.233.4
+ network-object host 10.7.233.5
+ network-object host 10.7.233.9
+ network-object host Astrakhan_WSUS_Server
+ network-object host 10.7.233.16
+ network-object host 10.7.233.17
+ network-object host 10.7.233.20
+ network-object host 10.7.233.22
+ network-object host 10.7.233.228
+ network-object host 10.7.233.229
+ network-object host 10.7.233.8
+ network-object host 10.7.235.175
+ group-object Yamal_Network_Hardware
+ group-object Astrakhan_Network_Hardware
+ group-object Amur_Network_Hardware
+ network-object object Ex_Ast_1
+ network-object object Ex_Ast_2
+ network-object object AST-DC1
+ network-object object AST-DC2
+ network-object object Yamal_1C
+ network-object host 10.7.240.254
+ network-object host 10.7.235.194
+ group-object Krasnodar_Network_Hardware
+ group-object Orenburg_Network_Hardware
+ network-object object AST-TERMWEB2-INET
+ network-object object AST-TERM2012-APP
+ network-object object Surgut_FServer
+ network-object object AST-TERMWEB1-IUS
+ network-object object SUR-1C8-2K8
+ network-object host 10.7.235.243
+object-group network Filials_phones
+ network-object host 10.7.237.158
+ network-object host 10.7.237.15
+object-group service Service_Zabbix tcp
+ port-object eq ssh
+ port-object eq 10050
+object-group network Oracle_Monitoring_Servers_Moscow
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.143
+ network-object host 10.13.129.144
+ network-object host 10.13.129.146
+ network-object host 10.5.169.135
+ network-object host 10.13.129.186
+object-group network Oracle_Monitoring_Servers_Filials
+ network-object host 10.7.65.11
+ network-object host 10.7.65.12
+ network-object host 10.7.237.69
+ network-object host 10.7.233.21
+ network-object host 10.7.233.22
+ network-object host 10.7.235.156
+ network-object host 10.7.235.155
+ network-object host 10.7.240.131
+ network-object host 10.7.240.132
+ network-object host 10.7.237.71
+ network-object host 10.7.237.72
+ network-object host 10.7.65.18
+ network-object host 10.7.65.19
+ network-object host 10.7.233.26
+ network-object host 10.7.233.27
+ network-object host 10.7.235.180
+ network-object host 10.7.235.181
+ network-object host 10.7.240.134
+ network-object host 10.7.240.136
+ network-object host 10.7.237.109
+ network-object host 10.7.237.123
+ network-object host 10.7.237.125
+ network-object host 10.7.237.76
+ network-object host 10.7.237.78
+ network-object host 10.13.204.5
+ network-object host 10.13.204.6
+object-group service Service_Monitoring_Oracle tcp
+ port-object eq sqlnet
+ port-object eq 2010
+ port-object eq ssh
+ port-object eq 3872
+ port-object eq 4889
+ port-object eq 4900
+ port-object eq 1522
+ port-object eq 4903
+object-group network IUS_M_SUIM
+ network-object host 10.5.184.42
+ network-object host 10.56.194.6
+ network-object host 10.56.194.5
+object-group network IUS_M_SUIM_Clients
+ network-object host 10.5.169.54
+ network-object host 10.13.128.164
+ network-object host 10.13.128.32
+ network-object host 10.13.128.227
+ network-object object SelivanenkoIV
+object-group network KHD_on_PHD_Clients
+ network-object host 10.13.128.175
+ network-object host 10.13.128.43
+ network-object host 10.5.169.131
+ network-object host 10.13.129.53
+ network-object host 10.13.128.194
+ network-object host 10.13.129.245
+ network-object host 10.13.128.48
+ network-object host 10.5.169.54
+ network-object host 10.13.128.164
+ network-object host 10.5.168.231
+ network-object host 10.5.168.230
+ network-object host 10.13.128.32
+ network-object host 10.13.128.238
+object-group network KHD_on_PHD_Servers
+ network-object host 10.56.194.6
+ network-object host 10.56.194.5
+ network-object host 10.56.66.6
+ network-object host 10.56.66.5
+object-group network Taxcom_Users
+ network-object host 10.13.128.151
+object-group network IUS_OBD_NSI_Clients
+ network-object host 10.5.168.233
+ network-object host 10.13.129.214
+ network-object host 10.5.169.105
+object-group network IUS_OBD_NSI_Servers
+ network-object host 10.56.195.21
+ network-object host 10.56.67.21
+ network-object host 10.56.67.22
+ network-object host 10.56.194.5
+ network-object host 10.56.194.6
+ network-object host 10.56.66.5
+ network-object host 10.56.66.6
+object-group service IUS_OBD_NSI_Ports tcp
+ description IUS_BUIRG_Ports
+ port-object eq 3200
+ port-object eq 3300
+ port-object eq https
+object-group network IUS_ASEZ_Clients
+ description IUS_ASEZ_Clients
+ network-object host 10.13.128.20
+ network-object host 10.13.129.206
+ network-object host 10.13.129.32
+ network-object host 10.5.168.249
+ network-object host 10.5.169.115
+ network-object host 10.5.168.223
+ network-object host 10.5.169.102
+ network-object host 10.5.169.127
+ network-object host 10.5.169.91
+ network-object host 10.13.128.100
+ network-object host 10.13.128.213
+ network-object host 10.5.168.100
+ network-object host 10.5.169.209
+ network-object host 10.5.169.39
+ network-object host 10.13.128.240
+ network-object host 10.13.130.14
+ network-object host 10.13.131.113
+ network-object host 10.13.129.229
+ network-object host 10.13.140.94
+ network-object host 10.13.131.228
+ network-object host 10.5.168.247
+ network-object host 10.5.169.22
+ network-object object DmitrievaEG
+ network-object host 10.5.168.69
+ network-object host 10.13.131.13
+ network-object object AdaykinaEN
+ network-object host 10.13.128.50
+ network-object object OrlovIA
+ network-object object PulyaevaKV
+ network-object object MinaevIA
+ network-object object MalyarevichAV
+ network-object object ws-mnal
+ network-object host 10.13.128.47
+object-group network IUS_ASEZ_Servers
+ description IUS_ASEZ_Servers
+ network-object host 10.56.194.5
+ network-object host 10.56.194.6
+ network-object host 10.56.66.6
+ network-object host 10.56.66.5
+object-group network Zabbix_chech_inside_S_Terra
+ description Zabbix_chech_inside_S_Terra
+ network-object host 10.5.139.34
+ network-object host 10.5.139.35
+ network-object host 10.5.139.37
+object-group icmp-type PING_S_Terra
+ description PING_S_Terra
+ icmp-object echo
+ icmp-object echo-reply
+object-group network TAXCOM_Client
+ description TAXCOM_Client
+ network-object host 10.13.128.151
+object-group network TAXCOM_Servers
+ description TAXCOM_Servers
+ network-object host 81.177.14.204
+ network-object host 193.0.214.204
+object-group service TAXCOM_Ports tcp
+ description TAXCOM_Ports
+ port-object eq 1110
+ port-object eq 5025
+ port-object eq pop3
+ port-object eq smtp
+object-group network GNIVC_SERVERS
+ description GNIVC_SERVERS
+ network-object host 93.95.155.34
+ network-object host 93.95.155.36
+ network-object host 93.95.155.45
+object-group service GNIVC_SERVICE tcp
+ description GNIVC_SERVICE
+ port-object eq 50025
+ port-object eq 50026
+ port-object eq 50028
+ port-object eq 50029
+ port-object eq 50110
+ port-object eq 50111
+ port-object eq 50113
+ port-object eq 50114
+ port-object eq www
+ port-object eq pop3
+ port-object eq smtp
+object-group network ATLAS_Clients
+ description ATLAS_Clients
+ network-object host 10.13.128.100
+object-group network S_TERRA_SERVERS
+ description S_TERRA_SERVERS
+ network-object host 10.5.139.35
+ network-object host 10.5.139.36
+ network-object host 10.5.139.37
+ network-object host 10.5.139.34
+object-group network Restricted_Nets
+ description Typovye informacionnye potoki 2014
+ network-object 10.0.0.0 255.255.255.0
+ network-object 169.254.0.0 255.255.0.0
+ network-object 172.16.0.0 255.240.0.0
+ network-object 192.168.0.0 255.255.0.0
+ network-object 240.0.0.0 240.0.0.0
+ network-object host 50.31.164.165
+ network-object host 50.31.164.166
+ network-object host 50.31.164.173
+ network-object host 50.31.164.174
+ network-object host 50.31.164.175
+ network-object host 10.248.8.240
+ network-object host 10.248.0.135
+ network-object host 185.51.247.125
+ network-object host 185.51.247.169
+ network-object host 208.91.198.93
+ network-object host 77.222.57.247
+ network-object host 81.177.135.151
+ network-object host 81.177.141.15
+ network-object host 87.236.19.244
+ network-object host 104.18.32.14
+ network-object host 104.18.33.14
+ network-object host 173.208.81.207
+ network-object host 23.226.236.13
+ network-object host 68.178.213.61
+ network-object host 217.12.199.116
+ network-object host 217.12.199.167
+ network-object host 217.12.199.210
+ network-object host 217.12.199.118
+ network-object host 217.12.199.61
+ network-object host 217.12.199.74
+ network-object host 217.12.199.90
+ network-object host 217.12.199.184
+ network-object host 217.12.199.57
+ network-object host 217.12.199.64
+ network-object 5.34.205.0 255.255.255.0
+ network-object 5.34.207.0 255.255.255.0
+object-group network Novaya_BD
+ description Dostup k germes
+ network-object host 10.13.129.140
+ network-object host 10.13.129.147
+ network-object host 10.13.129.221
+ network-object host 10.13.129.222
+ network-object host 10.13.129.224
+ network-object host 10.13.129.185
+object-group network bam-botnet
+ network-object host 50.31.164.165
+ network-object host 50.31.164.166
+ network-object host 50.31.164.173
+ network-object host 50.31.164.174
+ network-object host 50.31.164.175
+object-group service GPN_AZS tcp
+ description Dostup k LK na saite GPN (pismo 23118871)
+ port-object range 22221 22221
+object-group service Kaspersky tcp
+ port-object eq 13000
+ port-object eq 135
+ port-object eq 14000
+object-group service TMG_port tcp
+ port-object eq 1745
+ port-object eq 8080
+object-group network Web_Izarb
+ description Dostup dlya filialov to IzarB
+ group-object All_Filials
+object-group network Zabbix_Check_SNMP
+ network-object host Astrakhan_Router
+ network-object host Uhta_Router
+ network-object host Surgut_Router
+ network-object host Krasnodar_Router
+ network-object host Urengoy_Router
+ network-object host 10.7.64.9
+object-group network Ex
+ description MS Exchange
+ network-object host 10.5.169.53
+ network-object host 10.5.169.58
+object-group network AD
+ description AD servers
+ network-object host 10.5.168.220
+ network-object host 10.5.169.213
+ network-object host 10.5.168.17
+object-group network MailServersFilials
+ network-object host 10.7.233.2
+ network-object host 10.7.235.220
+ network-object host 10.7.240.140
+ network-object host 10.7.65.17
+ network-object object Ex_Ast_DAG
+ network-object object Ex_Ast_2
+ network-object object Ex_Ast_1
+ network-object host 10.7.237.67
+ network-object object Ex_Yamal_1
+object-group service AD_trust_ports_TCP tcp
+ port-object eq 445
+ port-object eq ldaps
+ port-object eq netbios-ssn
+ port-object eq 135
+ port-object eq 137
+ port-object eq 88
+ port-object eq domain
+ port-object eq ldap
+object-group service AD_trust_ports_UDP udp
+ port-object eq netbios-dgm
+ port-object eq 135
+ port-object eq 389
+ port-object eq 88
+ port-object eq domain
+ port-object eq netbios-ns
+object-group network MS_Lync_Servers
+ network-object host 10.13.128.204
+ network-object host 10.5.168.116
+object-group service MS_Lync_ports tcp
+ port-object eq 5061
+ port-object eq https
+object-group network HW1000_Servers
+ description New_vipnet_servers
+ network-object host HW1000-1
+ network-object host HW1000-2
+ network-object object HW1000_Cluster
+object-group network Restricted_Inet_Servers
+ description Deny_Internet_access_for_servers
+ network-object host 10.13.128.13
+ network-object host 10.13.128.222
+ network-object host 10.13.128.231
+ network-object host 10.13.128.233
+ network-object host 10.13.128.255
+ network-object host 10.13.128.57
+ network-object host 10.13.129.0
+ network-object host 10.13.129.129
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.143
+ network-object host 10.13.129.144
+ network-object host 10.13.129.146
+ network-object host 10.13.129.149
+ network-object host 10.13.129.182
+ network-object host 10.13.129.186
+ network-object host 10.13.129.190
+ network-object host 10.13.129.226
+ network-object host 10.13.129.230
+ network-object host 10.13.129.236
+ network-object host inside
+ network-object host 10.13.129.35
+ network-object host mos-wsus-2k12
+ network-object host 10.13.129.65
+ network-object host 10.13.129.70
+ network-object host 10.13.130.180
+ network-object host 10.13.130.191
+ network-object host 10.13.130.198
+ network-object host 10.13.130.37
+ network-object host 10.13.130.7
+ network-object host 10.5.168.107
+ network-object host 10.5.168.20
+ network-object host 10.5.168.220
+ network-object host 10.5.168.23
+ network-object host 10.5.168.243
+ network-object host 10.5.168.31
+ network-object host 10.5.168.37
+ network-object host 10.5.168.57
+ network-object host 10.5.168.58
+ network-object host 10.5.169.135
+ network-object host WSUS_Server
+ network-object host 10.5.169.195
+ network-object host 10.5.169.196
+ network-object host 10.5.169.213
+ network-object host 10.5.169.220
+ network-object host 10.5.169.239
+ network-object host 10.5.169.240
+ network-object host 10.5.169.51
+ network-object host PROTON
+ network-object host 10.13.130.146
+ network-object host 10.13.130.71
+ network-object host 10.13.129.185
+ network-object object mos-fend-2k12
+ network-object object mos-is1-2k12
+ network-object object amur-orcl2-2k12
+ network-object object amur-orcl1-2k12
+ network-object object MOS-ETRANTERM-2K3
+ network-object object MOS-ETRTS1-2K12
+ network-object host 10.13.131.227
+ network-object object mos-pmon-ol7
+ network-object host 10.13.132.91
+ network-object host 10.13.132.92
+ network-object host 10.13.132.93
+ network-object host 10.13.132.94
+ network-object host 10.13.132.95
+ network-object object mos-neptun-2k12
+ network-object object mos-pluton-2k12
+ network-object object mos-triton-2k12
+ network-object host 10.13.130.179
+ network-object host 10.13.132.138
+ network-object host 10.13.131.14
+ network-object host 10.13.130.207
+ network-object object mos-direct-2k12
+ network-object object mos-tzs-el7
+ network-object host 10.5.169.53
+ network-object host 10.5.169.58
+ network-object host 10.5.168.17
+ network-object host 10.13.128.84
+ network-object object firepower
+ network-object host 10.13.130.213
+ network-object host 10.5.168.252
+ network-object host 10.5.168.40
+ network-object host 10.5.168.41
+ network-object host 10.7.233.26
+ network-object host 10.7.233.27
+ network-object host 10.7.65.19
+ network-object host 10.7.65.18
+ network-object host 10.7.237.71
+ network-object host 10.7.237.72
+ network-object host 10.7.235.180
+ network-object host 10.7.235.181
+ network-object host 10.7.240.134
+ network-object host 10.7.240.136
+ network-object host 10.13.204.5
+ network-object host 10.13.204.6
+ network-object host 10.13.130.141
+ network-object host 10.13.131.134
+ network-object host 10.13.128.228
+ network-object host 10.13.131.70
+ network-object host 10.13.130.196
+ network-object host 10.13.131.133
+ network-object host 10.13.130.75
+ network-object host 10.13.132.12
+ network-object host 10.5.169.200
+ network-object host 10.5.139.114
+ network-object host 10.13.131.130
+ network-object host 10.13.130.145
+ network-object host 10.13.129.63
+ network-object host 10.13.132.172
+ network-object host 10.13.129.20
+ network-object host 10.13.129.22
+ network-object host 10.13.129.104
+ network-object host 10.250.4.179
+ network-object host 10.250.4.180
+ network-object host 10.13.132.107
+ network-object host MOS_NTP_SERVER
+ network-object host 10.13.131.100
+ network-object host 10.13.131.155
+ network-object host 10.13.129.183
+ network-object host 10.13.129.181
+ network-object host 10.13.132.100
+ network-object host 10.13.131.77
+ network-object host 10.13.132.24
+ network-object host 10.13.130.166
+ network-object host 10.13.130.186
+ network-object host 10.5.169.168
+object-group network AIS_RD
+ description Testovaya ekspluataciya po pismu 26632611
+ network-object host 10.13.130.244
+ network-object host 10.13.140.76
+object-group network Urengoy_Network_Hardware
+ network-object host Urengoy_S-Terra_1
+ network-object host Urengoy_Router
+ network-object host Urengoy_Firewall
+ network-object host Urengoy_S-Terra_2
+ network-object host 10.7.240.9
+ network-object host 10.7.240.254
+ network-object host 10.7.240.194
+object-group network Surgut_Network_Hardware
+ network-object host 10.7.236.146
+ network-object object Surgut_Firewall
+ network-object object Surgut_Router
+ network-object object Surgut_S-Terra_OGP
+ network-object object Surgut_S-Terra_Office
+ network-object object Surgut_S-Terra_Prom
+ network-object object Surgut_Switch
+ network-object object Surgut_S-Terra_SNE
+ network-object object Surgut_S-Terra_PromIn
+object-group network Uhta_Network_Hardware
+ network-object host Uhta_S-Terra_1
+ network-object host Uhta_S-Terra_2
+ network-object host Uhta_Router
+ network-object host Uhta_Firewall
+ network-object host 10.7.235.194
+object-group network ASUP_PD
+ description Dostup_k_ASUP_PD_PH4
+ network-object object BobkovaEV(standalone)
+ network-object object PolovnikovaYA
+ network-object object PodolskayaOS
+ network-object object SavinovaNY(standalone)
+ network-object object TrishinaNV
+ network-object object DmitrievaEG
+ network-object object AntropovAV
+ network-object object KonyukhovAY
+ network-object object OrlovIA
+ network-object object PlotnikovaYuA
+ network-object object Kulikova
+ network-object host 10.13.129.85
+ network-object host 10.5.168.100
+ network-object host 10.13.129.204
+ network-object host 10.13.132.42
+ network-object host 10.13.130.136
+ network-object host 10.13.130.172
+ network-object host 10.13.132.174
+ network-object host 10.13.128.156
+ network-object host 10.13.132.9
+object-group service TMG_SQL_TCP-UPD tcp-udp
+ description test traffic counters from TMG
+ port-object eq 1433
+ port-object eq 1434
+ port-object eq 10043
+object-group protocol TCPUDP
+ protocol-object udp
+ protocol-object tcp
+object-group network ASUP_PD-Farms
+ description Ferma_ASUP_for_PH4
+ network-object object ASUP_PD-Farm
+ network-object object ASUP_PD-Farm2
+ network-object object ASUP_PD-Farm1
+ network-object object ASUP_PD-Farm3
+object-group service TMG_SQL_TCP tcp
+ description test traffic counters from TMG
+ port-object eq 1433
+ port-object eq 1434
+object-group service DM_INLINE_TCP_1 tcp
+ port-object eq 13000
+ port-object eq 14000
+object-group service DM_INLINE_TCP_2 tcp
+ port-object eq 13000
+ port-object eq 14000
+object-group network Taxcom_webinar
+ description 29675760
+ network-object host 188.127.242.89
+ network-object host 188.127.242.90
+ network-object host 188.127.248.17
+ network-object host 188.127.248.18
+ network-object host 83.222.96.122
+ network-object host 83.222.96.123
+ network-object host 83.222.97.138
+ network-object host 83.222.97.139
+object-group service RTMP tcp
+ description Real Time Messaging Protocol
+ port-object eq 1935
+object-group network ASSOIS_Servers
+ network-object object assois.ss.gazprom.ru
+ network-object object kiap-web.ss.gazprom.ru
+object-group network ASSOIS_users
+ network-object object KonovalovVV
+object-group service DM_INLINE_TCP_3 tcp
+ port-object eq 3389
+ port-object eq sqlnet
+object-group service DM_INLINE_TCP_4 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service DM_INLINE_TCP_6 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service DM_INLINE_TCP_8 tcp
+ group-object Kaspersky
+ port-object eq 15000
+object-group service Kaspersky_add tcp
+ port-object eq 15000
+object-group service DM_INLINE_TCP_9 tcp
+ group-object Kaspersky
+ port-object eq 15000
+object-group network DM_INLINE_NETWORK_1
+ network-object host 10.13.204.5
+ network-object host 10.13.204.6
+object-group network DM_INLINE_NETWORK_2
+ network-object host 10.13.129.140
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.147
+ network-object host 10.13.129.185
+ network-object host 10.13.129.221
+ network-object host 10.13.129.222
+ network-object host 10.13.129.224
+ network-object host 10.5.169.250
+object-group network DM_INLINE_NETWORK_3
+ network-object host 10.13.129.140
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.147
+ network-object host 10.13.129.185
+ network-object host 10.13.129.221
+ network-object host 10.13.129.222
+ network-object host 10.13.129.224
+ network-object host 10.5.169.250
+object-group network DM_INLINE_NETWORK_4
+ network-object host 10.13.204.5
+ network-object host 10.13.204.6
+object-group service DM_INLINE_SERVICE_1
+ service-object icmp 
+ service-object tcp destination eq 1024 
+object-group service DM_INLINE_TCP_11 tcp
+ port-object eq 5080
+ port-object eq www
+object-group network DM_INLINE_NETWORK_5
+ network-object host 10.5.168.115
+ network-object object KozlovSS
+object-group network Amur_nets
+ network-object 10.14.88.0 255.255.254.0
+object-group service DM_INLINE_TCP_12 tcp
+ port-object eq www
+ port-object eq https
+ port-object eq ssh
+object-group service SIP_TCP tcp
+ port-object range 3230 3231
+ port-object range sip 5061
+ port-object eq h323
+object-group service SIP_UDP udp
+ port-object range 3230 3280
+ port-object eq 5061
+ port-object eq sip
+object-group network Obmen_1C
+ description 32770994
+ network-object object f4.fss.ru
+ network-object object pnv-rpn.ru
+ network-object object report.keydisk.ru
+ network-object object service.fsrar.ru
+object-group service DM_INLINE_TCP_7 tcp
+ port-object eq www
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_SERVICE_9
+ service-object icmp 
+ service-object tcp destination eq ssh 
+object-group network Servers_Gazprompererabotka_temp1
+ network-object host 10.56.131.89
+ network-object host 10.56.131.90
+ network-object host 10.56.131.93
+ network-object host 10.56.3.89
+ network-object host 10.56.3.90
+ network-object host 10.56.3.93
+object-group network Servers_Gazprompererabotka_temp2
+ network-object host 10.56.160.87
+ network-object host 10.56.162.87
+ network-object host 10.56.32.87
+ network-object host 10.56.34.87
+object-group network DM_INLINE_NETWORK_10
+ group-object Servers_Gazprompererabotka_temp1
+ group-object Servers_Gazprompererabotka_temp2
+object-group network DM_INLINE_NETWORK_9
+ group-object Servers_Gazprompererabotka_temp1
+ group-object Servers_Gazprompererabotka_temp2
+object-group service MapInfo tcp
+ port-object eq 5432
+object-group service DM_INLINE_TCP_10 tcp
+ port-object eq www
+ port-object eq https
+object-group network Black_list
+ network-object host 104.126.164.240
+ network-object host 162.125.248.1
+ network-object host 162.125.66.1
+ network-object host 17.110.240.82
+ network-object host 17.167.144.39
+ network-object host 17.167.146.43
+ network-object host 17.178.106.77
+ network-object host 192.110.0.131
+ network-object host 199.101.133.146
+ network-object host 199.101.133.155
+ network-object host 199.101.133.29
+ network-object host 199.101.133.58
+ network-object host 199.101.134.234
+ network-object host 204.155.146.95
+ network-object host 204.155.147.26
+ network-object host 204.155.148.9
+ network-object host 204.155.149.41
+ network-object host 204.155.149.42
+ network-object host 204.155.149.43
+ network-object host 204.155.149.67
+ network-object host 204.155.149.72
+ network-object host 204.155.149.73
+ network-object host 204.155.149.76
+ network-object host 204.155.149.81
+ network-object host 204.155.149.87
+ network-object host 204.79.197.217
+ network-object host 208.88.227.172
+ network-object host 208.88.227.173
+ network-object host 213.180.193.50
+ network-object host 217.69.139.5
+ network-object host 217.69.139.6
+ network-object host 217.69.139.7
+ network-object host 31.216.148.10
+ network-object host 31.216.148.12
+ network-object host 54.239.26.209
+ network-object host 54.239.31.69
+ network-object host 64.14.192.234
+ network-object host 74.117.178.183
+ network-object host 74.117.178.186
+ network-object host 74.117.178.58
+ network-object host 74.117.178.90
+ network-object host 74.120.8.12
+ network-object host 74.120.8.13
+ network-object host 74.120.8.14
+ network-object host 74.120.8.226
+ network-object host 74.120.8.6
+ network-object host 74.120.8.7
+ network-object host 74.201.86.28
+ network-object host 78.140.185.27
+ network-object host 91.219.194.2
+ network-object host 94.100.180.5
+ network-object host 94.100.180.6
+ network-object host 94.100.180.7
+ network-object host 208.91.196.74
+ network-object host 5.187.1.122
+ network-object host 64.233.161.194
+ network-object host 216.58.211.142
+ network-object host 173.194.222.194
+object-group service DM_INLINE_TCP_14 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_TCP_15 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_TCP_16 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_TCP_17 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_TCP_18 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_TCP_19 tcp
+ port-object eq https
+ port-object eq ssh
+object-group network PayCalendar_Users
+ description 40110877
+ network-object host 10.13.128.47
+ network-object object VoronovaAK
+ network-object object ws-gen
+ network-object object GorshkovDV
+ network-object object InzhievskiyAL
+ network-object object ZaytcevaMA
+ network-object object ws-nnt
+ network-object object ListkovDA
+ network-object object ws-evf
+ network-object host 10.13.128.181
+ network-object host 10.13.130.118
+ network-object host 10.13.130.86
+object-group service DM_INLINE_TCP_21 tcp
+ port-object eq 10050
+ port-object eq smtp
+object-group network DM_INLINE_NETWORK_15
+ network-object host 10.13.204.14
+ network-object object KSC_Yamal
+object-group network MapInfoUsers
+ description test users for MapInfoServer
+ network-object host 10.7.233.111
+ network-object host 10.13.204.102
+ network-object host 10.7.233.67
+object-group service DM_INLINE_TCP_5 tcp
+ port-object eq www
+ port-object eq https
+object-group network DM_INLINE_NETWORK_6
+ network-object host 10.13.141.13
+ network-object host 10.13.141.15
+object-group network DM_INLINE_NETWORK_7
+ network-object host 10.13.141.13
+ network-object host 10.13.141.15
+object-group service DM_INLINE_SERVICE_3
+ service-object tcp-udp destination eq 464 
+ service-object tcp-udp destination eq domain 
+ service-object tcp destination eq 3268 
+ service-object tcp destination eq 3269 
+ service-object tcp-udp destination eq 135 
+ service-object tcp-udp destination eq 389 
+ service-object tcp-udp destination eq 88 
+ service-object tcp-udp destination eq 445 
+object-group service DM_INLINE_SERVICE_4
+ service-object tcp-udp destination eq 464 
+ service-object tcp-udp destination eq domain 
+ service-object tcp-udp destination eq 445 
+ service-object tcp-udp destination eq 135 
+ service-object tcp-udp destination eq 389 
+ service-object tcp destination eq 3268 
+ service-object tcp destination eq 3269 
+ service-object tcp-udp destination eq 88 
+object-group service Kaspersky15000 tcp-udp
+ port-object eq 15000
+object-group service DM_INLINE_TCP_13 tcp
+ group-object Kaspersky
+ group-object Kaspersky15000
+object-group service DM_INLINE_TCP_20 tcp
+ group-object Kaspersky
+ group-object Kaspersky15000
+object-group service DM_INLINE_TCP_22 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service Directum_port tcp
+ description Ports group for incoming connection from branch office to head office directum server
+ port-object eq 32300
+ port-object eq 32320
+ port-object eq 445
+ port-object eq www
+ port-object eq https
+ port-object eq 1433
+object-group network Filials_ATS
+ network-object host 10.13.204.57
+ network-object host 10.7.232.139
+ network-object host 10.7.232.140
+ network-object host 10.7.232.146
+ network-object host 10.7.232.149
+ network-object host 10.7.64.125
+ network-object host 10.7.232.141
+ network-object host 10.7.235.26
+ network-object host 10.7.235.27
+object-group network DM_INLINE_NETWORK_11
+ network-object host 217.175.155.126
+ network-object host 62.33.203.132
+object-group network DM_INLINE_NETWORK_12
+ network-object 10.14.96.0 255.255.255.0
+ network-object 10.14.97.0 255.255.255.0
+ group-object All_Filials
+object-group network DM_INLINE_NETWORK_14
+ network-object host 10.5.139.239
+ network-object object VipNet2
+object-group network DSS_Clients
+ network-object host 10.13.129.215
+ network-object host 10.13.129.60
+ network-object host 10.13.132.189
+object-group service RDGroup tcp
+ port-object range 49152 65535
+object-group network RDS_Servers
+ network-object object mos-rdsn1-2k12
+ network-object object mos-rdsn2-2k12
+ network-object object mos-rdsn3-2k12
+ network-object object mos-rdsn4-2k12
+ network-object object mos-rdsn5-2k12
+ network-object object mos-rdsn6-2k12
+ network-object object mos-rdsn7-2k12
+ network-object object mos-rdsn8-2k12
+ network-object object mos-rdsn9-2k12
+ network-object object mos-rdsn10-2k12
+ network-object object mos-rdsn11-2k12
+ network-object object mos-rdsn12-2k12
+ network-object object mos-rdsn13-2k12
+ network-object object mos-rdsn14-2k12
+ network-object object mos-rdsn15-2k12
+ network-object object mos-rdsn16-2k12
+object-group service DM_INLINE_SERVICE_17
+ service-object tcp-udp destination range 50000 59999 
+ service-object tcp destination eq 5061 
+ service-object tcp destination eq https 
+object-group service DM_INLINE_TCP_23 tcp
+ port-object eq www
+ port-object eq https
+object-group service DM_INLINE_TCP_25 tcp
+ port-object eq www
+ port-object eq https
+object-group network Filials_1C_Servers
+ network-object host 10.7.233.4
+ network-object host 10.7.237.44
+ network-object host 10.7.66.102
+ network-object host 10.13.206.10
+ network-object host 10.7.235.243
+object-group network 1C_Servers_Admins
+ network-object host 10.13.130.241
+ network-object host 10.5.168.115
+ network-object host 10.5.169.246
+ network-object host 10.13.128.201
+ network-object host 10.13.130.244
+ network-object host 10.13.131.114
+ network-object host 10.13.132.40
+ network-object host 10.5.169.18
+ network-object host 10.5.169.42
+ network-object host 10.13.130.164
+ network-object host 10.13.129.152
+object-group network Filials_Dislocation_Clients
+ network-object host 10.7.233.200
+ network-object host 10.7.233.94
+object-group network DM_INLINE_NETWORK_16
+ network-object host 10.7.233.200
+ network-object host 10.7.233.94
+object-group service DM_INLINE_TCP_27 tcp
+ group-object Kaspersky
+ group-object Kaspersky_add
+object-group service Kaspersky_ADD_UDP udp
+ port-object eq 15000
+object-group service DM_INLINE_TCP_29 tcp
+ group-object Kaspersky
+ group-object Kaspersky_add
+object-group network MyArbitrPC
+ description 42254387
+ network-object host 10.13.132.144
+ network-object host 10.13.132.145
+ network-object host 10.13.132.146
+ network-object host 10.13.132.147
+object-group network MyArbitrServers
+ description 42254387
+ network-object host 185.10.60.70
+ network-object host 185.10.60.91
+ network-object host 185.10.60.92
+ network-object host 84.201.140.29
+ network-object host 84.201.184.28
+object-group network DiadocApp
+ network-object object racnode1
+ network-object object racnode2
+ network-object object racnode1-vip
+ network-object object racnode2-vip
+ network-object object oracle-scan
+ network-object object oracle-scan_
+ network-object object oracle-scan__
+ network-object object mos-orcl7-2k12
+ network-object object mos-orcl8-2k12
+object-group network DM_INLINE_NETWORK_22
+ network-object host 10.13.131.67
+ network-object host 10.5.168.50
+object-group service DM_INLINE_TCP_26 tcp
+ port-object eq www
+ port-object eq https
+object-group network DM_INLINE_NETWORK_23
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_24
+ network-object host 10.13.131.12
+ network-object host 10.5.168.50
+object-group network DM_INLINE_NETWORK_25
+ network-object object mos-lic-2k12
+ group-object RDS_Servers
+object-group service DM_INLINE_TCP_30 tcp
+ port-object eq 14080
+ port-object eq 14180
+object-group network EHD_Filials_Servers
+ description 42827753
+ network-object host 10.7.233.26
+ network-object host 10.7.233.27
+ network-object host 10.7.65.18
+ network-object host 10.7.65.19
+ network-object host 10.7.237.71
+ network-object host 10.7.237.72
+ network-object host 10.13.204.5
+ network-object host 10.7.235.180
+ network-object host 10.7.235.181
+object-group service DM_INLINE_TCP_28 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service DM_INLINE_SERVICE_5
+ service-object icmp 
+ service-object tcp destination eq 10050 
+ service-object tcp destination eq 10051 
+object-group service rds_tcp_range tcp
+ port-object range 49152 65535
+object-group network DM_INLINE_NETWORK_8
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.66.23
+ group-object Region_DNS_Servers
+object-group network DM_INLINE_NETWORK_17
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.66.23
+ network-object host 10.7.233.233
+ network-object host 10.7.233.24
+ network-object host 10.7.237.2
+ network-object host 10.7.240.135
+object-group network DM_INLINE_NETWORK_13
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.66.23
+ group-object Region_DNS_Servers
+object-group network DM_INLINE_NETWORK_18
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.66.23
+ network-object host 10.7.233.233
+ network-object host 10.7.233.24
+ network-object host 10.7.237.2
+ network-object host 10.7.237.67
+ network-object host 10.7.240.135
+object-group network DM_INLINE_NETWORK_19
+ group-object All_Filials
+ group-object Amur_nets
+object-group network DM_INLINE_NETWORK_20
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.66.23
+ group-object Region_DNS_Servers
+object-group network DM_INLINE_NETWORK_21
+ network-object host 10.7.66.23
+ network-object host 10.7.67.21
+ network-object host 10.7.67.22
+ network-object host 10.7.233.233
+ network-object host 10.7.233.24
+ network-object host 10.7.237.2
+ network-object host 10.7.237.67
+ network-object host 10.7.240.135
+object-group service DM_INLINE_TCP_31 tcp
+ port-object eq www
+ port-object eq https
+object-group service DLP_SI_multiport tcp
+ description DLP_SI_multiport
+ port-object eq 1433
+ port-object eq 1434
+ port-object eq 3389
+ port-object eq 8953
+ port-object eq 9072
+ port-object eq 9081
+ port-object eq 9082
+ port-object eq 9096
+ port-object eq 9443
+ port-object eq 9695
+ port-object eq https
+object-group network DM_INLINE_NETWORK_27
+ network-object host 10.5.169.53
+ network-object host 10.5.169.58
+object-group network DM_INLINE_NETWORK_28
+ network-object host 10.5.139.70
+ network-object host 10.5.139.72
+object-group network DLP_Agents
+ network-object host 10.13.128.136
+ network-object host 10.13.128.201
+ network-object host 10.13.128.238
+ network-object host 10.13.128.27
+ network-object host 10.13.129.253
+ network-object host 10.13.130.154
+ network-object host 10.13.130.178
+ network-object host 10.13.130.185
+ network-object host 10.13.130.187
+ network-object host 10.13.130.221
+ network-object host 10.13.130.225
+ network-object host 10.13.130.229
+ network-object host 10.13.130.54
+ network-object host 10.13.130.94
+ network-object host 10.13.131.110
+ network-object host 10.13.131.119
+ network-object host 10.13.131.144
+ network-object host 10.13.131.164
+ network-object host 10.13.131.167
+ network-object host 10.13.131.224
+ network-object host 10.13.131.232
+ network-object host 10.13.131.233
+ network-object host 10.13.131.240
+ network-object host 10.13.131.254
+ network-object host 10.13.131.53
+ network-object host 10.13.131.65
+ network-object host 10.13.131.90
+ network-object host 10.13.131.95
+ network-object host 10.13.131.96
+ network-object host 10.13.131.98
+ network-object host 10.13.132.131
+ network-object host 10.13.132.133
+ network-object host 10.13.132.134
+ network-object host 10.13.132.164
+ network-object host 10.13.132.168
+ network-object host 10.13.132.21
+ network-object host 10.13.132.31
+ network-object host 10.13.132.62
+ network-object host 10.13.132.71
+ network-object host 10.13.132.78
+ network-object host 10.5.168.117
+ network-object host 10.5.168.125
+ network-object host 10.5.168.194
+ network-object host 10.5.168.227
+ network-object host 10.5.168.230
+ network-object host 10.5.168.24
+ network-object host 10.5.168.60
+ network-object host 10.5.168.99
+ network-object host 10.5.169.173
+ network-object host 10.5.169.18
+ network-object host 10.5.169.199
+ network-object host 10.5.169.21
+ network-object host 10.5.169.241
+ network-object host 10.5.169.104
+ network-object host 10.13.131.222
+ network-object host 10.5.168.181
+ network-object host 10.13.132.130
+ network-object host 10.13.131.9
+ network-object host 10.5.168.190
+ network-object host 10.5.168.159
+ network-object host 10.5.169.80
+ network-object host 10.5.169.193
+ network-object host 10.13.130.79
+ network-object host 10.5.169.78
+ network-object host 10.13.132.86
+ network-object host 10.5.169.42
+ network-object host 10.13.128.35
+ network-object host 10.5.169.93
+ network-object host 10.5.169.77
+ network-object host 10.13.130.148
+ network-object host 10.5.169.63
+ network-object host 10.13.132.210
+ network-object host 10.13.131.185
+ network-object host 10.13.132.214
+ network-object host 10.13.129.217
+ network-object host 10.13.129.145
+ network-object host 10.5.169.226
+ network-object host 10.13.131.71
+ network-object host 10.13.130.224
+ network-object host 10.13.132.103
+ network-object host 10.13.132.19
+object-group network DM_INLINE_NETWORK_29
+ network-object host 10.13.131.103
+ network-object host 10.5.169.93
+object-group network DSS_Admins
+ network-object object ws-sand
+object-group network DM_INLINE_NETWORK_85
+ group-object DSS_Admins
+ group-object DSS_Clients
+object-group service DLP_SI_Agents_Port tcp-udp
+ port-object eq 135
+ port-object eq 137
+ port-object eq 138
+ port-object eq 139
+ port-object eq 445
+ port-object eq domain
+object-group service DLP_Agent_Ports tcp
+ port-object eq 1344
+ port-object eq 4444
+ port-object eq 9400
+object-group service DLP_FileCrawler_Ports tcp-udp
+ port-object eq 135
+ port-object eq 137
+ port-object eq 139
+ port-object eq 445
+object-group service DM_INLINE_TCP_33 tcp
+ port-object eq 8082
+ port-object eq www
+object-group service DM_INLINE_SERVICE_33
+ service-object tcp-udp destination eq domain 
+ service-object tcp destination eq ldap 
+ service-object tcp destination eq 445 
+ service-object udp destination eq 389 
+object-group service DLP_Multi_Ports tcp
+ port-object eq 10000
+ port-object eq 10001
+ port-object eq 10050
+ port-object eq 1010
+ port-object eq 1025
+ port-object eq 11344
+ port-object eq 16379
+ port-object eq 2210
+ port-object eq 2211
+ port-object eq 2212
+ port-object eq 2264
+ port-object eq 2266
+ port-object eq 2268
+ port-object eq 2269
+ port-object eq 2272
+ port-object eq 2344
+ port-object eq 3000
+ port-object eq 3001
+ port-object eq 3002
+ port-object eq 3003
+ port-object eq 3004
+ port-object eq 3006
+ port-object eq 3010
+ port-object eq 3030
+ port-object eq 3268
+ port-object eq 3900
+ port-object eq 4444
+ port-object eq 5001
+ port-object eq 5434
+ port-object eq 5435
+ port-object eq 5439
+ port-object eq 5440
+ port-object eq 5445
+ port-object eq 5555
+ port-object eq 5558
+ port-object eq 61616
+ port-object eq 7001
+ port-object eq 7199
+ port-object eq 7837
+ port-object eq 8008
+ port-object eq 8080
+ port-object eq 8123
+ port-object eq 9000
+ port-object eq 9001
+ port-object eq 9042
+ port-object eq 9160
+ port-object eq 9200
+ port-object eq 9201
+ port-object eq 9301
+ port-object eq 9302
+ port-object eq 9303
+ port-object eq 9400
+ port-object eq 9401
+ port-object eq 9666
+ port-object eq 9998
+ port-object eq https
+ port-object eq ldap
+ port-object eq smtp
+ port-object eq ssh
+object-group network DM_INLINE_NETWORK_32
+ group-object All_Filials
+ group-object Amur_nets
+object-group service DM_INLINE_TCP_32 tcp
+ port-object eq 3268
+ port-object eq ldap
+object-group service DM_INLINE_TCP_34 tcp
+ port-object eq 8530
+ port-object eq 8531
+object-group network DM_INLINE_NETWORK_34
+ network-object host 10.13.130.186
+ network-object host 10.13.131.118
+ network-object host 10.13.130.75
+object-group network DM_INLINE_NETWORK_33
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group network EDO.ETPGPB_Clients
+ description 45859621
+ network-object host 10.13.128.172
+ network-object host 10.13.129.155
+ network-object host 10.13.129.254
+ network-object host 10.13.130.165
+ network-object host 10.13.130.200
+ network-object host 10.13.130.224
+ network-object host 10.13.130.64
+ network-object host 10.13.131.102
+ network-object host 10.13.131.63
+ network-object host 10.5.168.29
+object-group network DM_INLINE_NETWORK_36
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group network DM_INLINE_NETWORK_37
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group network DM_INLINE_NETWORK_38
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group service DM_INLINE_TCP_43 tcp
+ port-object eq 3389
+ port-object eq https
+object-group service DM_INLINE_TCP_35 tcp
+ group-object RDGroup
+ port-object eq 135
+ port-object eq 5985
+object-group service DM_INLINE_TCP_36 tcp
+ group-object AD_trust_ports_TCP
+ group-object RDGroup
+ port-object eq 123
+ port-object eq 464
+object-group service DM_INLINE_UDP_1 udp
+ group-object AD_trust_ports_UDP
+ port-object eq ntp
+object-group service DM_INLINE_TCP_37 tcp
+ port-object eq 1688
+ port-object eq 5985
+ port-object eq 135
+object-group service DM_INLINE_TCP_38 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service DM_INLINE_TCP_39 tcp
+ group-object Kaspersky
+ group-object Kaspersky_add
+object-group network DM_INLINE_NETWORK_39
+ group-object All_Filials
+ group-object Amur_nets
+object-group network DM_INLINE_NETWORK_40
+ network-object host 10.13.130.72
+ network-object host 10.13.130.73
+object-group service DM_INLINE_TCP_40 tcp
+ port-object eq 465
+ port-object eq 8010
+ port-object eq 8100
+ port-object eq 9010
+ port-object eq 9100
+ port-object eq https
+ port-object eq sip
+ port-object eq smtp
+object-group service DM_INLINE_SERVICE_8
+ service-object tcp destination eq https 
+ service-object tcp-udp destination range 50000 59999 
+ service-object tcp destination range 5350 5390 
+ service-object tcp destination eq 5061 
+object-group service DM_INLINE_TCP_41 tcp
+ port-object range 50000 59999
+ port-object eq 5061
+ port-object range 5350 5390
+ port-object eq https
+object-group network DM_INLINE_NETWORK_44
+ network-object host 10.5.168.30
+ group-object Ex
+object-group network DM_INLINE_NETWORK_41
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group service DM_INLINE_UDP_2 udp
+ port-object eq 3389
+ port-object eq 3391
+object-group network GVC_INFORM_Clients
+ network-object host 10.13.128.38
+ network-object host 10.13.132.127
+ network-object host 10.13.130.155
+ network-object host 10.13.131.71
+ network-object host 10.5.168.29
+ network-object host 10.5.169.226
+ network-object host 10.13.130.234
+ network-object host 10.13.132.185
+object-group service DM_INLINE_TCP_44 tcp
+ port-object eq 1433
+ port-object eq 1550
+ port-object range 1560 1800
+object-group network GPI_Users
+ network-object object GP_Inform
+ network-object host 10.13.93.118
+ network-object host 10.13.93.131
+ network-object host 10.13.93.132
+ network-object host 10.13.93.90
+ network-object host 10.13.93.91
+object-group service DM_INLINE_TCP_45 tcp
+ port-object eq 445
+ port-object eq netbios-ssn
+ port-object eq 135
+object-group network DM_INLINE_NETWORK_42
+ network-object host 10.13.128.153
+ network-object host 10.13.129.70
+object-group network DM_INLINE_NETWORK_43
+ network-object object racnode1
+ network-object object racnode1-vip
+ network-object object racnode2
+ network-object object racnode2-vip
+object-group service DM_INLINE_TCP_42 tcp
+ port-object eq https
+ port-object eq smtp
+object-group network DM_INLINE_NETWORK_26
+ network-object object mos-orcl7-2k12
+ network-object object mos-orcl8-2k12
+object-group network DM_INLINE_NETWORK_30
+ network-object object mos-build-2k12.gptrans.gazprom.ru
+ network-object object mos-ci-el7.gptrans.gazprom.ru
+ network-object object wdoc.gptrans.gazprom.ru
+object-group network DM_INLINE_NETWORK_31
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+object-group service DM_INLINE_SERVICE_10
+ service-object tcp-udp destination range 50000 59999 
+ service-object tcp destination eq 5061 
+ service-object tcp destination eq https 
+object-group service DM_INLINE_TCP_46 tcp
+ port-object eq www
+ port-object eq https
+object-group service DM_INLINE_SERVICE_6
+ service-object icmp 
+ service-object tcp destination eq 8082 
+object-group network DM_INLINE_NETWORK_45
+ network-object host 10.13.128.16
+ network-object host 10.13.132.24
+ network-object host 10.13.132.45
+ network-object host 10.5.168.150
+ network-object host 10.5.169.247
+ network-object host 10.5.168.115
+object-group network DM_INLINE_NETWORK_46
+ network-object host 10.7.233.9
+ network-object host 10.7.233.25
+object-group network DM_INLINE_NETWORK_48
+ network-object host 10.14.93.121
+ network-object host 10.14.93.122
+object-group network DM_INLINE_NETWORK_47
+ network-object host 10.13.128.16
+ network-object host 10.13.132.24
+ network-object host 10.13.132.45
+ network-object host 10.5.168.115
+ network-object host 10.5.168.150
+ network-object host 10.5.169.247
+object-group network DM_INLINE_NETWORK_49
+ network-object host 10.13.128.16
+ network-object host 10.13.132.24
+ network-object host 10.13.132.45
+ network-object host 10.5.168.115
+ network-object host 10.5.168.150
+ network-object host 10.5.169.247
+object-group network Panorama_Clients
+ description 45524377
+ network-object host 10.14.88.65
+ network-object host 10.13.204.167
+ network-object host 10.7.233.87
+ network-object host 10.7.235.226
+ network-object host 10.7.237.116
+ network-object host 10.7.66.69
+ network-object host 10.7.237.14
+object-group network Optimacros_users
+ description 45767770
+ network-object host 10.13.204.176
+ network-object host 10.13.206.140
+object-group network DM_INLINE_NETWORK_50
+ group-object All_Filials
+ group-object Amur_nets
+object-group service DM_INLINE_TCP_51 tcp
+ port-object eq www
+ port-object eq https
+object-group service DM_INLINE_TCP_47 tcp
+ port-object eq https
+ port-object eq www
+object-group network DM_INLINE_NETWORK_51
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+ group-object Amur_nets
+object-group service DM_INLINE_TCP_48 tcp
+ port-object eq 3389
+ port-object eq https
+object-group network DM_INLINE_NETWORK_52
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+ group-object Amur_nets
+object-group network DM_INLINE_NETWORK_53
+ network-object object MOS-ETRTS1-2K12
+ network-object object mos-rdsn7-2k12
+object-group network DM_INLINE_NETWORK_54
+ network-object object MOS-ETRTS1-2K12
+ network-object object mos-rdsn7-2k12
+object-group network DM_INLINE_NETWORK_55
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+ group-object Amur_nets
+object-group network DM_INLINE_NETWORK_57
+ network-object host 10.13.129.141
+ network-object host 10.13.129.142
+ network-object host 10.13.129.185
+ network-object host 10.13.129.226
+object-group network DM_INLINE_NETWORK_56
+ group-object All_Filials
+ group-object Amur_nets
+object-group service DM_INLINE_TCP_50 tcp
+ port-object eq https
+ port-object eq www
+object-group service DM_INLINE_TCP_58 tcp
+ port-object eq 10080
+ port-object eq 9980
+object-group network DM_INLINE_NETWORK_58
+ network-object host 10.7.237.101
+ network-object host 10.7.237.160
+ network-object host 10.7.237.163
+object-group network DM_INLINE_NETWORK_59
+ network-object host 10.13.131.126
+ network-object host 10.13.132.97
+object-group network DM_INLINE_NETWORK_60
+ network-object host 10.13.131.126
+ network-object host 10.13.132.97
+object-group service DM_INLINE_TCP_49 tcp
+ port-object eq 135
+ port-object eq 1688
+ port-object eq 5985
+object-group service DM_INLINE_SERVICE_12
+ service-object tcp-udp destination eq domain 
+ service-object tcp destination eq 445 
+ service-object tcp destination eq ldap 
+ service-object udp destination eq 389 
+ service-object tcp destination eq 88 
+object-group network DM_INLINE_NETWORK_62
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_63
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_64
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-rdsn11-2k12
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group service DM_INLINE_TCP_64 tcp
+ group-object AD_trust_ports_TCP
+ port-object eq 123
+ port-object eq 464
+object-group network DM_INLINE_NETWORK_69
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object host 10.5.139.69
+object-group network DM_INLINE_NETWORK_65
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-rdsn11-2k12
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_66
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-rdsn11-2k12
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_67
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-rdsn11-2k12
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_68
+ network-object host 10.5.139.66
+ network-object host 10.5.139.68
+ network-object object mos-rdsn11-2k12
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+ network-object object ZecurionDLP_Server
+object-group service DM_INLINE_TCP_52 tcp
+ port-object eq 135
+ port-object eq 1688
+object-group network DM_INLINE_NETWORK_61
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_70
+ group-object AD
+ group-object Moscow_nets
+object-group service DM_INLINE_TCP_53 tcp
+ port-object eq 8080
+ port-object eq ssh
+object-group network px1
+ description IUS NK Servers
+ network-object host 10.56.140.209
+ network-object host 10.56.140.210
+ network-object host 10.56.140.211
+ network-object host 10.56.140.212
+ network-object host 10.56.140.213
+object-group network tx4
+ description IUS NK Servers
+ network-object host 10.56.154.35
+ network-object host 10.56.154.36
+object-group network qx1
+ description IUS NK Servers
+ network-object host 10.56.166.209
+ network-object host 10.56.166.210
+ network-object host 10.56.166.211
+ network-object host 10.56.166.212
+ network-object host 10.56.166.213
+object-group network qx4
+ description IUS NK Servers
+ network-object host 10.56.178.110
+ network-object host 10.56.178.111
+ network-object host 10.56.178.112
+object-group network dx1
+ description IUS NK Servers
+ network-object host 10.56.164.209
+ network-object host 10.56.164.210
+ network-object host 10.56.164.211
+object-group network px4
+ description IUS NK Servers
+ network-object host 10.56.154.32
+ network-object host 10.56.154.33
+ network-object host 10.56.154.34
+object-group network DM_INLINE_NETWORK_71
+ group-object px1
+ group-object px4
+ group-object tx4
+object-group network DM_INLINE_NETWORK_72
+ group-object dx1
+ group-object qx1
+ group-object qx4
+object-group network DM_INLINE_NETWORK_73
+ group-object px4
+ group-object tx4
+object-group network DM_INLINE_NETWORK_74
+ group-object dx1
+ group-object qx1
+object-group network DM_INLINE_NETWORK_75
+ network-object host 10.13.129.0
+ network-object object mos-1c8-2k8
+object-group network DM_INLINE_NETWORK_76
+ network-object host 10.13.129.0
+ network-object object mos-1c8-2k8
+object-group network DM_INLINE_NETWORK_77
+ network-object host 10.13.129.0
+ network-object host 10.5.168.94
+object-group network DM_INLINE_NETWORK_78
+ network-object host 10.13.129.0
+ network-object host 10.5.168.94
+object-group service DM_INLINE_SERVICE_80
+ service-object tcp destination eq 50001 
+ service-object udp destination eq 50001 
+object-group network IUS_NK_Prod_Users
+ network-object host 10.13.129.123
+ network-object host 10.13.129.168
+ network-object host 10.13.129.203
+ network-object host 10.13.129.220
+ network-object host 10.13.129.84
+ network-object host 10.13.130.215
+ network-object host 10.13.130.231
+ network-object host 10.13.130.36
+ network-object host 10.13.130.94
+ network-object host 10.13.131.182
+ network-object host 10.13.131.96
+ network-object host 10.13.132.117
+ network-object host 10.13.132.119
+ network-object host 10.13.132.131
+ network-object host 10.13.132.134
+ network-object host 10.13.132.142
+ network-object host 10.5.168.120
+ network-object host 10.5.168.21
+ network-object host 10.5.169.143
+ network-object host 10.5.169.208
+ network-object host 10.13.130.91
+ network-object object ws-shie
+object-group network DM_INLINE_NETWORK_35
+ group-object ASUP_PD
+ group-object IUS_NK_Prod_Users
+object-group network DM_INLINE_NETWORK_79
+ network-object object VNAdm
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+ network-object object ZecurionDLP_Server
+object-group network DM_INLINE_NETWORK_80
+ network-object object VNAdm
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_81
+ network-object object VNAdm
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_82
+ network-object object VNAdm
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_83
+ network-object object VNAdm
+ network-object object mos-ad4-2k12
+ network-object object mos-vnadm2-2k12
+object-group network DM_INLINE_NETWORK_84
+ network-object object mos-ad4-2k12
+ network-object object mos-rdsn11-2k12
+ network-object object mos-vnadm2-2k12
+object-group service DM_INLINE_SERVICE_13
+ service-object icmp 
+ service-object tcp destination eq 10050 
+ service-object tcp destination eq 10051 
+object-group network DM_INLINE_NETWORK_86
+ group-object DSS_Admins
+ group-object DSS_Clients
+object-group service DM_INLINE_SERVICE_15
+ service-object icmp 
+ service-object tcp destination eq 8082 
+object-group service DM_INLINE_TCP_24 tcp
+ port-object eq 465
+ port-object eq smtp
+object-group service DM_INLINE_TCP_54 tcp
+ port-object eq 8080
+ port-object eq 8081
+object-group network mos-1c7-2k3-group
+ network-object object PROTON
+ network-object object mos-1cterm-2k3
+ network-object object mos-hasp-8
+object-group service DM_INLINE_SERVICE_11
+ service-object icmp 
+ service-object tcp destination eq 10050 
+ service-object tcp destination eq 10051 
+object-group service DM_INLINE_TCP_55 tcp
+ port-object eq 10050
+ port-object eq 10051
+object-group service DM_INLINE_TCP_56 tcp
+ group-object Kaspersky
+ group-object Kaspersky_add
+object-group network DM_INLINE_NETWORK_87
+ network-object host 10.13.131.56
+ network-object host 10.5.169.213
+object-group service DM_INLINE_SERVICE_14
+ service-object tcp-udp destination eq cifs 
+ service-object tcp destination eq cifs 
+ service-object tcp destination eq https 
+ service-object tcp destination eq ldap 
+ service-object udp destination eq cifs 
+ service-object ip 
+object-group service DM_INLINE_SERVICE_16
+ service-object tcp-udp destination eq cifs 
+ service-object tcp destination eq cifs 
+ service-object tcp destination eq ldap 
+ service-object udp destination eq cifs 
+ service-object ip 
+object-group network spectr-admins
+ network-object object ws-sand
+ network-object host 10.13.129.152
+ network-object host 10.5.169.80
+object-group service DM_INLINE_TCP_57 tcp
+ port-object eq ldap
+ port-object eq ldaps
+object-group network DM_INLINE_NETWORK_88
+ group-object AD
+ network-object object mos-scan-2k12
+object-group service DM_INLINE_TCP_59 tcp
+ port-object eq 7100
+ port-object eq 7200
+object-group network DM_INLINE_NETWORK_89
+ network-object host 10.56.140.212
+ network-object host 10.56.140.213
+object-group service DM_INLINE_TCP_90 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_SERVICE_18
+ service-object tcp destination eq 13000 
+ service-object tcp destination eq 13291 
+ service-object tcp destination eq 14000 
+ service-object udp destination eq 15000 
+object-group service DM_INLINE_TCP_60 tcp
+ port-object eq 5900
+ port-object eq ssh
+object-group service DM_INLINE_SERVICE_19
+ service-object tcp destination eq 13000 
+ service-object tcp destination eq 13291 
+ service-object tcp destination eq 14000 
+ service-object udp destination eq 15000 
+object-group network DM_INLINE_NETWORK_90
+ network-object host 10.5.139.98
+ network-object host 10.5.139.99
+object-group network DM_INLINE_NETWORK_91
+ network-object host 10.5.139.98
+ network-object host 10.5.139.99
+object-group network DM_INLINE_NETWORK_92
+ network-object host 10.5.139.98
+ network-object host 10.5.139.99
+object-group service DM_INLINE_SERVICE_20
+ service-object tcp destination eq 8888 
+ service-object udp destination eq 8888 
+ service-object tcp-udp destination eq www 
+ service-object tcp destination eq https 
+object-group service DM_INLINE_SERVICE_21
+ service-object tcp-udp destination eq 8888 
+ service-object tcp-udp destination eq www 
+ service-object tcp destination eq https 
+object-group service DM_INLINE_UDP_3 udp
+ port-object eq 3389
+ port-object eq 3391
+object-group network px1_out
+ network-object host 10.56.140.212
+ network-object host 10.56.140.213
+object-group network DM_INLINE_NETWORK_93
+ group-object Astrakhan_nets
+ group-object Optimacros_users
+object-group network opp-clients
+ network-object object TatarenkovDS
+ network-object object ws-nna
+ network-object object ws-mnal
+ network-object object ws-msp
+ network-object object ws-kons
+ network-object object bsic1561
+ network-object object ws-mss
+object-group network DM_INLINE_NETWORK_94
+ network-object host 10.13.129.152
+ group-object opp-clients
+object-group network Filials_1C_BD
+ description 47389413
+ network-object host 10.7.233.4
+ network-object host 10.13.204.5
+ network-object host 10.13.204.6
+ network-object host 10.13.206.10
+ network-object host 10.13.206.11
+ network-object host 10.7.233.26
+ network-object host 10.7.233.27
+ network-object host 10.7.235.180
+ network-object host 10.7.235.181
+ network-object host 10.7.237.44
+ network-object host 10.7.237.71
+ network-object host 10.7.237.72
+ network-object host 10.7.65.18
+ network-object host 10.7.65.19
+ network-object host 10.7.66.115
+ network-object host 10.7.66.39
+ network-object host 10.7.235.243
+object-group network DM_INLINE_NETWORK_96
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_99
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_95
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_97
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_98
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_100
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_101
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_102
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group network DM_INLINE_NETWORK_103
+ group-object All_Filials
+ group-object Amur_nets
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+object-group service DM_INLINE_TCP_61 tcp
+ port-object eq www
+ port-object eq https
+object-group network ZecurionDLP_Agents
+ description ZecurionDLP_Agents
+ network-object object ws-sand
+ network-object host 10.13.131.103
+ network-object host 10.13.131.76
+ network-object host 10.5.169.93
+ network-object host 10.13.129.60
+ network-object host 10.13.129.152
+ network-object host 10.13.131.233
+ network-object host 10.13.131.9
+ network-object host 10.13.131.240
+ network-object host 10.13.131.69
+ network-object host 10.13.132.19
+ network-object host 10.13.128.35
+ network-object host 10.13.130.224
+ network-object host 10.13.132.206
+ network-object host 10.13.129.7
+ network-object host 10.5.169.15
+ network-object host 10.5.169.201
+ network-object host 10.13.131.185
+ network-object host 10.5.169.63
+ network-object host 10.5.169.226
+ network-object host 10.13.131.71
+ network-object host 10.13.129.217
+ network-object host 10.5.169.77
+ network-object host 10.5.169.104
+ network-object host 10.13.131.222
+ network-object host 10.5.168.181
+ network-object host 10.13.132.130
+ network-object host 10.5.168.190
+ network-object host 10.5.168.159
+ network-object host 10.5.169.80
+ network-object host 10.5.169.193
+ network-object host 10.13.130.79
+ network-object host 10.5.169.78
+ network-object host 10.13.132.86
+ network-object host 10.5.169.42
+ network-object host 10.13.130.148
+ network-object host 10.13.132.210
+ network-object host 10.13.132.214
+ network-object host 10.13.129.145
+ network-object host 10.13.131.53
+ network-object host 10.13.132.103
+ network-object host 10.13.130.192
+object-group service DM_INLINE_SERVICE_22
+ service-object tcp-udp destination eq 135 
+ service-object tcp-udp destination eq 389 
+ service-object tcp-udp destination eq 88 
+ service-object tcp-udp destination eq domain 
+ service-object tcp destination eq 3268 
+ service-object tcp destination eq 3269 
+ service-object tcp destination eq netbios-ssn 
+ service-object udp destination eq netbios-dgm 
+ service-object udp destination eq netbios-ns 
+ service-object udp destination eq ntp 
+ service-object tcp-udp destination eq 445 
+ service-object tcp-udp destination eq 464 
+ service-object tcp destination eq ldap 
+object-group network DM_INLINE_NETWORK_107
+ network-object 10.7.64.0 255.255.255.0
+ network-object 10.7.67.0 255.255.255.0
+ group-object All_Filials
+ group-object Amur_nets
+object-group network DM_INLINE_NETWORK_106
+ network-object host 10.5.139.75
+ network-object object ZecurionDLP_Server
+object-group network ZecurionDLP_Admins
+ description ZecurionDLP_Admins
+ network-object object ws-chda
+ network-object object ws-sand
+ network-object object ws-van
+ network-object host 10.13.131.103
+ network-object host 10.5.169.93
+object-group service DM_INLINE_TCP_65 tcp
+ port-object eq 1291
+ port-object eq 1292
+ port-object eq 1294
+ port-object eq 1295
+ port-object eq 1297
+ port-object eq 1298
+ port-object eq 3389
+object-group network DM_INLINE_NETWORK_104
+ group-object ZecurionDLP_Admins
+ group-object ZecurionDLP_Agents
+object-group service DM_INLINE_SERVICE_105
+ service-object tcp destination eq 1433 
+ service-object udp destination eq 1434 
+object-group network DM_INLINE_NETWORK_105
+ network-object host 10.5.139.98
+ network-object object ZecurionDLP_Server
+object-group service DM_INLINE_SERVICE_24
+ service-object tcp-udp destination eq 1270 
+ service-object tcp destination eq 1302 
+ service-object tcp destination eq 135 
+ service-object tcp destination eq 137 
+ service-object tcp destination eq 138 
+ service-object tcp destination eq 445 
+ service-object tcp destination eq 593 
+ service-object tcp destination eq netbios-ssn 
+object-group service DM_INLINE_SERVICE_23
+ service-object tcp-udp destination eq 139 
+ service-object tcp destination eq 135 
+ service-object tcp destination eq 445 
+ service-object udp destination eq netbios-ns 
+ service-object udp destination eq snmp 
+ service-object udp destination eq 15000 
+object-group service DM_INLINE_TCP_62 tcp
+ port-object eq 1270
+ port-object eq 1291
+object-group network DM_INLINE_NETWORK_108
+ network-object object mos-fsttst-alt
+ network-object object mos-fstweb-alt
+object-group network Foresight
+ description Foresight
+ network-object object mos-fstdb-alt
+ network-object object mos-fsttst-alt
+ network-object object mos-fstweb-alt
+object-group service DM_INLINE_TCP_108 tcp
+ port-object eq www
+ port-object eq https
+object-group service DM_INLINE_SERVICE_25
+ service-object tcp-udp destination eq domain 
+ service-object tcp destination eq 445 
+ service-object tcp destination eq 88 
+ service-object tcp destination eq ldap 
+ service-object udp destination eq 389 
+ service-object tcp destination eq 135 
+object-group service SMB_Ports tcp
+ description 48359871
+ port-object eq 445
+ port-object eq netbios-ssn
+object-group service SMB_Ports_UDP udp
+ description 48359871
+ port-object eq netbios-dgm
+ port-object eq netbios-ns
+object-group network EDO_SKLAD_Users
+ network-object host 10.5.168.186
+ network-object host 10.13.130.194
+ network-object host 10.5.168.115
+ network-object host 10.5.168.153
+ network-object host 10.5.169.42
+object-group network PRAV_DOCS_FILIALS
+ description 48359871
+ network-object host 10.13.204.167
+ network-object host 10.14.88.65
+ network-object host 10.7.233.87
+ network-object host 10.7.235.226
+ network-object host 10.7.237.116
+ network-object host 10.7.237.14
+ network-object host 10.7.66.69
+object-group service DM_INLINE_TCP_63 tcp
+ port-object eq 8081
+ port-object eq www
+ port-object eq https
+object-group network DM_INLINE_NETWORK_109
+ network-object host 10.13.131.127
+ network-object object test-optimacros.gptrans.gazprom.ru
+object-group service DM_INLINE_SERVICE_26
+ service-object tcp destination eq 14080 
+ service-object tcp destination eq 14180 
+ service-object udp destination eq 14080 
+ service-object udp destination eq 14180 
+object-group service DM_INLINE_TCP_66 tcp
+ port-object eq https
+ port-object eq ssh
+object-group service DM_INLINE_SERVICE_27
+ service-object icmp 
+ service-object tcp destination eq smtp 
+object-group network DM_INLINE_NETWORK_110
+ network-object host 10.7.233.233
+ network-object host 10.7.233.24
+object-group service DM_INLINE_TCP_67 tcp
+ port-object eq ldap
+ port-object eq ldaps
