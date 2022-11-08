@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+
+  <NamedObjects/>
+  <Rules>
+	{% for obj_id,obj_net_name in object_vars.items()%}
+	{%set rule_id = obj_id+200000 %}
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>{{rule_id}}</RuleId>
+	  <OrderId>{{obj_id}}</OrderId>
+	  <Name>Фильтр {{obj_id}}</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		 {% if obj_net_name.source_mask == None %}
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>{{obj_net_name.source}}</Value>
+		  </IpHostCondition>
+		 {% else %}
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>{{obj_net_name.source}}</Value>
+			  </Net>
+			  <Mask>
+				<Value>{{obj_net_name.source_mask}}</Value>
+			  </Mask>
+			</IpHostCondition>
+		{% endif %}
+		</Source>
+		{% if obj_net_name.protocol == "tcp" %}
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		{% elif obj_net_name.protocol == "udp" %}
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		{% elif obj_net_name.protocol == "esp" %}
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		{% elif obj_net_name.protocol == "ah" %}
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		{% elif obj_net_name.protocol == "icmp" %}
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		{% endif %}
+		{% if obj_net_name.dst_mask == None %}
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>{{obj_net_name.dst_ip}}</Value>
+		  </IpHostCondition>
+		</Destination>
+	    {% else %}
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>{{obj_net_name.dst_ip}}</Value>
+		  </Net>
+		  <Mask>
+			<Value>{{obj_net_name.dst_mask}}</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+		{% endif %}
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	  {% endfor %}
+  </Rules>
+
+  <Properties>
+	<Version>1.0</Version>
+	<DpiVersion>20.08.14</DpiVersion>
+	<IssueDateTime>1970-01-01T00:00:00</IssueDateTime>
+	<RollbackPeriod>0</RollbackPeriod>
+  </Properties>
+
+</vn:Policy><!--MjIgc2VyaWFsaXphdGlvbjo6YXJjaGl2ZSAxNCAwIDAgNCAxNyDQqNCw0LHQu9C+0L0g0L/QvtC70LjRgtC40LrQuCAxIDAgIDAgMCAwIDAgOCAyMDIyMTEwNyAwIDAgMCAxOSA5IDUzIDA=-->

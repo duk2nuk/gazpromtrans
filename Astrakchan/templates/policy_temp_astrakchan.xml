@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+<NamedObjects>
+{% for obj_name,obj_items in object_vars.items()%}
+	<IpObject>
+	  <Name>{{obj_name}}</Name>
+	  <Id>{{obj_items.obj_num}}</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>{{obj_items.obj_ip}}</Value>
+	  </Inclusion>
+	</IpObject>
+{% endfor %}
+  </NamedObjects>

@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+<NamedObjects>
+	<IpObject>
+	  <Name>server-ast-shifra</Name>
+	  <Id>1</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.94</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>etran_shifra</Name>
+	  <Id>2</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>12.0.0.30</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Oracle-Klaster2</Name>
+	  <Id>3</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.196</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Oracle-Klaster1</Name>
+	  <Id>4</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.195</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Oracle-Klaster4</Name>
+	  <Id>5</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.76</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Oracle-Klaster3</Name>
+	  <Id>6</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.75</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>dbo-client</Name>
+	  <Id>7</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.230</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>dbo-server</Name>
+	  <Id>8</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.2.254.97</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>etran-server</Name>
+	  <Id>9</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>11.0.0.11</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-telefon-80044</Name>
+	  <Id>10</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.206</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-telefon-80045</Name>
+	  <Id>11</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.207</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-telefon-80046</Name>
+	  <Id>12</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.216</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-jekson</Name>
+	  <Id>13</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.67</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-av</Name>
+	  <Id>14</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.12</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-oracle-osn</Name>
+	  <Id>15</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.26</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-oracle-rez</Name>
+	  <Id>16</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.27</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-server-adm</Name>
+	  <Id>17</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.141.13</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-exch</Name>
+	  <Id>18</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.29</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-exch2</Name>
+	  <Id>19</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.28</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-exch1</Name>
+	  <Id>20</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.39</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-terminal-disl1</Name>
+	  <Id>21</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.222</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-terminal-disl2</Name>
+	  <Id>22</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.200</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl1</Name>
+	  <Id>23</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.66</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl2</Name>
+	  <Id>24</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.70</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl3</Name>
+	  <Id>25</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.79</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl4</Name>
+	  <Id>26</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.94</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl5</Name>
+	  <Id>27</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.94</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl6</Name>
+	  <Id>28</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.99</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl7</Name>
+	  <Id>29</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.100</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl8</Name>
+	  <Id>30</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.115</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl9</Name>
+	  <Id>31</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.160</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl10</Name>
+	  <Id>32</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.168</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-disl11</Name>
+	  <Id>33</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.188</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-Rafael</Name>
+	  <Id>34</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.223</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-jekson-vm</Name>
+	  <Id>35</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.224</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-Dmitry</Name>
+	  <Id>36</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.221</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-Ravil</Name>
+	  <Id>37</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.222</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-Katrin</Name>
+	  <Id>38</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.225</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-wus</Name>
+	  <Id>39</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.3</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-msk-wus</Name>
+	  <Id>40</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.5</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-msk-av</Name>
+	  <Id>41</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.107</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>cisco1841</Name>
+	  <Id>42</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.125</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran1</Name>
+	  <Id>43</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.45</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran2</Name>
+	  <Id>44</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.46</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran3</Name>
+	  <Id>45</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.49</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran4</Name>
+	  <Id>46</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.91</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran5</Name>
+	  <Id>47</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.175</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran6</Name>
+	  <Id>48</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.245</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran7</Name>
+	  <Id>49</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.247</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran8</Name>
+	  <Id>50</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.248</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-TermSH1</Name>
+	  <Id>51</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.249</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran10</Name>
+	  <Id>52</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.250</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran11</Name>
+	  <Id>53</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.251</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran12</Name>
+	  <Id>54</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.252</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran13</Name>
+	  <Id>55</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.253</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran14</Name>
+	  <Id>56</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.254</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius1</Name>
+	  <Id>57</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.66.5</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius2</Name>
+	  <Id>58</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.66.6</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius3</Name>
+	  <Id>59</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.66.9</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius4</Name>
+	  <Id>60</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.66.10</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius5</Name>
+	  <Id>61</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.67.21</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius6</Name>
+	  <Id>62</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.67.22</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius7</Name>
+	  <Id>63</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.194.5</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius8</Name>
+	  <Id>64</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.195.6</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius9</Name>
+	  <Id>65</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.194.10</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius10</Name>
+	  <Id>66</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.56.194.10</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius11</Name>
+	  <Id>67</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.241.10.44</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ius-termweb1</Name>
+	  <Id>68</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.92</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-kd1</Name>
+	  <Id>69</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.24</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-kd2</Name>
+	  <Id>70</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.233</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-lync2-2k12</Name>
+	  <Id>71</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.116</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-ad2-2k12</Name>
+	  <Id>72</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.220</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-etrts1-2k2</Name>
+	  <Id>73</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.222</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_ws-etranksa</Name>
+	  <Id>74</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.194</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-ad1-2k12</Name>
+	  <Id>75</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.213</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-lync1-2k12</Name>
+	  <Id>76</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.204</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-www-2k12</Name>
+	  <Id>77</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.251</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_proxy</Name>
+	  <Id>78</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.139.201</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast_proxy</Name>
+	  <Id>79</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.229</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ast-firewall</Name>
+	  <Id>80</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.1</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-zabbix</Name>
+	  <Id>81</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.20</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-em-ol</Name>
+	  <Id>82</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.186</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-kkv</Name>
+	  <Id>83</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.238</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-racnode1</Name>
+	  <Id>84</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.141</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-racnode2</Name>
+	  <Id>85</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.142</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-orcl8-2k12</Name>
+	  <Id>86</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.185</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-avs</Name>
+	  <Id>87</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.155</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-aim</Name>
+	  <Id>88</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.24</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-sheu</Name>
+	  <Id>89</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.34</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-comp472</Name>
+	  <Id>90</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.62</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-WS-ail</Name>
+	  <Id>91</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.239</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm_mos-mon-ol73-Zabbix</Name>
+	  <Id>92</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.194</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-shifra_out</Name>
+	  <Id>93</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.97</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-telefon-80004</Name>
+	  <Id>94</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.41</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-mail</Name>
+	  <Id>95</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.139.200</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>AST-CH2</Name>
+	  <Id>96</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.65</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-server-adm2</Name>
+	  <Id>97</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.141.27</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-Station189</Name>
+	  <Id>98</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.149</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-scb-IP-admin</Name>
+	  <Id>99</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.181</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-testnotebook</Name>
+	  <Id>100</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.157</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-Station200</Name>
+	  <Id>101</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.139</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-Station199</Name>
+	  <Id>102</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.140</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-Station195</Name>
+	  <Id>103</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.141</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>IP-Station192</Name>
+	  <Id>104</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.146</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-mos-owapp-2k12</Name>
+	  <Id>105</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.88</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-bai</Name>
+	  <Id>106</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.115</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-pro</Name>
+	  <Id>107</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.246</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-vka</Name>
+	  <Id>108</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.164</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-1c8</Name>
+	  <Id>109</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.4</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ant</Name>
+	  <Id>110</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.244</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-kay</Name>
+	  <Id>111</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.42</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-lumv</Name>
+	  <Id>112</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.18</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-tof</Name>
+	  <Id>113</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.201</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-euch</Name>
+	  <Id>114</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.114</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ttv</Name>
+	  <Id>115</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.132.40</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>etran-GVCServer</Name>
+	  <Id>116</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>11.0.0.33</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-gvc-vae</Name>
+	  <Id>117</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.94</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-gvc-zan</Name>
+	  <Id>118</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.200</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-direct-2k12</Name>
+	  <Id>119</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.50</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-dirwf-2k12</Name>
+	  <Id>120</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.67</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-dirbus-2k12</Name>
+	  <Id>121</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.12</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-termgate</Name>
+	  <Id>122</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.34</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-TermSH4</Name>
+	  <Id>123</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.13</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-TermSH2</Name>
+	  <Id>124</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.114</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-termCB</Name>
+	  <Id>125</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.9</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-TermSH3</Name>
+	  <Id>126</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.10</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>caweb.gazprom.ru</Name>
+	  <Id>127</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.250.4.160</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Client-ius-BeliyakovaAK</Name>
+	  <Id>128</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.136</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>Client-IUS-PyatinaEN</Name>
+	  <Id>129</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.180</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-msk-applicatiom-2k12</Name>
+	  <Id>130</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.277</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-tzs-el7</Name>
+	  <Id>131</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.166</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran15</Name>
+	  <Id>132</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.128</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>client-ast-etran-16</Name>
+	  <Id>133</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.70</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>DozorMSk</Name>
+	  <Id>134</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.139.70</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>DozorAST</Name>
+	  <Id>135</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.232</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm_mos-ad3-2k12</Name>
+	  <Id>136</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.17</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>asu-KravcovIA</Name>
+	  <Id>137</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.232</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>mos-ci-el7.gptrans.gazprom.ru</Name>
+	  <Id>138</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.196</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>mos-rep-ol7.gptrans.gazprom.ru</Name>
+	  <Id>139</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.148</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>mos-orcl7-2k12</Name>
+	  <Id>140</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.226</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>mos-build-2k12</Name>
+	  <Id>141</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.236</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>wdoc.gptrans.gazprom.ru</Name>
+	  <Id>142</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.186</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ts-pua</Name>
+	  <Id>143</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.16</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ts-nsp</Name>
+	  <Id>144</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.132.24</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ts-oriv</Name>
+	  <Id>145</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.168.150</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ts-lak</Name>
+	  <Id>146</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.247</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-ts-svy</Name>
+	  <Id>147</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.132.45</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-mapinf-ol7</Name>
+	  <Id>148</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.132.107</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ast-ws-FrolovDV</Name>
+	  <Id>149</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.87</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-kitaeva</Name>
+	  <Id>150</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.63</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-rdsgpt</Name>
+	  <Id>151</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.139.117</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-term2</Name>
+	  <Id>152</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.169.2</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-zaicev</Name>
+	  <Id>153</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.194</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-dev01-el7</Name>
+	  <Id>154</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.133</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-efremova</Name>
+	  <Id>155</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.132.66</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-mos-robo1-2k12</Name>
+	  <Id>156</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.128.202</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-ws-Vedishev</Name>
+	  <Id>157</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.130.173</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>SKZ-info2</Name>
+	  <Id>158</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.83.241.59</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ast-ws-Krylov</Name>
+	  <Id>159</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.201</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-server-videomost</Name>
+	  <Id>160</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.131.218</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-adm-dns</Name>
+	  <Id>161</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.5.139.202</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-node2</Name>
+	  <Id>162</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.21</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>server-ast-node1</Name>
+	  <Id>163</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.22</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ku-server-shifra-out</Name>
+	  <Id>165</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.98</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ku-fw-out</Name>
+	  <Id>166</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.232.18</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>ast-003556-Kuangaliev</Name>
+	  <Id>167</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.7.233.106</Value>
+	  </Inclusion>
+	</IpObject>
+	<IpObject>
+	  <Name>adm-srv-Optimakros</Name>
+	  <Id>168</Id>
+	  <CreationType>Policy</CreationType>
+	  <Inclusion xsi:type="vn:IpAddress">
+		<Value>10.13.129.198</Value>
+	  </Inclusion>
+	</IpObject>
+  </NamedObjects>

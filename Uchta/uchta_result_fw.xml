@@ -1,0 +1,3539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+
+  <NamedObjects/>
+  <Rules>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200001</RuleId>
+	  <OrderId>1</OrderId>
+	  <Name>Фильтр 1</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.173</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200002</RuleId>
+	  <OrderId>2</OrderId>
+	  <Name>Фильтр 2</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.166</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200003</RuleId>
+	  <OrderId>3</OrderId>
+	  <Name>Фильтр 3</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>83.69.3.125</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.216</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200004</RuleId>
+	  <OrderId>4</OrderId>
+	  <Name>Фильтр 4</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>83.69.3.125</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.216</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200005</RuleId>
+	  <OrderId>5</OrderId>
+	  <Name>Фильтр 5</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200006</RuleId>
+	  <OrderId>6</OrderId>
+	  <Name>Фильтр 6</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200007</RuleId>
+	  <OrderId>7</OrderId>
+	  <Name>Фильтр 7</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200008</RuleId>
+	  <OrderId>8</OrderId>
+	  <Name>Фильтр 8</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200009</RuleId>
+	  <OrderId>9</OrderId>
+	  <Name>Фильтр 9</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200010</RuleId>
+	  <OrderId>10</OrderId>
+	  <Name>Фильтр 10</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200011</RuleId>
+	  <OrderId>11</OrderId>
+	  <Name>Фильтр 11</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200012</RuleId>
+	  <OrderId>12</OrderId>
+	  <Name>Фильтр 12</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200013</RuleId>
+	  <OrderId>13</OrderId>
+	  <Name>Фильтр 13</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200014</RuleId>
+	  <OrderId>14</OrderId>
+	  <Name>Фильтр 14</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.36.0.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.0.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.236</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200015</RuleId>
+	  <OrderId>15</OrderId>
+	  <Name>Фильтр 15</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200016</RuleId>
+	  <OrderId>16</OrderId>
+	  <Name>Фильтр 16</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200017</RuleId>
+	  <OrderId>17</OrderId>
+	  <Name>Фильтр 17</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200018</RuleId>
+	  <OrderId>18</OrderId>
+	  <Name>Фильтр 18</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200019</RuleId>
+	  <OrderId>19</OrderId>
+	  <Name>Фильтр 19</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200020</RuleId>
+	  <OrderId>20</OrderId>
+	  <Name>Фильтр 20</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200021</RuleId>
+	  <OrderId>21</OrderId>
+	  <Name>Фильтр 21</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200022</RuleId>
+	  <OrderId>22</OrderId>
+	  <Name>Фильтр 22</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200023</RuleId>
+	  <OrderId>23</OrderId>
+	  <Name>Фильтр 23</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.13.142.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200024</RuleId>
+	  <OrderId>24</OrderId>
+	  <Name>Фильтр 24</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.13.142.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200025</RuleId>
+	  <OrderId>25</OrderId>
+	  <Name>Фильтр 25</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.13.142.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200026</RuleId>
+	  <OrderId>26</OrderId>
+	  <Name>Фильтр 26</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.13.142.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200027</RuleId>
+	  <OrderId>27</OrderId>
+	  <Name>Фильтр 27</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200028</RuleId>
+	  <OrderId>28</OrderId>
+	  <Name>Фильтр 28</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200029</RuleId>
+	  <OrderId>29</OrderId>
+	  <Name>Фильтр 29</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200030</RuleId>
+	  <OrderId>30</OrderId>
+	  <Name>Фильтр 30</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200031</RuleId>
+	  <OrderId>31</OrderId>
+	  <Name>Фильтр 31</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200032</RuleId>
+	  <OrderId>32</OrderId>
+	  <Name>Фильтр 32</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200033</RuleId>
+	  <OrderId>33</OrderId>
+	  <Name>Фильтр 33</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200034</RuleId>
+	  <OrderId>34</OrderId>
+	  <Name>Фильтр 34</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200035</RuleId>
+	  <OrderId>35</OrderId>
+	  <Name>Фильтр 35</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200036</RuleId>
+	  <OrderId>36</OrderId>
+	  <Name>Фильтр 36</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200037</RuleId>
+	  <OrderId>37</OrderId>
+	  <Name>Фильтр 37</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200038</RuleId>
+	  <OrderId>38</OrderId>
+	  <Name>Фильтр 38</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200039</RuleId>
+	  <OrderId>39</OrderId>
+	  <Name>Фильтр 39</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200040</RuleId>
+	  <OrderId>40</OrderId>
+	  <Name>Фильтр 40</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200041</RuleId>
+	  <OrderId>41</OrderId>
+	  <Name>Фильтр 41</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200042</RuleId>
+	  <OrderId>42</OrderId>
+	  <Name>Фильтр 42</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200043</RuleId>
+	  <OrderId>43</OrderId>
+	  <Name>Фильтр 43</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200044</RuleId>
+	  <OrderId>44</OrderId>
+	  <Name>Фильтр 44</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200045</RuleId>
+	  <OrderId>45</OrderId>
+	  <Name>Фильтр 45</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.216</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>83.69.3.125</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200046</RuleId>
+	  <OrderId>46</OrderId>
+	  <Name>Фильтр 46</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.17</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200047</RuleId>
+	  <OrderId>47</OrderId>
+	  <Name>Фильтр 47</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.216</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>83.69.3.125</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200048</RuleId>
+	  <OrderId>48</OrderId>
+	  <Name>Фильтр 48</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200049</RuleId>
+	  <OrderId>49</OrderId>
+	  <Name>Фильтр 49</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.22</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200050</RuleId>
+	  <OrderId>50</OrderId>
+	  <Name>Фильтр 50</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.14</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.5</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200051</RuleId>
+	  <OrderId>51</OrderId>
+	  <Name>Фильтр 51</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.158</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.56.195.21</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200052</RuleId>
+	  <OrderId>52</OrderId>
+	  <Name>Фильтр 52</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.222</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.1</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200053</RuleId>
+	  <OrderId>53</OrderId>
+	  <Name>Фильтр 53</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.10</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.1</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200054</RuleId>
+	  <OrderId>54</OrderId>
+	  <Name>Фильтр 54</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.222</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.9</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200055</RuleId>
+	  <OrderId>55</OrderId>
+	  <Name>Фильтр 55</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.10</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.9</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200056</RuleId>
+	  <OrderId>56</OrderId>
+	  <Name>Фильтр 56</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.222</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.56.67.21</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200057</RuleId>
+	  <OrderId>57</OrderId>
+	  <Name>Фильтр 57</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.10</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.56.67.21</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200058</RuleId>
+	  <OrderId>58</OrderId>
+	  <Name>Фильтр 58</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.158</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.56.67.22</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200059</RuleId>
+	  <OrderId>59</OrderId>
+	  <Name>Фильтр 59</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.158</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.56.67.21</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200060</RuleId>
+	  <OrderId>60</OrderId>
+	  <Name>Фильтр 60</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.211</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.2.254.97</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200061</RuleId>
+	  <OrderId>61</OrderId>
+	  <Name>Фильтр 61</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.173</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200062</RuleId>
+	  <OrderId>62</OrderId>
+	  <Name>Фильтр 62</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.166</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200063</RuleId>
+	  <OrderId>63</OrderId>
+	  <Name>Фильтр 63</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.78</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200064</RuleId>
+	  <OrderId>64</OrderId>
+	  <Name>Фильтр 64</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.130.78</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200065</RuleId>
+	  <OrderId>65</OrderId>
+	  <Name>Фильтр 65</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.236</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.36.0.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.0.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200066</RuleId>
+	  <OrderId>66</OrderId>
+	  <Name>Фильтр 66</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.128</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200067</RuleId>
+	  <OrderId>67</OrderId>
+	  <Name>Фильтр 67</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200068</RuleId>
+	  <OrderId>68</OrderId>
+	  <Name>Фильтр 68</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.128</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200069</RuleId>
+	  <OrderId>69</OrderId>
+	  <Name>Фильтр 69</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200070</RuleId>
+	  <OrderId>70</OrderId>
+	  <Name>Фильтр 70</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.128</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200071</RuleId>
+	  <OrderId>71</OrderId>
+	  <Name>Фильтр 71</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200072</RuleId>
+	  <OrderId>72</OrderId>
+	  <Name>Фильтр 72</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.128</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200073</RuleId>
+	  <OrderId>73</OrderId>
+	  <Name>Фильтр 73</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200074</RuleId>
+	  <OrderId>74</OrderId>
+	  <Name>Фильтр 74</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200075</RuleId>
+	  <OrderId>75</OrderId>
+	  <Name>Фильтр 75</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200076</RuleId>
+	  <OrderId>76</OrderId>
+	  <Name>Фильтр 76</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200077</RuleId>
+	  <OrderId>77</OrderId>
+	  <Name>Фильтр 77</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200078</RuleId>
+	  <OrderId>78</OrderId>
+	  <Name>Фильтр 78</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200079</RuleId>
+	  <OrderId>79</OrderId>
+	  <Name>Фильтр 79</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200080</RuleId>
+	  <OrderId>80</OrderId>
+	  <Name>Фильтр 80</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200081</RuleId>
+	  <OrderId>81</OrderId>
+	  <Name>Фильтр 81</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200082</RuleId>
+	  <OrderId>82</OrderId>
+	  <Name>Фильтр 82</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200083</RuleId>
+	  <OrderId>83</OrderId>
+	  <Name>Фильтр 83</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200084</RuleId>
+	  <OrderId>84</OrderId>
+	  <Name>Фильтр 84</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200085</RuleId>
+	  <OrderId>85</OrderId>
+	  <Name>Фильтр 85</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200086</RuleId>
+	  <OrderId>86</OrderId>
+	  <Name>Фильтр 86</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.131.218</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200087</RuleId>
+	  <OrderId>87</OrderId>
+	  <Name>Фильтр 87</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200088</RuleId>
+	  <OrderId>88</OrderId>
+	  <Name>Фильтр 88</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200089</RuleId>
+	  <OrderId>89</OrderId>
+	  <Name>Фильтр 89</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200090</RuleId>
+	  <OrderId>90</OrderId>
+	  <Name>Фильтр 90</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200091</RuleId>
+	  <OrderId>91</OrderId>
+	  <Name>Фильтр 91</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.0</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.0</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.5.139.202</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200092</RuleId>
+	  <OrderId>92</OrderId>
+	  <Name>Фильтр 92</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200093</RuleId>
+	  <OrderId>93</OrderId>
+	  <Name>Фильтр 93</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200094</RuleId>
+	  <OrderId>94</OrderId>
+	  <Name>Фильтр 94</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200095</RuleId>
+	  <OrderId>95</OrderId>
+	  <Name>Фильтр 95</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.192</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200096</RuleId>
+	  <OrderId>96</OrderId>
+	  <Name>Фильтр 96</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200097</RuleId>
+	  <OrderId>97</OrderId>
+	  <Name>Фильтр 97</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200098</RuleId>
+	  <OrderId>98</OrderId>
+	  <Name>Фильтр 98</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200099</RuleId>
+	  <OrderId>99</OrderId>
+	  <Name>Фильтр 99</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.128</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.192</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200100</RuleId>
+	  <OrderId>100</OrderId>
+	  <Name>Фильтр 100</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200101</RuleId>
+	  <OrderId>101</OrderId>
+	  <Name>Фильтр 101</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200102</RuleId>
+	  <OrderId>102</OrderId>
+	  <Name>Фильтр 102</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200103</RuleId>
+	  <OrderId>103</OrderId>
+	  <Name>Фильтр 103</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.192</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.192</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200104</RuleId>
+	  <OrderId>104</OrderId>
+	  <Name>Фильтр 104</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.128</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200105</RuleId>
+	  <OrderId>105</OrderId>
+	  <Name>Фильтр 105</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.128</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200106</RuleId>
+	  <OrderId>106</OrderId>
+	  <Name>Фильтр 106</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.128</Value>
+		  </IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200107</RuleId>
+	  <OrderId>107</OrderId>
+	  <Name>Фильтр 107</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.7.235.128</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200108</RuleId>
+	  <OrderId>108</OrderId>
+	  <Name>Фильтр 108</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200109</RuleId>
+	  <OrderId>109</OrderId>
+	  <Name>Фильтр 109</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200110</RuleId>
+	  <OrderId>110</OrderId>
+	  <Name>Фильтр 110</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200111</RuleId>
+	  <OrderId>111</OrderId>
+	  <Name>Фильтр 111</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>10.13.141.27</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200112</RuleId>
+	  <OrderId>112</OrderId>
+	  <Name>Фильтр 112</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:IcmpCondition">
+		  <Protocol>1</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.13.142.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200113</RuleId>
+	  <OrderId>113</OrderId>
+	  <Name>Фильтр 113</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.13.142.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200114</RuleId>
+	  <OrderId>114</OrderId>
+	  <Name>Фильтр 114</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:UdpCondition">
+		  <Protocol>17</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.13.142.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200115</RuleId>
+	  <OrderId>115</OrderId>
+	  <Name>Фильтр 115</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:TcpCondition">
+		  <Protocol>6</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.13.142.0</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.0</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200116</RuleId>
+	  <OrderId>116</OrderId>
+	  <Name>Фильтр 116</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		<IpHostCondition xsi:type="vn:IpMask">
+		  <Net>
+			<Value>10.7.235.24</Value>
+		  </Net>
+		  <Mask>
+			<Value>255.255.255.248</Value>
+		  </Mask>
+		</IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200117</RuleId>
+	  <OrderId>117</OrderId>
+	  <Name>Фильтр 117</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200118</RuleId>
+	  <OrderId>118</OrderId>
+	  <Name>Фильтр 118</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>50</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+	<Rule IsActive="true" xsi:type="vn:TransitRule">
+	  <RuleId>200119</RuleId>
+	  <OrderId>119</OrderId>
+	  <Name>Фильтр 119</Name>
+	  <CreationType>Policy</CreationType>
+	  <ConditionSet>
+		<Source xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpMask">
+			  <Net>
+				<Value>10.7.235.24</Value>
+			  </Net>
+			  <Mask>
+				<Value>255.255.255.248</Value>
+			  </Mask>
+			</IpHostCondition>
+		</Source>
+		<ServiceCondition xsi:type="vn:ProtocolCondition">
+		  <Protocol>51</Protocol>
+		</ServiceCondition>
+		<Destination xsi:type="vn:PublicNetwork">
+		  <IpHostCondition xsi:type="vn:IpAddress">
+			<Value>any</Value>
+		  </IpHostCondition>
+		</Destination>
+	  </ConditionSet>
+	  <Action IsBidirectional="false" IsConnectionLoggingEnabled="true" IsConnectionStateless="false" IsPacketLoggingEnabled="true" xsi:type="vn:Filter">
+		<FilteringAction>Pass</FilteringAction>
+	  </Action>
+	  <Section>TransitSection</Section>
+	  </Rule>
+  </Rules>
+
+  <Properties>
+	<Version>1.0</Version>
+	<DpiVersion>20.08.14</DpiVersion>
+	<IssueDateTime>1970-01-01T00:00:00</IssueDateTime>
+	<RollbackPeriod>0</RollbackPeriod>
+  </Properties>
+
+</vn:Policy><!--MjIgc2VyaWFsaXphdGlvbjo6YXJjaGl2ZSAxNCAwIDAgNCAxNyDQqNCw0LHQu9C+0L0g0L/QvtC70LjRgtC40LrQuCAxIDAgIDAgMCAwIDAgOCAyMDIyMTEwNyAwIDAgMCAxOSA5IDUzIDA=-->

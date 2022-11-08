@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<vn:Policy xmlns:vn="http://www.infotecs.ru/2007/ViPNet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.infotecs.ru/2007/ViPNet rules.xsd">
+<NamedObjects>
+{% for obj_group_name,obj_group_items in object_group_vars.items()%}
+	<IpObject>
+	  <Name>{{obj_group_name}}</Name>
+	  <Id>{{obj_item.obj_group_num}}</Id>
+	  <CreationType>Policy</CreationType>
+	  {{for index in obj_group_item.obj_group_ip}}
+	  {{if index.isdigit() }}
+	  <Inclusion xsi:type="vn:IpObjectRef">
+		<Id>index</Id>
+	  </Inclusion>
+	  {{elif "-" in index}}
+		  <Inclusion xsi:type="vn:IpRange">
+		<Begin>
+			 <Value>{{index.split("-")[0]}}
+		</Begin>
+		<End>
+			<Value>{{index.split("-")[1]}}
+		</End>
+		</Inclusion>
+		{{elif "/" in index}}
+		<Inclusion xsi:type="vn:IpMask">
+		<Net>
+			 <Value>{{index.split("/")[0]}}
+		</Net>
+		<Mask>
+			<Value>{{index.split("/")[1]}}
+		</Mask>
+		</Inclusion>
+		{{endif}}
+	</IpObject>
+	{{endfor}}
+  </NamedObjects>

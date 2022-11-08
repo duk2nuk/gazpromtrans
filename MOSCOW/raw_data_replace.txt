@@ -1,0 +1,851 @@
+Имя объекта	Тип объекта	Содержание	Коментарий
+object1	IP_Address	1.1.1.1	
+Pechkin	IP_Address	10.5.139.66	
+Mailhost	IP_Address	10.250.3.4	
+VipNet1	IP_Address	10.5.139.226	
+VipNet2	IP_Address	10.5.139.240	
+DNS1_Gazsvyaz	IP_Address	10.250.3.2	
+DNS2_Gazsvyaz	IP_Address	10.250.3.3	
+MailRelay	IP_Address	10.250.4.10	
+MailRelay2	IP_Address	10.250.4.13	
+Gazprombank	IP_Address	195.128.88.29	
+Transkreditbank	IP_Address	195.161.5.4	
+Mailrelay3	IP_Address	10.250.4.45	
+Proxy_Temporary	IP_Address	10.5.168.3	
+Proxy_TMG_Server	IP_Address	10.5.139.201	
+KAV_Server	IP_Address	10.5.169.107	
+MOS_NTP_SERVER	IP_Address	10.5.169.194	
+Kornienko_computer	IP_Address	10.5.168.144	
+Kalinin_computer	IP_Address	10.5.168.6	
+Pechkin_SMTP_Server	IP_Address	10.5.168.251	
+GNIVC_Client	IP_Address	10.5.169.236	
+Surgut_Electonnoe_declarirovanie_server	IP_Address	87.229.154.41	
+Egorova_Bank_Client	IP_Address	10.5.168.64	
+Astrakhan_WSUS_Server	IP_Address	10.7.233.12	
+Rancid_user	IP_Address	10.5.168.131	
+Zabbix_Server	IP_Address	10.5.169.20	
+PROTON	IP_Address	10.5.169.212	
+Mailhost1	IP_Address	10.250.3.22	
+Mailhost2	IP_Address	10.250.3.23	
+Mailrelay4	IP_Address	10.250.4.18	
+WSUS_Server	IP_Address	10.5.169.171	
+mos-wsus-2k12	IP_Address	10.13.129.5	
+ns	IP_Address	10.5.139.202	
+post	IP_Address	10.5.139.200	
+inside	IP_Address	10.13.129.251	
+Test_DMZ_Host	IP_Address	10.5.139.203	
+HW1000-1	IP_Address	10.5.139.227	
+HW1000-2	IP_Address	10.5.139.228	
+HW1000-Cluster	IP_Address	10.5.139.229	
+VipNet_Administrator_New	IP_Address	10.13.131.179	
+Urengoy_Firewall	IP_Address	10.7.240.6	
+Urengoy_Router	IP_Address	10.7.240.1	
+Urengoy_S-Terra_1	IP_Address	10.7.240.129	
+Surgut_Firewall	IP_Address	10.7.236.126	
+Surgut_Router	IP_Address	10.7.236.125	
+Surgut_S-Terra_OGP	IP_Address	10.7.237.65	
+Surgut_S-Terra_Office	IP_Address	10.7.237.1	
+Surgut_S-Terra_Prom	IP_Address	10.7.236.134	
+Surgut_S-Terra_SNE	IP_Address	10.7.236.138	
+Surgut_Switch	IP_Address	10.7.236.130	
+Astrakhan_Firewall	IP_Address	10.7.233.1	
+Astrakhan_Router	IP_Address	10.7.232.125	
+Astrakhan_S-Terra	IP_Address	10.7.232.94	
+Uhta_Firewall	IP_Address	10.7.235.6	
+Uhta_Router	IP_Address	10.7.235.1	
+Uhta_S-Terra_1	IP_Address	10.7.235.129	
+Uhta_S-Terra_2	IP_Address	10.7.235.193	
+Krasnodar_Firewall	IP_Address	10.7.239.14	
+Krasnodar_Router	IP_Address	10.7.239.1	
+Krasnodar_S-Terra	IP_Address	10.7.239.6	
+PolovnikovaYA	IP_Address	10.5.169.22	
+PodolskayaOS	IP_Address	10.5.168.69	
+TrishinaNV	IP_Address	10.5.168.247	
+BobkovaEV(standalone)	IP_Address	10.13.128.240	
+SavinovaNY(standalone)	IP_Address	10.13.129.100	
+OrlovIA	IP_Address	10.13.129.228	
+ASUP_PD-Farm	IP_Address	10.56.194.9	Ferma_ASUP_for_PH4_wi-pdn.ctx.codm.gazprom.ru
+ASUP_PD-Farm2	IP_Address	10.56.194.10	Ferma_ASUP_for_PH4_sg-pdn.ctx.codm.gazprom.ru
+DmitrievaEG	IP_Address	10.5.168.136	
+mos-em-ol	IP_Address	10.13.129.186	OracleEnterpriseManager
+mos-fend-2k12	IP_Address	10.5.169.215	EHD
+BondarevYN	IP_Address	10.13.129.62	
+KonovalovVV	IP_Address	10.13.128.50	
+KozlovSS	IP_Address	10.5.169.57	
+Ast_ServerBD	IP_Address	10.7.232.34	ServerBD_Astrakhan_Komplex_Vesov
+SapeginskiyGF	IP_Address	10.13.130.147	
+AdaykinaEN	IP_Address	10.13.129.56	
+NekrashevichNA	IP_Address	10.5.168.9	
+SheleninDY	IP_Address	10.5.169.241	
+YavlukhinSA	IP_Address	10.5.169.32	
+ChepurinMN	IP_Address	10.13.131.7	
+TatarenkovDS	IP_Address	10.5.168.238	
+SmyslovAV	IP_Address	10.13.129.76	
+StukanovVN	IP_Address	10.13.128.53	
+PozdnyakovAA	IP_Address	10.13.129.59	
+KosunovNS	IP_Address	10.13.130.148	
+KirillovAN	IP_Address	10.5.169.228	
+ZolotukhinDV	IP_Address	10.13.132.126	
+GrunenkovAV	IP_Address	10.13.130.149	
+NurgalievaGM	IP_Address	10.7.233.175	
+AbdurakhmanovRM	IP_Address	10.7.233.45	
+RudnichenkoNV	IP_Address	10.7.233.46	
+BednevAV	IP_Address	10.7.233.49	
+DonskoyDR	IP_Address	10.7.233.91	
+BaryshnikovAV	IP_Address	10.13.129.104	VidelennoeARM
+KostyukovaOA	IP_Address	10.13.128.38	
+KhramtsovaMN	IP_Address	10.13.129.174	
+LazarenkoAS	IP_Address	10.13.129.2	
+KorabelnikovIV	IP_Address	10.13.131.195	
+SapeginskayaME	IP_Address	10.13.131.23	
+ZakharovaOA	IP_Address	10.13.131.231	
+ShestakovMY	IP_Address	10.13.131.252	
+LosevaLE	IP_Address	10.13.131.39	
+LapshinaEA	IP_Address	10.13.131.79	
+FrolovaTV	IP_Address	10.13.131.8	
+PashigorevaEV	IP_Address	10.13.131.99	
+KirilovAN	IP_Address	10.13.132.126	
+KharakterovaYI	IP_Address	10.5.168.226	
+SeltsovaEY	IP_Address	10.5.168.38	
+MuravievSA	IP_Address	10.5.168.89	
+SakaevaIV	IP_Address	10.5.169.141	
+KarasevAA	IP_Address	10.5.169.188	
+KharlamovaAB	IP_Address	10.5.169.78	
+LazukovaEA	IP_Address	10.5.169.8	
+KonyukhovAY	IP_Address	10.13.131.13	
+AntropovAV	IP_Address	10.5.169.115	
+PozdnyakovMS	IP_Address	10.5.168.121	
+PerkhurovaNN	IP_Address	10.13.131.152	
+DerunovaEV	IP_Address	10.13.131.107	
+VlasovaAS	IP_Address	10.5.169.149	
+YakunyaNM	IP_Address	10.13.131.161	
+PleshakovMV	IP_Address	10.13.128.223	
+RubtsovAA	IP_Address	10.13.131.201	
+IvanovaYN	IP_Address	10.13.129.205	
+LevitckySN	IP_Address	10.13.129.193	
+SvetlovaEP	IP_Address	10.5.169.132	
+KoveraII	IP_Address	10.13.131.60	
+KrivashovaMV	IP_Address	10.13.129.197	Videlennoe ARM
+PozdnyakovNS	IP_Address	10.5.169.95	
+GromovBM	IP_Address	10.5.169.21	
+VologzhaninAA	IP_Address	10.13.131.174	
+GaripovRV	IP_Address	10.13.131.20	
+KuptsovPG	IP_Address	10.5.169.117	
+mos-direct-2k12	IP_Address	10.5.168.50	
+Ex_Ast_DAG	IP_Address	10.7.233.29	
+Urengoy_Sidorova	IP_Address	10.7.240.148	
+Urengoy_Mahnovskiy	IP_Address	10.7.240.181	
+Urengoy_Naumov	IP_Address	10.7.240.206	
+SamoshenkoLA	IP_Address	10.13.131.74	
+Proxy_Yamal	IP_Address	10.14.99.195	
+mos-iis-2k12	IP_Address	10.13.129.0	
+KSC_Yamal	IP_Address	10.13.204.10	
+WSUS_Yamal	IP_Address	10.13.204.10	
+SladkovVI	IP_Address	10.13.205.51	
+Yamal_SladkovVI	IP_Address	10.13.205.51	
+Yamal_MavdrikOY	IP_Address	10.13.205.44	
+WSUS_Urengoy	IP_Address	10.7.240.205	
+Ast_Uskaev	IP_Address	10.7.233.222	
+KadyrovaDA	IP_Address	10.5.169.145	
+mos-is1-2k12	IP_Address	10.5.168.108	
+mos-owapp-2k12	IP_Address	10.13.131.88	
+amur-orcl2-2k12	IP_Address	10.5.168.41	
+amur-orcl1-2k12	IP_Address	10.5.168.40	
+assois.ss.gazprom.ru	IP_Address	10.83.241.51	
+ASUP_PD-Farm1	IP_Address	10.56.66.9	
+ASUP_PD-Farm3	IP_Address	10.56.66.10	
+esrdi.ss.gazprom.ru	IP_Address	10.83.241.30	
+KSC_Uhta	IP_Address	10.7.235.220	
+ASA_Amur_outside	IP_Address	10.5.139.138	
+report.keydisk.ru	IP_Address	31.13.60.76	
+service.fsrar.ru	IP_Address	146.120.90.20	
+f4.fss.ru	IP_Address	193.148.44.187	
+pnv-rpn.ru	IP_Address	87.245.187.122	
+S-Terra_Amur_inside	IP_Address	10.5.139.137	
+S-Terra_Amur_outside	IP_Address	10.5.139.130	
+Yamal_S-Terra_1000	IP_Address	10.14.99.44	
+Yamal_ASA_Inside	IP_Address	10.13.204.2	
+Zabbix_TEMP	IP_Address	10.13.130.39	
+Yamal_ASA	IP_Address	10.14.99.33	
+MelnikovaOA	IP_Address	10.13.131.73	
+Ex_Ast_2	IP_Address	10.7.233.28	
+KuzminaEE	IP_Address	10.13.128.168	MPUR ASBU
+obs-crp1vrrp1-vpn1000	IP_Address	10.14.99.42	
+obs-crp2vrrp1-vpn1000	IP_Address	10.14.99.43	
+HW1000_Cluster	IP_Address	10.5.139.240	
+Ex_Ast_1	IP_Address	10.7.233.39	
+PulyaevaKV	IP_Address	10.13.130.242	
+MinaevIA	IP_Address	10.5.168.188	
+PomaskinDV	IP_Address	10.5.169.49	
+LeontevaPN	IP_Address	10.13.128.181	
+SennikovAV	IP_Address	10.5.169.60	
+FilenkoEV_ASBU	IP_Address	10.13.130.1	
+ws-nnt	IP_Address	10.13.128.127	
+Surgut_YarullinaGK	IP_Address	10.7.237.102	
+KSC_Surgut	IP_Address	10.7.237.130	
+MardanovaTB	IP_Address	10.5.168.28	
+mos-bi-2k12	IP_Address	10.13.130.78	
+DolgovaYuN	IP_Address	10.5.168.83	
+Surgut_RybalkinaYV	IP_Address	10.7.237.18	
+Surgut_TveretinaEM	IP_Address	10.7.237.13	
+SlijovaMS	IP_Address	10.13.131.117	
+KostebelovSV	IP_Address	10.13.128.35	
+LobanovaEY	IP_Address	10.13.129.241	
+mos-arisbp-2k8	IP_Address	10.13.129.35	
+RijaevaNA	IP_Address	10.13.131.246	
+KonokotinaNN	IP_Address	10.13.131.72	
+RyabkinaEY	IP_Address	10.5.169.156	
+ShardakovaZN	IP_Address	10.13.129.85	
+MalyarevichAV	IP_Address	10.13.130.83	
+PechenkinAA	IP_Address	10.13.131.87	
+Surgut_Salnikov	IP_Address	10.7.237.75	
+SelivanenkoIV	IP_Address	10.13.129.121	
+ws-gen	IP_Address	10.5.169.164	
+KruglyhinaYA	IP_Address	10.13.130.118	
+UstinovaEI	IP_Address	10.5.168.66	
+TyurinDY	IP_Address	10.5.168.213	
+KosenkoEV	IP_Address	10.5.169.214	
+MyasnikovVS	IP_Address	10.13.131.80	
+Orenburg_RedinSG	IP_Address	10.7.66.30	
+Orenburg_PalevAV	IP_Address	10.7.66.13	
+Orenburg_SharovAN	IP_Address	10.7.66.29	
+AAG	IP_Address	10.5.168.120	
+ws-mnal	IP_Address	10.5.169.63	
+PanshinIV	IP_Address	10.13.132.16	
+YakimovaLA	IP_Address	10.13.131.89	
+PatsukAV	IP_Address	10.13.132.10	
+PetrovaYuS	IP_Address	10.13.131.101	
+VlasovaEE	IP_Address	10.5.168.32	
+AST-DC1	IP_Address	10.7.233.24	
+AST-DC2	IP_Address	10.7.233.233	
+Yamal_1C	IP_Address	10.13.206.10	
+InzhievskiyAL	IP_Address	10.5.169.146	
+PolukarovaIA	IP_Address	10.13.128.136	
+NyatinaOV1	IP_Address	10.13.129.101	
+JukovAS	IP_Address	10.13.128.27	
+Orenburg_Das	IP_Address	10.7.66.80	
+mos-mapinf-pg	IP_Address	10.13.130.16	
+VoronovaAK	IP_Address	10.5.168.155	
+AST-TERMWEB1-IUS	IP_Address	10.7.233.92	
+AST-TERMWEB2-INET	IP_Address	10.7.233.38	
+AST-TERM2012-APP	IP_Address	10.7.233.249	
+TominSI	IP_Address	10.13.130.0	
+ToropovOO	IP_Address	10.5.169.222	
+NaumenkoAL	IP_Address	10.5.169.104	
+EvdokimovaME	IP_Address	10.13.130.96	
+GrechihinaSA	IP_Address	10.13.129.80	
+KozlovAN	IP_Address	10.5.169.192	
+KozyrevSN	IP_Address	10.13.129.172	
+BelyaevaZV	IP_Address	10.13.130.55	
+MelekhinMI	IP_Address	10.13.130.233	
+AsharinAA	IP_Address	10.13.130.200	
+ShatalovaAR	IP_Address	10.13.132.47	
+GrishaninDV	IP_Address	10.13.128.237	
+FrantsuzovaIV	IP_Address	10.13.129.124	
+KostikovaMM	IP_Address	10.5.168.78	
+KashinaPA	IP_Address	10.13.132.87	
+PanasukTI	IP_Address	10.5.168.169	
+AhmedzhanovaIA	IP_Address	10.13.131.239	
+VeselovaVS	IP_Address	10.5.168.187	
+JuravlevaDS	IP_Address	10.13.130.217	
+VolkovaOV	IP_Address	10.5.169.71	
+DaevaYuA	IP_Address	10.13.131.177	
+mos-mapinf-ol7	IP_Address	10.13.132.107	37606596
+MOS-ETRTS1-2K12	IP_Address	10.5.168.222	
+MOS-ETRANTERM-2K3	IP_Address	10.5.169.200	
+DemyachenkoEV	IP_Address	10.13.132.73	
+Surgut_FServer	IP_Address	10.7.237.67	
+TotcevichFV	IP_Address	10.13.128.201	
+ChumakEYu	IP_Address	10.13.131.114	
+MardanovAR	IP_Address	10.5.169.160	
+Surgut_S-Terra_PromIn	IP_Address	10.7.237.129	
+FedorenkoEV	IP_Address	10.13.130.165	
+PlotnikovaYuA	IP_Address	10.13.129.250	
+VNAdm	IP_Address	10.5.139.231	
+EremenkoDV	IP_Address	10.13.132.55	
+ZernovaSA	IP_Address	10.13.130.127	
+AkhmedjanovaIA	IP_Address	10.13.131.239	
+SchkurovaTA	IP_Address	10.13.132.52	
+Kulikova	IP_Address	10.13.130.156	
+KulikovaOA	IP_Address	10.13.130.156	
+ParaschenkoIA	IP_Address	10.13.132.23	
+KomoskoOV	IP_Address	10.13.129.118	
+KozhinaYuS	IP_Address	10.13.132.15	
+ListkovDA	IP_Address	10.13.130.31	
+mos-pmon-ol7	IP_Address	10.13.132.100	
+MashkinaNV	IP_Address	10.5.168.125	
+Ex_Yamal_1	IP_Address	10.13.204.9	
+DC_Yamal_1	IP_Address	10.13.204.4	
+mos-triton-2k12	IP_Address	10.13.130.114	
+mos-pluton-2k12	IP_Address	10.13.132.28	
+mos-neptun-2k12	IP_Address	10.13.132.65	
+MolodovskayaOV	IP_Address	10.13.131.28	
+KiryanovaLA	IP_Address	10.13.131.167	
+SavchenkoLV	IP_Address	10.5.168.227	
+SafaryanKG	IP_Address	10.5.168.124	
+KuzminAA	IP_Address	10.13.132.133	
+KosovcevaEN	IP_Address	10.13.131.144	
+NilokaevaIA	IP_Address	10.5.168.21	
+GorshkovDV	IP_Address	10.13.131.166	
+ZaytcevaMA	IP_Address	10.13.128.100	
+ws-evf	IP_Address	10.13.131.148	
+ATS_Net	IP_Group	10.13.142.0 255.255.254.0	
+OdinecNV	IP_Address	10.13.130.226	
+GP	IP_Group	10.36.128.0 255.255.192.0	
+mos-lic-2k12	IP_Address	10.13.131.215	
+mos-rdgw-2k12	IP_Address	10.5.139.117	TS Gateway server
+mos-rdsn1-2k12	IP_Address	10.13.130.245	
+mos-rdsn2-2k12	IP_Address	10.13.129.244	
+mos-rdsn3-2k12	IP_Address	10.13.131.83	
+mos-rdsn4-2k12	IP_Address	10.13.131.40	
+mos-1c81t-2k8	IP_Address	10.13.130.7	
+mos-rdsn5-2k12	IP_Address	10.5.169.50	
+mos-rdsn6-2k12	IP_Address	10.5.169.43	
+mos-rdsn7-2k12	IP_Address	10.5.169.2	
+mos-rdsn8-2k12	IP_Address	10.5.169.26	
+mos-rdsn9-2k12	IP_Address	10.5.169.56	
+WSUS_Uhta	IP_Address	10.7.235.174	
+mos-rdsn10-2k12	IP_Address	10.13.131.59	
+racnode1	IP_Address	10.13.129.141	
+racnode2	IP_Address	10.13.129.142	
+racnode1-vip	IP_Address	10.13.129.221	
+racnode2-vip	IP_Address	10.13.129.222	
+oracle-scan	IP_Address	10.13.129.140	
+oracle-scan_	IP_Address	10.13.129.224	
+oracle-scan__	IP_Address	10.13.129.147	
+mos-orcl8-2k12	IP_Address	10.13.129.185	
+mos-orcl7-2k12	IP_Address	10.13.129.226	
+mos-tzs-el7	IP_Address	10.13.130.166	
+SUR-1C8-2K8	IP_Address	10.7.237.44	
+GP_Inform	IP_Address	10.241.1.2	
+mos-rdsn11-2k12	IP_Address	10.5.139.67	
+mos-1c83-2k12	IP_Address	10.5.168.94	
+SHatskihLV	IP_Address	10.13.131.224	
+KuzinaTO	IP_Address	10.13.132.153	
+mos-ci-el7.gptrans.gazprom.ru	IP_Address	10.13.130.196	mos-ci-el7.gptrans.gazprom.ru
+mos-rep-ol7.gptrans.gazprom.ru	IP_Address	10.13.129.148	mos-rep-ol7.gptrans.gazprom.ru
+wdoc.gptrans.gazprom.ru	IP_Address	10.13.130.186	wdoc.gptrans.gazprom.ru
+mos-build-2k12.gptrans.gazprom.ru	IP_Address	10.13.129.236	mos-build-2k12.gptrans.gazprom.ru
+Kravtsev_IA_Astrakhans_WS	IP_Address	10.7.233.232	Kravtsev_IA_Astrakhans_WS
+kiap-web.ss.gazprom.ru	IP_Address	10.83.241.76	kiap-web.ss.gazprom.ru
+EDO.ETPGPB.RU	IP_Address	87.245.170.26	
+ws-ivd	IP_Address	10.13.130.231	
+ws-vgg	IP_Address	10.13.131.37	
+ws-miis	IP_Address	10.13.129.211	
+mos-lync2-2k12	IP_Address	10.5.168.116	
+mos-lync1-2k12	IP_Address	10.13.128.204	
+mos-iistst-2k12	IP_Address	10.5.169.205	
+mos-1c8-2k8	IP_Address	10.5.168.52	
+srdi01.dc-gpi.gazprom.ru	IP_Address	10.57.8.10	
+ws-vks438	IP_Address	10.13.130.91	
+mos-vnadm2-2k12	IP_Address	10.5.139.69	
+mos-ad4-2k12	IP_Address	10.5.139.83	
+ws-shie	IP_Address	10.13.132.31	
+DSS_Server	IP_Address	10.5.139.73	
+mos-1c7-2k3	IP_Address	10.5.139.80	
+mos-1cterm-2k3	IP_Address	10.5.168.31	
+mos-hasp-8	IP_Address	10.13.130.178	
+mos-spectr	IP_Address	10.5.139.70	
+mos-scan-2k12	IP_Address	10.13.131.56	
+ws-sand	IP_Address	10.13.132.53	
+ws-chda	IP_Address	10.5.169.80	
+mos-rdsn13-2k12	IP_Address	10.13.129.250	
+mos-rdsn12-2k12	IP_Address	10.13.130.167	
+mos-rdsn14-2k12	IP_Address	10.5.169.120	
+mos-rdsn16-2k12	IP_Address	10.13.129.216	
+mos-rdsn15-2k12	IP_Address	10.13.128.203	
+ws-nna	IP_Address	10.13.131.196	ws-nna
+firepower	IP_Address	10.13.137.11	
+ws-msp	IP_Address	10.13.131.236	
+mos-vmost-deb	IP_Address	10.13.131.218	
+ZecurionDLP_Server	IP_Address	10.5.139.74	ZecurionDLP_Server
+ws-van	IP_Address	10.13.129.152	10.13.129.152
+mos-fsttst-alt	IP_Address	10.13.128.94	mos-fsttst-alt
+mos-fstweb-alt	IP_Address	10.13.128.95	mos-fstweb-alt
+mos-fstdb-alt	IP_Address	10.13.128.96	mos-fstdb-alt
+ws-kons	IP_Address	10.5.169.174	ws-kons
+bsic1561	IP_Address	10.13.129.76	bsic1561 (Smyslov)
+ws-mss	IP_Address	10.13.132.186	
+test-optimacros.gptrans.gazprom.ru	IP_Address	10.13.129.198	
+VPN	Протокол UDP	500;4500	
+Surgut_nets	IP_Group	10.7.237.0 255.255.255.0	
+Moscow_nets	IP_Group	10.5.168.0 255.255.254.0;10.13.128.0 255.255.248.0	
+Astrakhan_nets	IP_Group	10.7.233.0 255.255.255.0	
+Public_servers	IP_Group	10.5.139.66;10.5.139.67	
+Public_services	Протокол TCP	80;8080;25;110	
+DMZ2	IP_Group	10.5.139.64 255.255.255.224	
+DMZ1	IP_Group	10.5.139.32 255.255.255.224	
+Mngmt_hosts	IP_Group	10.5.168.115;ws-chda;Rancid_user	
+Mngmt_services	Протокол TCP	22;443	
+Moscow	IP_Group	10.5.139.34;10.5.139.35;10.5.139.36;10.5.139.37	Moscow VPN gates
+Servers_to_RZD	IP_Group	VipNet1;VipNet2	Gazpromtrans Servers using for RZD connections
+RZD_Servers	IP_Group	217.175.140.73;217.175.140.85;217.23.88.44;10.250.2.140;10.250.2.141	
+Our_DNS_Servers	IP_Group	10.5.168.220;10.5.169.213;10.5.168.17	
+DNS_Servers_Gazsvyaz	IP_Group	DNS1_Gazsvyaz;DNS2_Gazsvyaz	DNS_Servera_Gazsvyaz
+DNS	Протокол TCP	53	DNS-port
+	Протокол UDP	53	DNS-port
+MailServer_Gazsvyaz	IP_Group	Mailhost;MailRelay;MailRelay2;Mailrelay3;Mailhost1;Mailhost2;Mailrelay4	
+Our_MailServer	IP_Group	Pechkin_SMTP_Server	
+Bank_Client	IP_Group	10.5.168.175;10.5.168.90	
+SAP_Client	IP_Group	10.5.168.166;10.5.169.185;10.5.169.216;10.5.168.253;10.5.169.29;10.5.168.233	
+SAP_Servers	IP_Group	10.241.1.40;10.241.1.28;10.241.1.58;10.241.1.55	
+Nalog_Ports	Протокол TCP	50025;50110	
+Nalog_Server	IP_Address	213.24.62.225	
+Nalog_Client	IP_Group	GNIVC_Client	
+Pryamoy_Dostup_Inet	IP_Group	10.5.168.253;10.5.169.89;10.5.168.68	
+Bank_Servers	IP_Group	Gazprombank;Transkreditbank	
+Bank_services	Протокол TCP	443;6217	
+Etran_Clients	IP_Group	10.5.168.162;10.5.168.194;10.5.168.217;10.5.168.171;10.5.168.232;10.5.169.217;10.5.169.181;10.5.168.237;10.5.168.42;10.5.169.126;10.5.169.64;10.5.169.148;10.5.169.109;10.5.168.119;SapeginskiyGF;ChepurinMN;GrunenkovAV;KirillovAN;KosunovNS;NekrashevichNA;PozdnyakovAA;SheleninDY;SmyslovAV;StukanovVN;TatarenkovDS;YavlukhinSA;ZolotukhinDV;BaryshnikovAV;FrolovaTV;KarasevAA;KharakterovaYI;KhramtsovaMN;KorabelnikovIV;KostyukovaOA;LapshinaEA;LazarenkoAS;LazukovaEA;LosevaLE;MuravievSA;PashigorevaEV;SakaevaIV;SapeginskayaME;SeltsovaEY;ShestakovMY;ZakharovaOA;DerunovaEV;IvanovaYN;KoveraII;KrivashovaMV;LevitckySN;PerkhurovaNN;PleshakovMV;PozdnyakovMS;RubtsovAA;SvetlovaEP;VlasovaAS;YakunyaNM;GaripovRV;GromovBM;KuptsovPG;PozdnyakovNS;VologzhaninAA;SamoshenkoLA;KharlamovaAB;MOS-ETRANTERM-2K3;MOS-ETRTS1-2K12;DemyachenkoEV;MardanovaTB;AkhmedjanovaIA;ZernovaSA;10.13.130.187;SafaryanKG;KuzminAA;10.13.129.244;10.13.131.10;10.13.128.76;10.13.131.140;10.13.131.89;10.13.131.25;10.13.132.63;10.13.130.133;10.5.168.59;10.13.130.13;10.13.132.207;10.13.132.64;10.5.168.234;10.13.131.76;10.5.169.93;10.13.130.43;10.13.131.221;10.13.132.88;10.13.128.167;10.13.129.253	
+Post_and_Proxy_Server_Ast	IP_Address	10.7.233.2	
+Post_Server_Surgut	IP_Address	10.7.237.2	
+MapInfoProdUsers	IP_Group	10.13.204.102;10.14.88.65;10.7.233.87;10.7.235.203;10.7.237.116;10.7.66.69	37606596
+Terminal_Client	IP_Group	10.7.237.85;10.7.237.10;10.7.237.70;10.7.233.251	
+Tunnel_Clients	IP_Group	10.7.233.251
+10.7.237.91	
+Uhta_nets	IP_Group	10.7.235.128 255.255.255.128	
+Urengoy_nets	IP_Group	10.7.240.128 255.255.255.128	
+Cluster_Oracle	IP_Group	10.5.169.195;10.5.169.196;10.5.169.75;10.5.169.76;10.13.129.185	
+Servera_Oracle_Filiali	IP_Group	10.7.65.13;10.7.65.14;10.13.204.6;10.13.204.5;10.7.237.72;10.7.237.71;10.7.235.180;10.7.235.181;10.7.233.26;10.7.233.27;10.7.240.134;10.7.240.136;10.7.65.18;10.7.65.19;10.7.233.11;10.7.237.109;10.7.237.123;10.7.237.125;10.7.237.76;10.7.237.78	
+Krasnodar_nets	IP_Group	10.7.239.128 255.255.255.128	
+Etran_Servers	IP_Group	10.5.169.195;10.5.169.196;10.5.168.235;10.5.169.30;10.5.168.88;10.5.168.252	
+MOS-ETRTS1-2K12	IP_Address	10.5.169.200	
+WSUS_clients	IP_Group	10.7.233.3;10.7.237.67;10.7.67.9;WSUS_Urengoy;WSUS_Yamal;WSUS_Uhta	Downstream WSUS servers in branch offices
+Kaspersky_clients	IP_Group	10.7.65.9;Astrakhan_WSUS_Server;10.7.67.10;post;ns;10.5.139.114;KSC_Yamal;KSC_Surgut;10.7.235.174;10.7.240.207;10.5.139.69;10.5.139.83;mos-1c7-2k3;ZecurionDLP_Server	Downstream Kaspersky Admin servers in branch offices
+ASBU_ports	Протокол TCP	3200;3300;3600;50001;8001	Ports for connecting to ASBU
+Region_Client_Etran	IP_Group	10.7.235.135;10.7.235.139;10.7.235.140;10.7.235.144;10.7.235.149;10.7.235.132;10.7.240.138;10.7.240.202;10.7.65.61;10.7.237.88;10.7.237.85;10.7.237.91;10.7.235.220;10.7.237.87;10.7.235.130;10.7.233.251;10.7.233.248;10.7.233.250;10.7.233.249;10.7.65.127;10.7.233.252;10.7.237.80;10.7.239.132;10.7.240.139;10.7.240.155;10.7.237.69;10.7.65.9;10.7.237.82;10.7.237.84;10.7.65.58;10.7.237.117;10.7.65.41;10.13.204.7;10.13.204.8;10.7.233.253;10.7.233.254;10.7.235.133;10.7.65.162;10.7.65.59;10.7.65.98;10.7.240.195;10.7.233.247;10.7.233.245;10.7.240.111;10.7.240.190;10.7.237.77;10.7.237.122;AbdurakhmanovRM;BednevAV;DonskoyDR;NurgalievaGM;RudnichenkoNV;10.7.237.102;10.7.237.81;10.7.237.132;10.7.237.152;10.7.240.100;10.7.240.148;10.7.240.223;10.7.237.89;10.7.237.95;10.7.237.68;10.7.232.27;10.7.233.128;10.7.233.70;10.13.204.11;10.7.65.53;10.13.204.13;10.7.237.100;10.7.237.119;10.7.237.151;10.7.237.70;10.7.237.75;10.7.237.92;10.7.237.93;10.7.237.97;10.7.237.98;10.7.237.99;10.13.204.14	
+Oracle_users	IP_Group	10.5.168.181;10.5.168.88;10.5.169.132;10.5.169.180;10.5.169.57;10.5.168.214;10.5.169.230;10.5.169.197;10.5.168.149;10.5.169.24;10.5.169.204;10.5.169.37;10.5.168.186;10.5.169.246;10.5.169.174;10.13.129.141;10.13.129.142;10.13.129.143;10.13.129.144;10.13.129.146;10.5.168.70;10.5.168.129;10.5.169.18;10.13.129.96;10.13.128.24;10.5.168.225;10.5.169.176;10.5.168.105;10.5.169.74;10.13.129.155;PomaskinDV;SennikovAV;MardanovaTB;KostikovaMM;AhmedzhanovaIA;SchkurovaTA;10.13.131.63;10.13.130.194;10.13.129.195;10.13.132.66	Users, which uses SQLnet & RDP protocols to connect to Object-Group Servera_Oracle_Filiali
+ws-chda	IP_Address	10.13.130.173	
+Oracle_ports	Протокол TCP	1521;3389;2010;1522;3872;7889	SQLnet & RDP ports
+Orenburg_nets	IP_Group	10.7.65.0 255.255.255.0;10.7.66.0 255.255.255.0	
+FTP_to_Pechkin	IP_Group	Astrakhan_nets;Krasnodar_nets;Orenburg_nets;Surgut_nets;Uhta_nets;Urengoy_nets	Access to pechkin ftp from regions
+Dispetcher_to_test_Oracle	IP_Group	10.5.168.201;10.5.169.154;ws-chda	Moscow dispetcher can connect to Oracle in regions
+DM_INLINE_SERVICE_7	Протокол TCP	4060;4061;12250-12050	
+	Протокол UDP	5060;29100-30099	
+Web_cam_5000	IP_Group	80.79.189.218
+80.79.189.220
+80.79.189.221	tcp/5000 video data from webcam
+DM_INLINE_SERVICE_2	Протокол TCP	1400-1720	
+	Протокол UDP	5010-5039;5060	
+Routers_branch_office	IP_Group	Uhta_Router	
+Poxy_Servers_Remote_offices	IP_Address	10.7.233.3	
+APOD_Servers	IP_Group	10.241.10.10;10.241.10.13;10.241.10.14;10.241.10.15;10.241.10.16;10.241.10.17;10.241.10.18;10.241.10.19	
+APOD_users	IP_Group	10.13.128.32;10.13.128.15	
+APOD_ports	Протокол TCP	443;8000;50000;50001	
+GazpromRootCA	IP_Group	10.241.1.72;10.250.4.160;10.250.4.134	
+AccessToInside	IP_Group	Astrakhan_nets;Krasnodar_nets;Orenburg_nets;Surgut_nets;Uhta_nets;Urengoy_nets	Access to inside from regions
+FTP_branche_office_admin	IP_Address	10.7.240.136	
+Moscow_new_nets	IP_Group	10.13.128.0 255.255.248.0	
+Region_To_ProxyBD	IP_Group	10.7.235.130;10.7.235.140;10.7.235.145;10.7.235.146;10.7.235.147;10.7.235.148;10.7.235.150;10.7.235.154;10.7.235.157;10.7.235.158;10.7.237.179;10.7.237.70;10.7.237.73;10.7.237.89;10.7.65.114;10.7.65.119;10.7.65.141;10.7.65.173;10.7.65.42;10.7.65.52;10.7.65.55;10.7.65.67;10.7.65.73;10.7.65.88;10.7.65.92;10.7.65.93;10.7.240.100;10.7.240.101;10.7.240.223;10.7.233.157;10.7.233.160;10.7.233.188;10.7.233.70;10.7.233.94;10.7.233.98;10.7.233.99;10.7.237.117;10.7.237.95;10.7.237.100;10.7.237.80;10.7.237.81;10.7.237.91;10.7.237.108;10.7.237.147;10.7.237.180;10.7.237.69;10.7.237.12;10.7.237.120;10.7.233.66;10.7.65.150;10.7.237.77;10.7.65.41;10.7.233.79;10.7.240.196;10.7.235.132;10.7.240.152;10.7.237.101;10.7.237.79;10.7.233.95;10.7.239.132;10.7.239.134;10.7.240.190;10.7.240.139;10.7.233.140;10.7.233.150;10.7.233.173;10.7.233.247;10.7.233.250;10.7.233.251;10.7.233.252;10.7.233.253;10.7.233.254;10.7.233.50;10.7.233.67;10.7.233.76;10.7.65.127;10.7.237.122;Surgut_YarullinaGK;Surgut_RybalkinaYV;Surgut_TveretinaEM;10.7.66.26;Surgut_Salnikov;10.7.237.148;10.7.237.150;10.7.237.151;10.7.237.163;10.7.237.174;10.7.233.175;10.7.65.48;10.7.65.61;10.13.204.183;10.13.204.205;10.13.205.0;10.13.205.51;10.7.235.144;10.7.233.248	Access to Dislocation by RDP to Proxy-BD
+SKZ_KAV	IP_Group	esrdi.ss.gazprom.ru;srdi01.dc-gpi.gazprom.ru	Podklu4enie k severu obnovleni9 kasperskogo
+SKZ_WSUS	IP_Group	esrdi.ss.gazprom.ru
+srdi01.dc-gpi.gazprom.ru	Podklu4enie k serveru WSUS slujby korp zawity
+FTP_Servers	IP_Group	Pechkin_SMTP_Server
+PROTON	
+FTP_branch_users	IP_Group	10.7.237.12;10.7.65.50;10.7.237.69;10.7.237.70;10.7.237.55;10.7.233.223;10.7.233.224;10.7.235.132;10.7.235.220;10.7.235.251;10.7.235.175;10.7.235.222;10.7.235.190;10.7.235.137;10.7.66.193;10.7.66.194;10.7.66.195;10.7.66.196;10.7.66.197;10.7.233.5;10.7.67.21;10.7.233.225;10.7.233.67;Urengoy_Mahnovskiy;Urengoy_Naumov;Urengoy_Sidorova;Yamal_MavdrikOY;Yamal_SladkovVI;10.13.205.51;10.13.206.39;Ast_Uskaev;Surgut_Salnikov;Orenburg_PalevAV;Orenburg_RedinSG;Orenburg_SharovAN;Orenburg_Das;10.7.65.71;10.13.204.183	
+NTP_Servers	IP_Group	DNS2_Gazsvyaz;10.250.3.9;10.9.34.1	
+Dislocation_Servers	IP_Address	11.0.0.28	
+Dislocation_Clients	IP_Group	10.5.169.195;10.5.169.196;10.5.168.252;10.5.168.88;10.5.169.57;10.5.168.181;10.5.169.228;10.5.168.112;NekrashevichNA;SheleninDY;MOS-ETRANTERM-2K3;MOS-ETRTS1-2K12;10.7.233.200;10.7.233.94	
+Moscow_Admin	IP_Group	10.5.169.246;10.5.168.115;10.13.129.152;ws-chda;Rancid_user	Moscow_Admin
+39bld3flrVLAN	IP_Group	10.13.140.128 255.255.255.128	39bld3flrVLAN
+Etran_Resource	IP_Group	11.0.0.11;12.0.0.30;11.0.0.13;11.0.0.14;12.0.0.19	Etran_Resource_Virtual_IP
+Etran_Ports	Протокол TCP	80;443;8092	Etran_Ports
+Region_DNS_Servers	IP_Group	10.7.235.130;10.7.235.131;10.7.237.2;10.7.240.130;10.7.65.10;10.7.65.22;10.7.67.21;10.7.235.251;10.7.235.175;10.7.233.24;10.7.233.233;10.7.233.5;10.14.99.194;10.7.237.67;DC_Yamal_1;10.7.240.135	Region_DNS_Servers
+Device_Yamal	IP_Group	10.13.207.0 255.255.255.248;10.13.207.16 255.255.255.248;10.13.207.8 255.255.255.248;10.13.207.24 255.255.255.248;10.13.207.32 255.255.255.248;10.13.204.0 255.255.254.0;10.13.207.56 255.255.255.248;10.13.207.58;Yamal_S-Terra_1000	Routing, firewalling, cryptographing
+Birzha_for_Kornienko	IP_Group	193.219.127.51;193.219.127.52;193.219.127.53	Birzha_for_Kornienko
+Mngmnt_host_VipNet	IP_Group	10.5.168.115;ws-chda	Mngmnt_host_VipNet
+Obmen_1C_ports	Протокол TCP	80;110;443;465	32770994
+ERP_Elar_Servers	IP_Group	10.5.169.206;10.5.169.45;mos-iistst-2k12	ERP_Elar_Servers
+ERP_Elar_Source	IP_Group	10.241.1.67;10.241.1.68;10.241.1.69	ERP_Elar_Source
+ERP_Elar_ports	Протокол TCP	1521;12205;12347	ERP_Elar_ports
+Restricted_Client	IP_Group	10.5.168.136;10.5.168.236;10.5.168.90;10.5.169.22;10.5.169.61;10.5.168.247;10.13.129.82;10.5.169.128;10.13.129.58;10.13.128.180;10.5.169.121;10.5.169.130;10.5.169.230;10.5.168.175;10.5.169.7;10.13.129.214;10.13.140.76;10.13.140.98;10.13.128.240;10.5.168.233;10.5.169.52;10.13.128.48;10.5.169.87;10.13.129.245;10.5.169.209;10.13.128.192;10.13.140.8;10.5.168.69;Egorova_Bank_Client;10.5.168.207;10.5.169.154;10.5.169.67;10.13.128.43;10.13.131.228;PerkhurovaNN;OrlovIA;VlasovaEE;10.5.168.100;10.5.169.109;10.5.169.148;10.5.169.64;10.5.169.217;10.13.131.74;10.13.132.129	Restricted_Client
+Ports_Restricted_Clients	Протокол TCP	3128	Ports_Restricted_Clients
+Mini_Admin	IP_Group	10.5.169.246;10.5.169.177	Mini_Admin
+Outside_site_users	IP_Group	10.5.168.88
+10.5.169.180	Outside_site_users
+Surgut_Electronnoe_declarirovanie_client	IP_Group	10.7.237.98
+10.7.237.99	Surgut_Electronnoe_declarirovanie_client
+39bld4flrVLAN	IP_Group	10.13.140.0 255.255.255.128	39bld4flrVLAN
+Yamal_Nets	IP_Group	10.13.204.0 255.255.254.0;10.13.206.0 255.255.254.0	Yamal_Nets
+All_Filials	IP_Group	Astrakhan_nets;Krasnodar_nets;Orenburg_nets;Surgut_nets;Uhta_nets;Urengoy_nets;Yamal_Nets	
+Filials_users_MTR	IP_Group	10.7.233.107;10.7.233.114;10.7.233.127;10.7.233.158;10.7.233.161;10.7.233.163;10.7.233.189;10.7.233.221;10.7.233.222;10.7.233.65;10.7.233.69;10.7.233.73;10.7.233.74;10.7.233.88;10.7.233.89;10.7.233.92;10.7.233.93;10.7.233.94;10.7.233.95;10.7.235.132;10.7.235.137;10.7.235.139;10.7.235.146;10.7.235.147;10.7.235.161;10.7.235.165;10.7.235.196;10.7.235.203;10.7.235.207;10.7.235.208;10.7.235.210;10.7.235.213;10.7.240.161;10.7.240.172;10.7.65.133;10.7.65.134;10.7.65.171;10.7.65.87;10.7.237.107;10.7.237.115;10.7.237.118;10.7.237.120;10.7.237.126;10.7.237.132;10.7.237.136;10.7.237.143;10.7.237.158;10.7.237.184;10.7.237.18;10.7.237.39;10.7.237.40;10.7.237.53;10.7.237.54;10.7.237.55;10.7.237.56;10.7.233.223;10.7.233.224;10.7.235.153;10.7.65.56;10.13.206.130;10.13.204.99;10.13.206.39;10.7.237.108;10.7.237.12;10.7.237.149;10.7.237.179;10.7.233.91;10.7.237.147;10.7.237.70;10.7.240.136;10.7.240.148;10.7.237.135;10.7.237.137;10.7.237.10;10.7.237.2;10.7.237.153	Filials_users_MTR
+Zabbix_Server_Ports	Протокол TCP	10050;10051	Zabbix_Server_Ports
+Transkredit_Bank_Servers	IP_Group	80.82.169.66;195.161.5.237	Transkredit_Bank_Servers
+WebSrv_admins	IP_Group	10.5.168.88;10.13.128.24	
+WebSrv_admin_port	Протокол TCP	4048;4848	
+VNCclients	IP_Group	10.7.240.148;10.7.65.130;10.7.65.30;10.7.233.223;10.7.235.132;10.7.237.179	
+53bld2flrVLAN	IP_Group	10.13.139.0 255.255.255.0	53bld2flrVLAN
+Servers_Gazprompererabotka	IP_Group	10.56.130.86;10.56.130.87;10.56.160.86;10.56.160.87;10.56.162.86;10.56.162.87	Servers_Gazprompererabotka
+Services_Gazprompererabotka	Протокол TCP	50000;50001	Services_Gazprompererabotka
+Our_Servers_To_Gazprompererabotka	IP_Group	10.13.129.135;10.5.168.88	Our_Servers_To_Gazprompererabotka
+IUS_PRUV_Filials	IP_Group	10.7.235.158;10.7.240.172	IUS_PRUV_Filials_Clients
+RKC_SRV	IP_Group	10.250.4.179;10.250.4.180	Web servera Rasschetnogo klientskogo centra
+RKC_admins	IP_Group	10.13.128.24;10.5.169.176;10.5.169.57;10.5.168.88;ws-chda	ip s dostupom k web serveram rasschetnogo klientskogo centra
+RKC_admin	Протокол TCP	20;21;22;80;443;3710	Porty dl9 dostupa k serveram rasschetnogo klientskogo centra
+KMS	Протокол TCP	135;1688;49154	Ports used by KMS server
+CCC_Learn	IP_Group	10.56.173.3;10.56.173.4	SAP Client Competence Center Learning System SAP SM (LSM)
+CCC_Prod	IP_Group	10.56.150.1
+10.56.150.2	SAP Client Competence Center Productive GSM 700
+RKC_exchange	Протокол TCP	4440-4450;7676;37000;37001	Ports userd to exchange data from germes to RKC Servers
+BO_DC	IP_Address	10.7.240.130	Branch Office Domain Controllers
+HO_DC	IP_Group	10.5.169.213;ws-chda	Head Office Domain Controllers
+DC_Trust	Протокол TCP	135;1688;3389;49154	Ports needs to trust Domain Controllers
+NetBackup_Clients	IP_Address	10.5.139.114	Outside NetBackup Clients
+NB_Client_out	Протокол TCP	1556;13783	Default outgoing ports Numbers for NetBackup Client 7.5
+NB_Server	Протокол TCP	1556;13722;13724;13783	Default NetBackup Master Server 7.5 outgoing ports
+JAVA	Протокол TCP	50000;50001	JAVA system information exchange
+SAP_WD	Протокол TCP	8064;8065	SAP Web Dispatcher System Information exchange
+SOAP	Протокол TCP	4080;4081;8080;8081	System information exchange Transportirovka
+XI	Протокол TCP	8165;44465	XI system information Exchange
+Servers_Gazprompererabotka_SAP	IP_Group	10.56.130.65;10.56.160.1;10.56.162.1	
+IUS_PRUV_Servers	IP_Group	10.56.195.21;10.56.67.21;10.56.67.22;10.56.194.5;10.56.194.6;10.56.66.5;10.56.66.6	IUS_PRUV_Servers
+IUS_PRUV_Clients	IP_Group	10.5.169.154;10.5.168.207;10.5.168.217;10.5.168.60;10.5.169.226;10.5.160.79;10.5.169.67;10.13.130.8;10.13.129.100;10.13.140.98;10.13.130.144;PerkhurovaNN;DolgovaYuN;KostebelovSV;SlijovaMS;LobanovaEY;RijaevaNA;KonokotinaNN;RyabkinaEY;ws-gen;KruglyhinaYA;UstinovaEI;TyurinDY;KosenkoEV;MyasnikovVS;KrivashovaMV;AAG;PanshinIV;YakimovaLA;PatsukAV;ws-nnt;LeontevaPN;PetrovaYuS;VlasovaEE;InzhievskiyAL;PolukarovaIA;NyatinaOV1;VlasovaAS;JukovAS;SelivanenkoIV;VoronovaAK;TominSI;ToropovOO;NaumenkoAL;EvdokimovaME;GrechihinaSA;KozlovAN;KozyrevSN;BelyaevaZV;MelekhinMI;AsharinAA;ShatalovaAR;GrishaninDV;FrantsuzovaIV;KashinaPA;PanasukTI;10.5.169.151;VeselovaVS;JuravlevaDS;VolkovaOV;DaevaYuA;TotcevichFV;ChumakEYu;MardanovAR;FedorenkoEV;PlotnikovaYuA;EremenkoDV;KulikovaOA;ParaschenkoIA;KomoskoOV;KozhinaYuS;ListkovDA;MashkinaNV;MolodovskayaOV;KiryanovaLA;SavchenkoLV;KosovcevaEN;NilokaevaIA;10.13.129.145;OdinecNV;10.13.129.13;10.13.131.233;10.13.130.192;mos-rdsn9-2k12;10.13.131.142;10.13.130.148;10.5.169.85;10.13.129.239;10.13.131.98;10.13.131.44;10.5.168.29;10.13.131.71;10.13.131.41;10.5.169.190;10.13.131.33;10.13.130.195;10.13.132.79;10.5.168.149;10.5.168.171;10.13.131.235;10.13.130.172;10.13.129.233;10.13.129.255;10.13.130.134;10.13.130.36;10.13.130.94;10.13.131.191;10.13.132.159;SHatskihLV;10.5.168.201;KuzinaTO;10.13.130.244;10.5.169.211;10.13.129.85;10.13.132.142;10.13.129.129;10.13.129.204;10.13.132.131;10.13.132.119;10.5.169.208;10.13.129.220;10.5.168.153;10.5.168.137;10.13.130.215;10.13.131.22;10.13.132.50;10.13.131.182;10.13.131.96;10.13.129.209;10.5.168.138;10.13.129.123;10.13.132.117;ws-ivd;ws-vgg;ws-miis;10.5.169.122;10.5.168.190;10.13.130.155;ws-vks438;10.13.132.31;10.5.169.143;10.13.131.53;10.13.132.114;10.5.169.62;10.5.169.57;10.5.169.78;10.5.169.221;10.13.130.249;10.13.132.42;10.13.130.203;ws-chda;10.13.130.136;10.5.168.115;10.13.132.174;10.13.129.196;10.13.130.86;10.13.130.237;10.13.129.44;10.13.128.156;10.13.130.111;10.13.129.168;10.13.132.40;10.13.130.164;10.5.169.18;10.5.169.42;ws-nna;10.13.128.101;10.13.129.79;10.13.132.9;10.5.169.172;10.13.131.87	IUS_Gazprom_Clients
+VKS_BO	IP_Group	10.7.237.15;10.7.237.55	
+VKS_HO	IP_Group	10.5.168.79;10.5.168.81	
+ASULR_SUR_Client	IP_Group	10.5.168.112;MOS-ETRTS1-2K12	
+BLOCK_IP	IP_Group	46.163.100.220;93.95.102.109;185.51.247.125;185.51.247.169;208.91.198.93;77.222.57.247;81.177.135.151;81.177.141.15;87.236.19.244	BLOCK_IP
+Ammy_Admin_Servers	IP_Group	217.172.183.184;50.115.127.36;50.115.127.37;62.75.224.229;85.25.20.109;88.198.6.56;93.95.102.102;93.95.102.109;93.95.99.233	Ammy_Admin_Servers
+HTTP_Services	Протокол TCP	80;443;8080	HTTP_Services
+IUS_MTR_Users	IP_Group	10.5.169.187;10.13.129.9;10.5.169.35;10.5.168.193;10.5.169.52;KadyrovaDA;KuzminaEE;FilenkoEV_ASBU	IUS_MTR_Users
+IUS_MTR_Servers	IP_Group	10.56.67.21;10.56.67.22;10.56.194.68;10.56.66.68;10.56.194.5;10.56.194.6;10.56.66.5;10.56.66.6	IUS_MTR_Servers
+SAMS_Service_Ports	Протокол TCP	3128	SAMS_Service_Ports
+Discl_Clients	IP_Group	10.5.169.30;10.5.168.112;10.5.168.181;10.5.168.252;10.5.168.88;10.5.169.195;10.5.169.196;10.5.169.228;10.5.169.57;10.13.130.146;10.13.130.147;10.13.130.148;10.13.130.149;NekrashevichNA;SheleninDY;MOS-ETRANTERM-2K3;MOS-ETRTS1-2K12;mos-rdsn2-2k12	Dostup_k_Dislocacii
+GOSUSER	IP_Group	10.5.168.249;10.5.168.76	GOSUSER
+IUS_BUIRG_Clients	IP_Group	10.5.169.7;10.13.128.151;10.5.168.115;10.5.168.47;10.13.130.21;10.13.128.46;10.13.129.117;10.13.140.70;10.5.169.87	IUS_BUIRG_Clients
+IUS_BUIRG_Servers	IP_Group	10.241.1.28;10.241.1.40;10.56.195.21;10.56.67.21;10.56.67.22;10.56.194.5;10.56.194.6;10.56.66.5;10.56.66.6	IUS_BUIRG_Servers
+IUS_BUIRG_Ports	Протокол TCP	3200;
+3300;443	IUS_BUIRG_Ports
+Yamal_Network_Hardware	IP_Group	Yamal_ASA_Inside;
+Yamal_S-Terra_1000;
+Yamal_ASA;
+obs-crp1vrrp1-vpn1000;obs-crp2vrrp1-vpn1000;10.14.99.36	
+Astrakhan_Network_Hardware	IP_Group	Astrakhan_Router;Astrakhan_Firewall;10.7.232.65;10.7.232.94;Astrakhan_S-Terra	
+Amur_Network_Hardware	IP_Group	ASA_Amur_outside;S-Terra_Amur_inside;S-Terra_Amur_outside	
+Krasnodar_Network_Hardware	IP_Group	Krasnodar_Firewall;Krasnodar_Router;Krasnodar_S-Terra	
+Orenburg_Network_Hardware	IP_Group	10.7.64.10;10.7.64.18;10.7.64.9;10.7.65.1	
+Zabbix_Check_Network_Resources_Filials	IP_Group	Surgut_S-Terra_Office;Surgut_S-Terra_OGP;10.7.237.129;Urengoy_S-Terra_2;10.7.65.1;Uhta_S-Terra_1;Uhta_S-Terra_2;10.7.233.21;10.7.232.65;Astrakhan_Firewall;10.7.235.220;10.7.235.241;10.7.235.251;10.7.235.131;10.7.235.155;10.7.235.156;Urengoy_S-Terra_1;10.7.233.2;10.7.240.137;10.7.233.4;10.7.233.5;10.7.233.9;Astrakhan_WSUS_Server;10.7.233.16;10.7.233.17;10.7.233.20;10.7.233.22;10.7.233.228;10.7.233.229;10.7.233.8;10.7.235.175;Yamal_Network_Hardware;Astrakhan_Network_Hardware;Amur_Network_Hardware;Ex_Ast_1;Ex_Ast_2;AST-DC1;AST-DC2;Yamal_1C;10.7.240.254;10.7.235.194;Krasnodar_Network_Hardware;Orenburg_Network_Hardware;AST-TERMWEB2-INET;AST-TERM2012-APP;Surgut_FServer;AST-TERMWEB1-IUS;SUR-1C8-2K8;10.7.235.243	
+Filials_phones	IP_Group	10.7.237.158;10.7.237.15	
+Service_Zabbix	Протокол TCP	22;10050	
+Oracle_Monitoring_Servers_Moscow	IP_Group	10.13.129.141;10.13.129.142;10.13.129.143;10.13.129.144;10.13.129.146;10.5.169.135;10.13.129.186	
+Oracle_Monitoring_Servers_Filials	IP_Group	10.7.65.11;10.7.65.12;10.7.237.69;10.7.233.21;10.7.233.22;10.7.235.156;10.7.235.155;10.7.240.131;10.7.240.132;10.7.237.71;10.7.237.72;10.7.65.18;10.7.65.19;10.7.233.26;10.7.233.27;10.7.235.180;10.7.235.181;10.7.240.134;10.7.240.136;10.7.237.109;10.7.237.123;10.7.237.125;10.7.237.76;10.7.237.78;10.13.204.5;10.13.204.6	
+Service_Monitoring_Oracle	Протокол TCP	1521;2010;22;3872;4889;4900;1522;4903	
+IUS_M_SUIM	IP_Group	10.5.184.42;10.56.194.6;10.56.194.5	
+IUS_M_SUIM_Clients	IP_Group	10.5.169.54;10.13.128.164;10.13.128.32;10.13.128.227;SelivanenkoIV	
+KHD_on_PHD_Clients	IP_Group	10.13.128.175;10.13.128.43;10.5.169.131;10.13.129.53;10.13.128.194;10.13.129.245;10.13.128.48;10.5.169.54;10.13.128.164;10.5.168.231;10.5.168.230;10.13.128.32;10.13.128.238	
+KHD_on_PHD_Servers	IP_Group	10.56.194.6;10.56.194.5;10.56.66.6;10.56.66.5	
+Taxcom_Users	IP_Address	10.13.128.151	
+IUS_OBD_NSI_Clients	IP_Group	10.5.168.233;10.13.129.214;10.5.169.105	
+IUS_OBD_NSI_Servers	IP_Group	10.56.195.21;10.56.67.21;10.56.67.22;10.56.194.5;10.56.194.6;10.56.66.5;10.56.66.6	
+IUS_OBD_NSI_Ports	Протокол TCP	3200;3300;443	IUS_BUIRG_Ports
+IUS_ASEZ_Clients	IP_Group	10.13.128.20;10.13.129.206;10.13.129.32;10.5.168.249;10.5.169.115;10.5.168.223;10.5.169.102;10.5.169.127;10.5.169.91;10.13.128.100;10.13.128.213;10.5.168.100;10.5.169.209;10.5.169.39;10.13.128.240;10.13.130.14;10.13.131.113;10.13.129.229;10.13.140.94;10.13.131.228;10.5.168.247;10.5.169.22;DmitrievaEG;10.5.168.69;10.13.131.13;AdaykinaEN;10.13.128.50;OrlovIA;PulyaevaKV;MinaevIA;MalyarevichAV;ws-mnal;10.13.128.47	IUS_ASEZ_Clients
+IUS_ASEZ_Servers	IP_Group	10.56.194.5;10.56.194.6;10.56.66.6;10.56.66.5	IUS_ASEZ_Servers
+Zabbix_chech_inside_S_Terra	IP_Group	10.5.139.34;10.5.139.35;10.5.139.37	Zabbix_chech_inside_S_Terra
+PING_S_Terra	Протокол ICMP	0;8
+	PING_S_Terra
+TAXCOM_Client	IP_Address	10.13.128.151	TAXCOM_Client
+TAXCOM_Servers	IP_Group	81.177.14.204;193.0.214.204	TAXCOM_Servers
+TAXCOM_Ports	Протокол TCP	1110;5025;110;25	TAXCOM_Ports
+GNIVC_SERVERS	IP_Group	93.95.155.34;93.95.155.36;93.95.155.45	GNIVC_SERVERS
+GNIVC_SERVICE	Протокол TCP	50025;50026;50028;50029;50110;50111;50113;50114;80;110;25	GNIVC_SERVICE
+ATLAS_Clients	IP_Address	10.13.128.100	ATLAS_Clients
+S_TERRA_SERVERS	IP_Group	10.5.139.35;10.5.139.36;10.5.139.37;10.5.139.34	S_TERRA_SERVERS
+Restricted_Nets	IP_Group	10.0.0.0 255.255.255.0;169.254.0.0 255.255.0.0;172.16.0.0 255.240.0.0;192.168.0.0 255.255.0.0;240.0.0.0 240.0.0.0;50.31.164.165;50.31.164.166;50.31.164.173;50.31.164.174;50.31.164.175;10.248.8.240;10.248.0.135;185.51.247.125;185.51.247.169;208.91.198.93;77.222.57.247;81.177.135.151;81.177.141.15;87.236.19.244;104.18.32.14;104.18.33.14;173.208.81.207;23.226.236.13;68.178.213.61;217.12.199.116;217.12.199.167;217.12.199.210;217.12.199.118;217.12.199.61;217.12.199.74;217.12.199.90;217.12.199.184;217.12.199.57;217.12.199.64;5.34.205.0 255.255.255.0;5.34.207.0 255.255.255.0	Typovye informacionnye potoki 2014
+Novaya_BD	IP_Group	10.13.129.140;10.13.129.147;10.13.129.221;10.13.129.222;10.13.129.224;10.13.129.185	Dostup k germes
+bam-botnet	IP_Group	50.31.164.165;50.31.164.166;50.31.164.173;50.31.164.174;50.31.164.175	
+GPN_AZS	IP_Address	22221-22221	Dostup k LK na saite GPN (pismo 23118871)
+Kaspersky	Протокол TCP	13000;135;14000	
+TMG_port	Протокол TCP	1745;8080	
+Web_Izarb	IP_Address	All_Filials	Dostup dlya filialov to IzarB
+Zabbix_Check_SNMP	IP_Group	Astrakhan_Router;Uhta_Router;Surgut_Router;Krasnodar_Router;Urengoy_Router;10.7.64.9	
+Ex	IP_Group	10.5.169.53;10.5.169.58	MS Exchange
+AD	IP_Group	10.5.168.220;10.5.169.213;10.5.168.17	AD servers
+MailServersFilials	IP_Group	10.7.233.2;10.7.235.220;10.7.240.140;10.7.65.17;Ex_Ast_DAG;Ex_Ast_2;Ex_Ast_1;10.7.237.67;Ex_Yamal_1	
+AD_trust_ports_TCP	Протокол TCP	445;636;139;135;137;88;53;389	
+AD_trust_ports_UDP	Протокол UDP	138;135;389;88;53;137	
+MS_Lync_Servers	IP_Group	10.13.128.204;10.5.168.116	
+MS_Lync_ports	Протокол TCP	5061;443	
+HW1000_Servers	IP_Group	HW1000-1;HW1000-2;HW1000_Cluster	New_vipnet_servers
+Restricted_Inet_Servers	IP_Group	10.13.128.13;10.13.128.222;10.13.128.231;10.13.128.233;10.13.128.255;10.13.128.57;10.13.129.0;10.13.129.129;10.13.129.141;10.13.129.142;10.13.129.143;10.13.129.144;10.13.129.146;10.13.129.149;10.13.129.182;10.13.129.186;10.13.129.190;10.13.129.226;10.13.129.230;10.13.129.236;inside;10.13.129.35;mos-wsus-2k12;10.13.129.65;10.13.129.70;10.13.130.180;10.13.130.191;10.13.130.198;10.13.130.37;10.13.130.7;10.5.168.107;10.5.168.20;10.5.168.220;10.5.168.23;10.5.168.243;10.5.168.31;10.5.168.37;10.5.168.57;10.5.168.58;10.5.169.135;WSUS_Server;10.5.169.195;10.5.169.196;10.5.169.213;10.5.169.220;10.5.169.239;10.5.169.240;10.5.169.51;PROTON;10.13.130.146;10.13.130.71;10.13.129.185;mos-fend-2k12;mos-is1-2k12;amur-orcl2-2k12;amur-orcl1-2k12;MOS-ETRANTERM-2K3;MOS-ETRTS1-2K12;10.13.131.227;mos-pmon-ol7;10.13.132.91;10.13.132.92;10.13.132.93;10.13.132.94;10.13.132.95;mos-neptun-2k12;mos-pluton-2k12;mos-triton-2k12;10.13.130.179;10.13.132.138;10.13.131.14;10.13.130.207;mos-direct-2k12;mos-tzs-el7;10.5.169.53;10.5.169.58;10.5.168.17;10.13.128.84;firepower;10.13.130.213;10.5.168.252;10.5.168.40;10.5.168.41;10.7.233.26;10.7.233.27;10.7.65.19;10.7.65.18;10.7.237.71;10.7.237.72;10.7.235.180;10.7.235.181;10.7.240.134;10.7.240.136;10.13.204.5;10.13.204.6;10.13.130.141;10.13.131.134;10.13.128.228;10.13.131.70;10.13.130.196;10.13.131.133;10.13.130.75;10.13.132.12;10.5.169.200;10.5.139.114;10.13.131.130;10.13.130.145;10.13.129.63;10.13.132.172;10.13.129.20;10.13.129.22;10.13.129.104;10.250.4.179;10.250.4.180;10.13.132.107;MOS_NTP_SERVER;10.13.131.100;10.13.131.155;10.13.129.183;10.13.129.181;10.13.132.100;10.13.131.77;10.13.132.24;10.13.130.166;10.13.130.186;10.5.169.168	Deny_Internet_access_for_servers
+AIS_RD	IP_Group	10.13.130.244;10.13.140.76	Testovaya ekspluataciya po pismu 26632611
+Urengoy_Network_Hardware	IP_Group	Urengoy_S-Terra_1;Urengoy_Router;Urengoy_Firewall;Urengoy_S-Terra_2;10.7.240.9;10.7.240.254;10.7.240.194	
+Surgut_Network_Hardware	IP_Group	10.7.236.146;Surgut_Firewall;Surgut_Router;Surgut_S-Terra_OGP;Surgut_S-Terra_Office;Surgut_S-Terra_Prom;Surgut_Switch;Surgut_S-Terra_SNE;Surgut_S-Terra_PromIn	
+Uhta_Network_Hardware	IP_Group	Uhta_S-Terra_1;Uhta_S-Terra_2;Uhta_Router;Uhta_Firewall;10.7.235.194	
+ASUP_PD	IP_Group	BobkovaEV(standalone);PolovnikovaYA;PodolskayaOS;SavinovaNY(standalone);TrishinaNV;DmitrievaEG;AntropovAV;KonyukhovAY;OrlovIA;PlotnikovaYuA;Kulikova;10.13.129.85;10.5.168.100;10.13.129.204;10.13.132.42;10.13.130.136;10.13.130.172;10.13.132.174;10.13.128.156;10.13.132.9	Dostup_k_ASUP_PD_PH4
+TMG_SQL_TCP-UPD	Протокол TCP/UDP	1433;1434;10043	test traffic counters from TMG
+TCPUDP	Протокол TCP/UDP	tcp, udp, без номеров порта	
+ASUP_PD-Farms	IP_Group	ASUP_PD-Farm;ASUP_PD-Farm2;ASUP_PD-Farm1;ASUP_PD-Farm3	Ferma_ASUP_for_PH4
+TMG_SQL_TCP	Протокол TCP	1433;1434	test traffic counters from TMG
+DM_INLINE_TCP_1	Протокол TCP	13000;14000	
+DM_INLINE_TCP_2	Протокол TCP	13000;14000	
+Taxcom_webinar	IP_Group	188.127.242.89;188.127.242.90;188.127.248.17;188.127.248.18;83.222.96.122;83.222.96.123;83.222.97.138;83.222.97.139	29675760
+RTMP	IP_Address	1935	Real Time Messaging Protocol
+ASSOIS_Servers	IP_Group	assois.ss.gazprom.ru;kiap-web.ss.gazprom.ru	
+ASSOIS_users	IP_Address	KonovalovVV	
+DM_INLINE_TCP_3	Протокол TCP	3389;1521	
+DM_INLINE_TCP_4	Протокол TCP	10050;10051	
+DM_INLINE_TCP_6	Протокол TCP	10050;10051	
+DM_INLINE_TCP_8	Протокол TCP	15000	
+Kaspersky_add	IP_Address	15000	
+DM_INLINE_TCP_9	Протокол TCP	15000	
+DM_INLINE_NETWORK_1	IP_Group	10.13.204.5;10.13.204.6	
+DM_INLINE_NETWORK_2	IP_Group	10.13.129.140;10.13.129.141;10.13.129.142;10.13.129.147;10.13.129.185;10.13.129.221;10.13.129.222;10.13.129.224;10.5.169.250	
+DM_INLINE_NETWORK_3	IP_Group	10.13.129.140;10.13.129.141;10.13.129.142;10.13.129.147;10.13.129.185;10.13.129.221;10.13.129.222;10.13.129.224;10.5.169.250	
+DM_INLINE_NETWORK_4	IP_Group	10.13.204.5;10.13.204.6	
+DM_INLINE_SERVICE_1	Протокол TCP/ICMP	1024	
+DM_INLINE_TCP_11	Протокол TCP	5080;80	
+DM_INLINE_NETWORK_5	IP_Group	10.5.168.115;KozlovSS	
+Amur_nets	IP_Address	10.14.88.0 255.255.254.0	
+DM_INLINE_TCP_12	Протокол TCP	80;443;22	
+SIP_TCP	Протокол TCP	3230-3231;5060-5061;1720	
+SIP_UDP	Протокол UDP	3230-3280;5061;5060	
+Obmen_1C	IP_Group	f4.fss.ru;pnv-rpn.ru;report.keydisk.ru;service.fsrar.ru	32770994
+DM_INLINE_TCP_7	Протокол TCP	80;443;22	
+DM_INLINE_SERVICE_9	Протокол TCP/ICMP	22	
+Servers_Gazprompererabotka_temp1	IP_Group	10.56.131.89;10.56.131.90;10.56.131.93;10.56.3.89;10.56.3.90;10.56.3.93	
+Servers_Gazprompererabotka_temp2	IP_Group	10.56.160.87;10.56.162.87;10.56.32.87;10.56.34.87	
+DM_INLINE_NETWORK_10	IP_Group	Servers_Gazprompererabotka_temp1;Servers_Gazprompererabotka_temp2	
+DM_INLINE_NETWORK_9	IP_Group	Servers_Gazprompererabotka_temp1;Servers_Gazprompererabotka_temp2	
+MapInfo	Протокол TCP	5432	
+DM_INLINE_TCP_10	Протокол TCP	80;443	
+Black_list	IP_Group	104.126.164.240;162.125.248.1;162.125.66.1;17.110.240.82;17.167.144.39;17.167.146.43;17.178.106.77;192.110.0.131;199.101.133.146;199.101.133.155;199.101.133.29;199.101.133.58;199.101.134.234;204.155.146.95;204.155.147.26;204.155.148.9;204.155.149.41;204.155.149.42;204.155.149.43;204.155.149.67;204.155.149.72;204.155.149.73;204.155.149.76;204.155.149.81;204.155.149.87;204.79.197.217;208.88.227.172;208.88.227.173;213.180.193.50;217.69.139.5;217.69.139.6;217.69.139.7;31.216.148.10;31.216.148.12;54.239.26.209;54.239.31.69;64.14.192.234;74.117.178.183;74.117.178.186;74.117.178.58;74.117.178.90;74.120.8.12;74.120.8.13;74.120.8.14;74.120.8.226;74.120.8.6;74.120.8.7;74.201.86.28;78.140.185.27;91.219.194.2;94.100.180.5;94.100.180.6;94.100.180.7;208.91.196.74;5.187.1.122;64.233.161.194;216.58.211.142;173.194.222.194	
+DM_INLINE_TCP_14	Протокол TCP	443;22	
+DM_INLINE_TCP_15	Протокол TCP	443;22	
+DM_INLINE_TCP_16	Протокол TCP	443;22	
+DM_INLINE_TCP_17	Протокол TCP	443;22	
+DM_INLINE_TCP_18	Протокол TCP	443;22	
+DM_INLINE_TCP_19	Протокол TCP	443;22	
+PayCalendar_Users	IP_Group	10.13.128.47;VoronovaAK;ws-gen;GorshkovDV;InzhievskiyAL;ZaytcevaMA;ws-nnt;ListkovDA;ws-evf;10.13.128.181;10.13.130.118;10.13.130.86	40110877
+DM_INLINE_TCP_21	Протокол TCP	10050;25	
+DM_INLINE_NETWORK_15	IP_Group	10.13.204.14;KSC_Yamal	
+MapInfoUsers	IP_Group	10.7.233.111;10.13.204.102;10.7.233.67	test users for MapInfoServer
+DM_INLINE_TCP_5	Протокол TCP	80;443	
+DM_INLINE_NETWORK_6	IP_Group	10.13.141.13;10.13.141.15	
+DM_INLINE_NETWORK_7	IP_Group	10.13.141.13;10.13.141.15	
+DM_INLINE_SERVICE_3	Протокол TCP/UDP	464;53;3268;3269;135;389;88;445	
+DM_INLINE_SERVICE_4	Протокол TCP/UDP	464;53;445;135;389;3268;3269;88	
+Kaspersky15000	Протокол TCP/UDP	15000	
+DM_INLINE_TCP_13	Протокол TCP	Kaspersky;Kaspersky15000	
+DM_INLINE_TCP_20	Протокол TCP	Kaspersky
+Kaspersky15000	
+DM_INLINE_TCP_22	Протокол TCP	10050;10051	
+Directum_port	Протокол TCP	32300;32320;445;80;443;1433	Ports group for incoming connection from branch office to head office directum server
+Filials_ATS	IP_Group	10.13.204.57;10.7.232.139;10.7.232.140;10.7.232.146;10.7.232.149;10.7.64.125;10.7.232.141;10.7.235.26;10.7.235.27	
+DM_INLINE_NETWORK_11	IP_Group	217.175.155.126;62.33.203.132	
+DM_INLINE_NETWORK_12	IP_Group	10.14.96.0 255.255.255.0;10.14.97.0 255.255.255.0;All_Filials	
+DM_INLINE_NETWORK_14	IP_Group	10.5.139.239;VipNet2	
+DSS_Clients	IP_Group	10.13.129.215;10.13.129.60;10.13.132.189	
+RDGroup	Протокол TCP	49152-65535	
+RDS_Servers	IP_Group	mos-rdsn1-2k12;mos-rdsn2-2k12;mos-rdsn3-2k12;mos-rdsn4-2k12;mos-rdsn5-2k12;mos-rdsn6-2k12;mos-rdsn7-2k12;mos-rdsn8-2k12;mos-rdsn9-2k12;mos-rdsn10-2k12;mos-rdsn11-2k12;mos-rdsn12-2k12;mos-rdsn13-2k12;mos-rdsn14-2k12;mos-rdsn15-2k12;mos-rdsn16-2k12	
+DM_INLINE_SERVICE_17	Протокол TCP/UDP	50000-59999;5061;443	
+DM_INLINE_TCP_23	Протокол TCP	80;443	
+DM_INLINE_TCP_25	Протокол TCP	80;443	
+Filials_1C_Servers	IP_Group	10.7.233.4;10.7.237.44;10.7.66.102;10.13.206.10;10.7.235.243	
+1C_Servers_Admins	IP_Group	10.13.130.241;10.5.168.115;10.5.169.246;10.13.128.201;10.13.130.244;10.13.131.114;10.13.132.40;10.5.169.18;10.5.169.42;10.13.130.164;10.13.129.152	
+Filials_Dislocation_Clients	IP_Group	10.7.233.200;10.7.233.94	
+DM_INLINE_NETWORK_16	IP_Group	10.7.233.200;10.7.233.94	
+DM_INLINE_TCP_27	Протокол TCP	Kaspersky;Kaspersky_add	
+Kaspersky_ADD_UDP	Протокол UDP	15000	
+DM_INLINE_TCP_29	Протокол TCP	Kaspersky
+Kaspersky_add	
+MyArbitrPC	IP_Group	10.13.132.144;10.13.132.145;10.13.132.146;10.13.132.147	42254387
+MyArbitrServers	IP_Group	185.10.60.70;185.10.60.91;185.10.60.92;84.201.140.29;84.201.184.28	42254387
+DiadocApp	IP_Group	racnode1;racnode2;racnode1-vip;racnode2-vip;oracle-scan;oracle-scan_;oracle-scan__;mos-orcl7-2k12;mos-orcl8-2k12	
+DM_INLINE_NETWORK_22	IP_Group	10.13.131.67;10.5.168.50	
+DM_INLINE_TCP_26	Протокол TCP	80;443	
+DM_INLINE_NETWORK_23	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_24	IP_Group	10.13.131.12;10.5.168.50	
+DM_INLINE_NETWORK_25	IP_Group	mos-lic-2k12;RDS_Servers	
+DM_INLINE_TCP_30	Протокол TCP	14080;14180	
+EHD_Filials_Servers	IP_Group	10.7.233.26;10.7.233.27;10.7.65.18;10.7.65.19;10.7.237.71;10.7.237.72;10.13.204.5;10.7.235.180;10.7.235.181	42827753
+DM_INLINE_TCP_28	Протокол TCP	10050;10051	
+DM_INLINE_SERVICE_5	Протокол TCP/ICMP	10050;10051	
+rds_tcp_range	Протокол TCP	49152-65535	
+DM_INLINE_NETWORK_8	IP_Group	10.7.67.21;10.7.67.22;10.7.66.23;Region_DNS_Servers	
+DM_INLINE_NETWORK_17	IP_Group	10.7.67.21;10.7.67.22;10.7.66.23;10.7.233.233;10.7.233.24;10.7.237.2;10.7.240.135	
+DM_INLINE_NETWORK_13	IP_Group	10.7.67.21;10.7.67.22;10.7.66.23;Region_DNS_Servers	
+DM_INLINE_NETWORK_18	IP_Group	10.7.67.21;10.7.67.22;10.7.66.23;10.7.233.233;10.7.233.24;10.7.237.2;10.7.237.67;10.7.240.135	
+DM_INLINE_NETWORK_19	IP_Group	All_Filials;Amur_nets	
+DM_INLINE_NETWORK_20	IP_Group	10.7.67.21;10.7.67.22;10.7.66.23;Region_DNS_Servers	
+DM_INLINE_NETWORK_21	IP_Group	10.7.66.23;10.7.67.21;10.7.67.22;10.7.233.233;10.7.233.24;10.7.237.2;10.7.237.67;10.7.240.135	
+DM_INLINE_TCP_31	Протокол TCP	80;443	
+DLP_SI_multiport	Протокол TCP	1433;1434;3389;8953;9072;9081;9082;9096;9443;9695;443	DLP_SI_multiport
+DM_INLINE_NETWORK_27	IP_Group	10.5.169.53;10.5.169.58	
+DM_INLINE_NETWORK_28	IP_Group	10.5.139.70;10.5.139.72	
+DLP_Agents	IP_Group	10.13.128.136;10.13.128.201;10.13.128.238;10.13.128.27;10.13.129.253;10.13.130.154;10.13.130.178;10.13.130.185;10.13.130.187;10.13.130.221;10.13.130.225;10.13.130.229;10.13.130.54;10.13.130.94;10.13.131.110;10.13.131.119;10.13.131.144;10.13.131.164;10.13.131.167;10.13.131.224;10.13.131.232;10.13.131.233;10.13.131.240;10.13.131.254;10.13.131.53;10.13.131.65;10.13.131.90;10.13.131.95;10.13.131.96;10.13.131.98;10.13.132.131;10.13.132.133;10.13.132.134;10.13.132.164;10.13.132.168;10.13.132.21;10.13.132.31;10.13.132.62;10.13.132.71;10.13.132.78;10.5.168.117;10.5.168.125;10.5.168.194;10.5.168.227;10.5.168.230;10.5.168.24;10.5.168.60;10.5.168.99;10.5.169.173;10.5.169.18;10.5.169.199;10.5.169.21;10.5.169.241;10.5.169.104;10.13.131.222;10.5.168.181;10.13.132.130;10.13.131.9;10.5.168.190;10.5.168.159;10.5.169.80;10.5.169.193;10.13.130.79;10.5.169.78;10.13.132.86;10.5.169.42;10.13.128.35;10.5.169.93;10.5.169.77;10.13.130.148;10.5.169.63;10.13.132.210;10.13.131.185;10.13.132.214;10.13.129.217;10.13.129.145;10.5.169.226;10.13.131.71;10.13.130.224;10.13.132.103;10.13.132.19	
+DM_INLINE_NETWORK_29	IP_Group	10.13.131.103;10.5.169.93	
+DSS_Admins	IP_Address	ws-sand	
+DM_INLINE_NETWORK_85	IP_Group	DSS_Admins;DSS_Clients	
+DLP_SI_Agents_Port	Протокол TCP/UDP	135;137;138;139;445;53	
+DLP_Agent_Ports	Протокол TCP	1344;4444;9400	
+DLP_FileCrawler_Ports	Протокол TCP/UDP	135;137;139;445	
+DM_INLINE_TCP_33 tcp	Протокол TCP	8082;80	
+DM_INLINE_SERVICE_33	Протокол TCP/UDP	53;389;445;389	
+DLP_Multi_Ports tcp	Протокол TCP	10000;10001;10050;1010;1025;11344;16379;2210;2211;2212;2264;2266;2268;2269;2272;2344;3000;3001;3002;3003;3004;3006;3010;3030;3268;3900;4444;5001;5434;5435;5439;5440;5445;5555;5558;61616;7001;7199;7837;8008;8080;8123;9000;9001;9042;9160;9200;9201;9301;9302;9303;9400;9401;9666;9998;443;389;25;22	
+DM_INLINE_NETWORK_32	IP_Group	All_Filials;Amur_nets	
+DM_INLINE_TCP_32	Протокол TCP	3268;389	
+DM_INLINE_TCP_34	Протокол TCP	8530;8531	
+DM_INLINE_NETWORK_34	IP_Group	10.13.130.186;10.13.131.118;10.13.130.75	
+DM_INLINE_NETWORK_33	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+EDO.ETPGPB_Clients	IP_Group	10.13.128.172;10.13.129.155;10.13.129.254;10.13.130.165;10.13.130.200;10.13.130.224;10.13.130.64;10.13.131.102;10.13.131.63;10.5.168.29	45859621
+DM_INLINE_NETWORK_36	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+DM_INLINE_NETWORK_37	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+DM_INLINE_NETWORK_38	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+DM_INLINE_TCP_43	Протокол TCP	3389;443	
+DM_INLINE_TCP_35	Протокол TCP	RDGroup;135;5985	
+DM_INLINE_TCP_36	Протокол TCP	AD_trust_ports_TCP;RDGroup;123;464	
+DM_INLINE_UDP_1	Протокол UDP	AD_trust_ports_UDP;123	
+DM_INLINE_TCP_37	Протокол TCP	1688;5985;135	
+DM_INLINE_TCP_38 	Протокол TCP	10050;10051	
+DM_INLINE_TCP_39	Протокол TCP	Kaspersky;Kaspersky_add	
+DM_INLINE_NETWORK_39	IP_Group	All_Filials;Amur_nets	
+DM_INLINE_NETWORK_40	IP_Group	10.13.130.72;10.13.130.73	
+DM_INLINE_TCP_40	Протокол TCP	465;8010;8100;9010;9100;443;5060;25	
+DM_INLINE_SERVICE_8	Протокол TCP/UDP	443;50000-59999;5350-5390;5061	
+DM_INLINE_TCP_41	Протокол TCP	50000-59999;5061;5350-5390;443	
+DM_INLINE_NETWORK_44	IP_Group	10.5.168.30;Ex	
+DM_INLINE_NETWORK_41	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+DM_INLINE_UDP_2	Протокол UDP	3389;3391	
+GVC_INFORM_Clients	IP_Group	10.13.128.38;10.13.132.127;10.13.130.155;10.13.131.71;10.5.168.29;10.5.169.226;10.13.130.234;10.13.132.185	
+DM_INLINE_TCP_44	Протокол TCP	1433;1550;1560-1800	
+GPI_Users	IP_Group	GP_Inform;10.13.93.118;10.13.93.131;10.13.93.132;10.13.93.90;10.13.93.91	
+DM_INLINE_TCP_45	Протокол TCP	445;139;135	
+DM_INLINE_NETWORK_42	IP_Group	10.13.128.153;10.13.129.70	
+DM_INLINE_NETWORK_43	IP_Group	racnode1;racnode1-vip;racnode2;racnode2-vip	
+DM_INLINE_TCP_42	Протокол TCP	443;25	
+DM_INLINE_NETWORK_26	IP_Group	mos-orcl7-2k12;mos-orcl8-2k12	
+DM_INLINE_NETWORK_30	IP_Group	mos-build-2k12.gptrans.gazprom.ru;mos-ci-el7.gptrans.gazprom.ru;wdoc.gptrans.gazprom.ru	
+DM_INLINE_NETWORK_31	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials	
+DM_INLINE_SERVICE_10	Протокол TCP/UDP	50000-59999;5061;443	
+DM_INLINE_TCP_46 tcp	Протокол TCP	80;443	
+DM_INLINE_SERVICE_6	Протокол TCP/ICMP	 8082	
+DM_INLINE_NETWORK_45	IP_Group	10.13.128.16;10.13.132.24;10.13.132.45;10.5.168.150;10.5.169.247;10.5.168.115	
+DM_INLINE_NETWORK_46	IP_Group	10.7.233.9;10.7.233.25	
+DM_INLINE_NETWORK_48	IP_Group	10.14.93.121;10.14.93.122	
+DM_INLINE_NETWORK_47	IP_Group	10.13.128.16;10.13.132.24;10.13.132.45;10.5.168.115;10.5.168.150;10.5.169.247	
+DM_INLINE_NETWORK_49	IP_Group	10.13.128.16;10.13.132.24;10.13.132.45;10.5.168.115;10.5.168.150;10.5.169.247	
+Panorama_Clients	IP_Group	10.14.88.65;10.13.204.167;10.7.233.87;10.7.235.226;10.7.237.116;10.7.66.69;10.7.237.14	45524377
+Optimacros_users	IP_Group	10.13.204.176;10.13.206.140	45767770
+DM_INLINE_NETWORK_50	IP_Group	All_Filials;Amur_nets	
+DM_INLINE_TCP_51 	Протокол TCP	80;443	
+DM_INLINE_TCP_47	Протокол TCP	80;443	
+DM_INLINE_NETWORK_51	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials;Amur_nets	
+DM_INLINE_TCP_48	Протокол TCP	3389;443	
+DM_INLINE_NETWORK_52	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials;Amur_nets	
+DM_INLINE_NETWORK_53	IP_Group	MOS-ETRTS1-2K12;mos-rdsn7-2k12	
+DM_INLINE_NETWORK_54	IP_Group	MOS-ETRTS1-2K12;mos-rdsn7-2k12	
+DM_INLINE_NETWORK_55	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials;Amur_nets	
+DM_INLINE_NETWORK_57	IP_Group	10.13.129.141;10.13.129.142;10.13.129.185;10.13.129.226	
+DM_INLINE_NETWORK_56	IP_Group	All_Filials;Amur_nets	
+DM_INLINE_TCP_50	Протокол TCP	443;80	
+DM_INLINE_TCP_58	Протокол TCP	10080;9980	
+DM_INLINE_NETWORK_58	IP_Group	10.7.237.101;10.7.237.160;10.7.237.163	
+DM_INLINE_NETWORK_59	IP_Group	10.13.131.126;10.13.132.97	
+DM_INLINE_NETWORK_60	IP_Group	10.13.131.126;10.13.132.97	
+DM_INLINE_TCP_49	Протокол TCP	135;1688;5985	
+DM_INLINE_SERVICE_12	Протокол TCP/UDP	53;445;389;88	
+DM_INLINE_NETWORK_62	IP_Group	10.5.139.66;10.5.139.68;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_63	IP_Group	10.5.139.66;10.5.139.68;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_64	IP_Group	10.5.139.66;10.5.139.68;mos-rdsn11-2k12;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_TCP_64	Протокол TCP	123;464	
+DM_INLINE_NETWORK_69	IP_Group	10.5.139.66;10.5.139.68;10.5.139.69	
+DM_INLINE_NETWORK_65	IP_Group	10.5.139.66;10.5.139.68;mos-rdsn11-2k12;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_66	IP_Group	10.5.139.66;10.5.139.68;mos-rdsn11-2k12;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_67	IP_Group	10.5.139.66;10.5.139.68;mos-rdsn11-2k12;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_68	IP_Group	10.5.139.66;10.5.139.68;mos-rdsn11-2k12;mos-ad4-2k12;mos-vnadm2-2k12;ZecurionDLP_Server	
+DM_INLINE_TCP_52	Протокол TCP	135;1688	
+DM_INLINE_NETWORK_61	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_70	IP_Group	AD;Moscow_nets	
+DM_INLINE_TCP_53	Протокол TCP	8080;ssh	
+px1	IP_Group	10.56.140.209;10.56.140.210;10.56.140.211;10.56.140.212;10.56.140.213	IUS NK Servers
+tx4	IP_Group	10.56.154.35;10.56.154.36	IUS NK Servers
+qx1	IP_Group	10.56.166.209;10.56.166.210;10.56.166.211;10.56.166.212;10.56.166.213	IUS NK Servers
+qx4	IP_Group	10.56.178.110;10.56.178.111;10.56.178.112	IUS NK Servers
+dx1	IP_Group	10.56.164.209;10.56.164.210;10.56.164.211	IUS NK Servers
+px4	IP_Group	10.56.154.32;10.56.154.33;10.56.154.34	IUS NK Servers
+DM_INLINE_NETWORK_71	IP_Group	px1;px4;tx4	
+DM_INLINE_NETWORK_72	IP_Group	dx1;qx1;qx4	
+DM_INLINE_NETWORK_73	IP_Group	px4;tx4	
+DM_INLINE_NETWORK_74	IP_Group	dx1;qx1	
+DM_INLINE_NETWORK_75	IP_Group	10.13.129.0;mos-1c8-2k8	
+DM_INLINE_NETWORK_76	IP_Group	10.13.129.0;mos-1c8-2k8	
+DM_INLINE_NETWORK_77	IP_Group	10.13.129.0;10.5.168.94	
+DM_INLINE_NETWORK_78	IP_Group	10.13.129.0;10.5.168.94	
+DM_INLINE_SERVICE_80	Протокол TCP/UDP	50001;50001	
+IUS_NK_Prod_Users	IP_Group	10.13.129.123;10.13.129.168;10.13.129.203;10.13.129.220;10.13.129.84;10.13.130.215;10.13.130.231;10.13.130.36;10.13.130.94;10.13.131.182;10.13.131.96;10.13.132.117;10.13.132.119;10.13.132.131;10.13.132.134;10.13.132.142;10.5.168.120;10.5.168.21;10.5.169.143;10.5.169.208;10.13.130.91;ws-shie	
+DM_INLINE_NETWORK_35	IP_Group	ASUP_PD;IUS_NK_Prod_Users	
+DM_INLINE_NETWORK_79	IP_Group	VNAdm;mos-ad4-2k12;mos-vnadm2-2k12;ZecurionDLP_Server	
+DM_INLINE_NETWORK_80	IP_Group	VNAdm;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_81	IP_Group	VNAdm;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_82	IP_Group	VNAdm;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_83	IP_Group	VNAdm;mos-ad4-2k12;mos-vnadm2-2k12	
+DM_INLINE_NETWORK_84	IP_Group	mos-ad4-2k12;mos-rdsn11-2k12;mos-vnadm2-2k12	
+DM_INLINE_SERVICE_13	Протокол TCP/ICMP	10050;10051	
+DM_INLINE_NETWORK_86	IP_Group	DSS_Admins;DSS_Clients	
+DM_INLINE_SERVICE_15	Протокол TCP/ICMP	8082	
+DM_INLINE_TCP_24 tcp	Протокол TCP	465;25	
+DM_INLINE_TCP_54 tcp	Протокол TCP	8080;8081	
+mos-1c7-2k3-group	IP_Group	PROTON;mos-1cterm-2k3;mos-hasp-8	
+DM_INLINE_SERVICE_11	Протокол TCP/ICMP	10050;10051	
+DM_INLINE_TCP_55	Протокол TCP	10050;10051	
+DM_INLINE_TCP_56	Протокол TCP	Kaspersky;Kaspersky_add	
+DM_INLINE_NETWORK_87	IP_Group	10.13.131.56;10.5.169.213	
+DM_INLINE_SERVICE_14	Протокол IP/TCP/UDP	3020;443;389	
+DM_INLINE_SERVICE_16	Протокол IP/TCP/UDP	389;3020	
+spectr-admins	IP_Group	ws-sand;10.13.129.152;10.5.169.80	
+DM_INLINE_TCP_57	Протокол TCP	389;636	
+DM_INLINE_NETWORK_88	IP_Group	AD;mos-scan-2k12	
+DM_INLINE_TCP_59	Протокол TCP	7100;7200	
+DM_INLINE_NETWORK_89	IP_Group	10.56.140.212;10.56.140.213	
+DM_INLINE_TCP_90	Протокол TCP	443;22	
+DM_INLINE_SERVICE_18	Протокол TCP/UDP	13000;13291;14000;15000	
+DM_INLINE_TCP_60	Протокол TCP	5900;22	
+DM_INLINE_SERVICE_19	Протокол TCP/UDP	13000;13291;14000;15000	
+DM_INLINE_NETWORK_90	IP_Group	10.5.139.98;10.5.139.99	
+DM_INLINE_NETWORK_91	IP_Group	10.5.139.98;10.5.139.99	
+DM_INLINE_NETWORK_92	IP_Group	10.5.139.98;10.5.139.99	
+DM_INLINE_SERVICE_20	Протокол TCP/UDP	8888;8888;80;443	
+DM_INLINE_SERVICE_21	Протокол TCP/UDP	8888;80;443	
+DM_INLINE_UDP_3	Протокол UDP	3389;3391	
+px1_out	IP_Group	10.56.140.212;10.56.140.213	
+DM_INLINE_NETWORK_93	IP_Group	Astrakhan_nets;Optimacros_users	
+opp-clients	IP_Group	TatarenkovDS;ws-nna;ws-mnal;ws-msp;ws-kons;bsic1561;ws-mss	
+DM_INLINE_NETWORK_94	IP_Group	10.13.129.152;opp-clients	
+Filials_1C_BD	IP_Group	10.7.233.4;10.13.204.5;10.13.204.6;10.13.206.10;10.13.206.11;10.7.233.26;10.7.233.27;10.7.235.180;10.7.235.181;10.7.237.44;10.7.237.71;10.7.237.72;10.7.65.18;10.7.65.19;10.7.66.115;10.7.66.39;10.7.235.243	47389413
+DM_INLINE_NETWORK_96	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_99	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_95	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_97	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_98	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_100	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_101	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_102	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_NETWORK_103	IP_Group	All_Filials;Amur_nets;10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0	
+DM_INLINE_TCP_61 	Протокол TCP	80;443	
+ZecurionDLP_Agents	IP_Group	ws-sand;10.13.131.103;10.13.131.76;10.5.169.93;10.13.129.60;10.13.129.152;10.13.131.233;10.13.131.9;10.13.131.240;10.13.131.69;10.13.132.19;10.13.128.35;10.13.130.224;10.13.132.206;10.13.129.7;10.5.169.15;10.5.169.201;10.13.131.185;10.5.169.63;10.5.169.226;10.13.131.71;10.13.129.217;10.5.169.77;10.5.169.104;10.13.131.222;10.5.168.181;10.13.132.130;10.5.168.190;10.5.168.159;10.5.169.80;10.5.169.193;10.13.130.79;10.5.169.78;10.13.132.86;10.5.169.42;10.13.130.148;10.13.132.210;10.13.132.214;10.13.129.145;10.13.131.53;10.13.132.103;10.13.130.192	ZecurionDLP_Agents
+DM_INLINE_SERVICE_22	Протокол TCP/UDP	135;389;88;domain;3268;3269;netbios-ssn;netbios-dgm;netbios-ns;ntp;445;464;ldap	
+DM_INLINE_NETWORK_107	IP_Group	10.7.64.0 255.255.255.0;10.7.67.0 255.255.255.0;All_Filials;Amur_nets	
+DM_INLINE_NETWORK_106	IP_Group	10.5.139.75;ZecurionDLP_Server	
+ZecurionDLP_Admins	IP_Group	ws-chda;ws-sand;ws-van;10.13.131.103;10.5.169.93	ZecurionDLP_Admins
+DM_INLINE_TCP_65 	Протокол TCP	1291;1292;1294;1295;1297;1298;3389	
+DM_INLINE_NETWORK_104	IP_Group	ZecurionDLP_Admins;ZecurionDLP_Agents	
+DM_INLINE_SERVICE_105	Протокол TCP/UDP	1433;1434	
+DM_INLINE_NETWORK_105	IP_Group	10.5.139.98;ZecurionDLP_Server	
+DM_INLINE_SERVICE_24	Протокол TCP/UDP	1270;1302;135;137;138;445;593;249	
+DM_INLINE_SERVICE_23	Протокол TCP/UDP	139;135;445;137;161;15000	
+DM_INLINE_TCP_62	Протокол TCP	1270;1291	
+DM_INLINE_NETWORK_108	IP_Group	mos-fsttst-alt;mos-fstweb-alt	
+Foresight	IP_Group	mos-fstdb-alt;mos-fsttst-alt;mos-fstweb-alt	Foresight
+DM_INLINE_TCP_108	Протокол TCP	80;443	
+DM_INLINE_SERVICE_25	Протокол TCP/UDP	53;445;88;389;389;135	
+SMB_Ports	Протокол TCP	445;139	48359871
+SMB_Ports_UDP	Протокол UDP	137;138s	48359871
+EDO_SKLAD_Users	IP_Group	10.5.168.186;10.13.130.194;10.5.168.115;10.5.168.153;10.5.169.42	
+PRAV_DOCS_FILIALS	IP_Group	10.13.204.167;10.14.88.65;10.7.233.87;10.7.235.226;10.7.237.116;10.7.237.14;10.7.66.69	48359871
+DM_INLINE_TCP_63	Протокол TCP	8081;80;443	
+DM_INLINE_NETWORK_109	IP_Group	10.13.131.127;test-optimacros.gptrans.gazprom.ru	
+DM_INLINE_SERVICE_26	Протокол TCP/UDP	14080;14180;14080;14180	
+DM_INLINE_TCP_66	Протокол TCP	443;22	
+DM_INLINE_SERVICE_27	Протокол TCP/ICMP	25	
+DM_INLINE_NETWORK_110	IP_Group	10.7.233.233;10.7.233.24	
+DM_INLINE_TCP_67	Протокол TCP	389;636	
+IUS_BUIRG_Clients	IP_Group	10.5.169.7;10.13.128.151;10.5.168.115;10.5.168.47;10.13.130.21;10.13.128.46;10.13.129.117;10.13.140.70;10.5.169.87	IUS_BUIRG_Clients
+IUS_BUIRG_Servers	IP_Group	10.241.1.28;10.241.1.40;10.56.195.21;10.56.67.21;10.56.67.22;10.56.194.5;10.56.194.6;10.56.66.5;10.56.66.6	IUS_BUIRG_Servers
