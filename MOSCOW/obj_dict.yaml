@@ -1,0 +1,1152 @@
+AAG:
+  obj_ip: 10.5.168.120
+  obj_num: 211
+ASA_Amur_outside:
+  obj_ip: 10.5.139.138
+  obj_num: 158
+ASSOIS_users:
+  obj_ip: KonovalovVV
+  obj_num: 383
+AST-DC1:
+  obj_ip: 10.7.233.24
+  obj_num: 218
+AST-DC2:
+  obj_ip: 10.7.233.233
+  obj_num: 219
+AST-TERM2012-APP:
+  obj_ip: 10.7.233.249
+  obj_num: 230
+AST-TERMWEB1-IUS:
+  obj_ip: 10.7.233.92
+  obj_num: 228
+AST-TERMWEB2-INET:
+  obj_ip: 10.7.233.38
+  obj_num: 229
+ASUP_PD-Farm:
+  obj_ip: 10.56.194.9
+  obj_num: 66
+ASUP_PD-Farm1:
+  obj_ip: 10.56.66.9
+  obj_num: 154
+ASUP_PD-Farm2:
+  obj_ip: 10.56.194.10
+  obj_num: 67
+ASUP_PD-Farm3:
+  obj_ip: 10.56.66.10
+  obj_num: 155
+ATLAS_Clients:
+  obj_ip: 10.13.128.100
+  obj_num: 379
+AbdurakhmanovRM:
+  obj_ip: 10.7.233.45
+  obj_num: 90
+AdaykinaEN:
+  obj_ip: 10.13.129.56
+  obj_num: 76
+AhmedzhanovaIA:
+  obj_ip: 10.13.131.239
+  obj_num: 247
+AkhmedjanovaIA:
+  obj_ip: 10.13.131.239
+  obj_num: 266
+Amur_nets:
+  obj_ip: 10.14.88.0
+  obj_num: 385
+AntropovAV:
+  obj_ip: 10.5.169.115
+  obj_num: 115
+AsharinAA:
+  obj_ip: 10.13.130.200
+  obj_num: 240
+Ast_ServerBD:
+  obj_ip: 10.7.232.34
+  obj_num: 74
+Ast_Uskaev:
+  obj_ip: 10.7.233.222
+  obj_num: 147
+Astrakhan_Firewall:
+  obj_ip: 10.7.233.1
+  obj_num: 50
+Astrakhan_Router:
+  obj_ip: 10.7.232.125
+  obj_num: 51
+Astrakhan_S-Terra:
+  obj_ip: 10.7.232.94
+  obj_num: 52
+Astrakhan_WSUS_Server:
+  obj_ip: 10.7.233.12
+  obj_num: 23
+BO_DC:
+  obj_ip: 10.7.240.130
+  obj_num: 375
+BaryshnikovAV:
+  obj_ip: 10.13.129.104
+  obj_num: 94
+BednevAV:
+  obj_ip: 10.7.233.49
+  obj_num: 92
+BelyaevaZV:
+  obj_ip: 10.13.130.55
+  obj_num: 238
+BobkovaEV(standalone):
+  obj_ip: 10.13.128.240
+  obj_num: 63
+BondarevYN:
+  obj_ip: 10.13.129.62
+  obj_num: 71
+ChepurinMN:
+  obj_ip: 10.13.131.7
+  obj_num: 80
+ChumakEYu:
+  obj_ip: 10.13.131.114
+  obj_num: 258
+DC_Yamal_1:
+  obj_ip: 10.13.204.4
+  obj_num: 277
+DNS1_Gazsvyaz:
+  obj_ip: 10.250.3.2
+  obj_num: 6
+DNS2_Gazsvyaz:
+  obj_ip: 10.250.3.3
+  obj_num: 7
+DSS_Admins:
+  obj_ip: ws-sand
+  obj_num: 386
+DSS_Server:
+  obj_ip: 10.5.139.73
+  obj_num: 341
+DaevaYuA:
+  obj_ip: 10.13.131.177
+  obj_num: 251
+DemyachenkoEV:
+  obj_ip: 10.13.132.73
+  obj_num: 255
+DerunovaEV:
+  obj_ip: 10.13.131.107
+  obj_num: 118
+Dislocation_Servers:
+  obj_ip: 11.0.0.28
+  obj_num: 374
+DmitrievaEG:
+  obj_ip: 10.5.168.136
+  obj_num: 68
+DolgovaYuN:
+  obj_ip: 10.5.168.83
+  obj_num: 187
+DonskoyDR:
+  obj_ip: 10.7.233.91
+  obj_num: 93
+EDO.ETPGPB.RU:
+  obj_ip: 87.245.170.26
+  obj_num: 328
+Egorova_Bank_Client:
+  obj_ip: 10.5.168.64
+  obj_num: 22
+EremenkoDV:
+  obj_ip: 10.13.132.55
+  obj_num: 264
+EvdokimovaME:
+  obj_ip: 10.13.130.96
+  obj_num: 234
+Ex_Ast_1:
+  obj_ip: 10.7.233.39
+  obj_num: 175
+Ex_Ast_2:
+  obj_ip: 10.7.233.28
+  obj_num: 170
+Ex_Ast_DAG:
+  obj_ip: 10.7.233.29
+  obj_num: 134
+Ex_Yamal_1:
+  obj_ip: 10.13.204.9
+  obj_num: 276
+FTP_branche_office_admin:
+  obj_ip: 10.7.240.136
+  obj_num: 373
+FedorenkoEV:
+  obj_ip: 10.13.130.165
+  obj_num: 261
+FilenkoEV_ASBU:
+  obj_ip: 10.13.130.1
+  obj_num: 181
+FrantsuzovaIV:
+  obj_ip: 10.13.129.124
+  obj_num: 243
+FrolovaTV:
+  obj_ip: 10.13.131.8
+  obj_num: 104
+GNIVC_Client:
+  obj_ip: 10.5.169.236
+  obj_num: 20
+GPN_AZS:
+  obj_ip: 22221-22221
+  obj_num: 380
+GP_Inform:
+  obj_ip: 10.241.1.2
+  obj_num: 317
+GaripovRV:
+  obj_ip: 10.13.131.20
+  obj_num: 131
+Gazprombank:
+  obj_ip: 195.128.88.29
+  obj_num: 10
+GorshkovDV:
+  obj_ip: 10.13.131.166
+  obj_num: 288
+GrechihinaSA:
+  obj_ip: 10.13.129.80
+  obj_num: 235
+GrishaninDV:
+  obj_ip: 10.13.128.237
+  obj_num: 242
+GromovBM:
+  obj_ip: 10.5.169.21
+  obj_num: 129
+GrunenkovAV:
+  obj_ip: 10.13.130.149
+  obj_num: 88
+HW1000-1:
+  obj_ip: 10.5.139.227
+  obj_num: 36
+HW1000-2:
+  obj_ip: 10.5.139.228
+  obj_num: 37
+HW1000-Cluster:
+  obj_ip: 10.5.139.229
+  obj_num: 38
+HW1000_Cluster:
+  obj_ip: 10.5.139.240
+  obj_num: 174
+InzhievskiyAL:
+  obj_ip: 10.5.169.146
+  obj_num: 221
+IvanovaYN:
+  obj_ip: 10.13.129.205
+  obj_num: 123
+JukovAS:
+  obj_ip: 10.13.128.27
+  obj_num: 224
+JuravlevaDS:
+  obj_ip: 10.13.130.217
+  obj_num: 249
+KAV_Server:
+  obj_ip: 10.5.169.107
+  obj_num: 15
+KSC_Surgut:
+  obj_ip: 10.7.237.130
+  obj_num: 184
+KSC_Uhta:
+  obj_ip: 10.7.235.220
+  obj_num: 157
+KSC_Yamal:
+  obj_ip: 10.13.204.10
+  obj_num: 141
+KadyrovaDA:
+  obj_ip: 10.5.169.145
+  obj_num: 148
+Kalinin_computer:
+  obj_ip: 10.5.168.6
+  obj_num: 18
+KarasevAA:
+  obj_ip: 10.5.169.188
+  obj_num: 111
+KashinaPA:
+  obj_ip: 10.13.132.87
+  obj_num: 245
+Kaspersky_add:
+  obj_ip: '15000'
+  obj_num: 384
+KharakterovaYI:
+  obj_ip: 10.5.168.226
+  obj_num: 107
+KharlamovaAB:
+  obj_ip: 10.5.169.78
+  obj_num: 112
+KhramtsovaMN:
+  obj_ip: 10.13.129.174
+  obj_num: 96
+KirillovAN:
+  obj_ip: 10.5.169.228
+  obj_num: 86
+KirilovAN:
+  obj_ip: 10.13.132.126
+  obj_num: 106
+KiryanovaLA:
+  obj_ip: 10.13.131.167
+  obj_num: 282
+KomoskoOV:
+  obj_ip: 10.13.129.118
+  obj_num: 271
+KonokotinaNN:
+  obj_ip: 10.13.131.72
+  obj_num: 195
+KonovalovVV:
+  obj_ip: 10.13.128.50
+  obj_num: 72
+KonyukhovAY:
+  obj_ip: 10.13.131.13
+  obj_num: 114
+KorabelnikovIV:
+  obj_ip: 10.13.131.195
+  obj_num: 98
+Kornienko_computer:
+  obj_ip: 10.5.168.144
+  obj_num: 17
+KosenkoEV:
+  obj_ip: 10.5.169.214
+  obj_num: 206
+KosovcevaEN:
+  obj_ip: 10.13.131.144
+  obj_num: 286
+KostebelovSV:
+  obj_ip: 10.13.128.35
+  obj_num: 191
+KostikovaMM:
+  obj_ip: 10.5.168.78
+  obj_num: 244
+KostyukovaOA:
+  obj_ip: 10.13.128.38
+  obj_num: 95
+KosunovNS:
+  obj_ip: 10.13.130.148
+  obj_num: 85
+KoveraII:
+  obj_ip: 10.13.131.60
+  obj_num: 126
+KozhinaYuS:
+  obj_ip: 10.13.132.15
+  obj_num: 272
+KozlovAN:
+  obj_ip: 10.5.169.192
+  obj_num: 236
+KozlovSS:
+  obj_ip: 10.5.169.57
+  obj_num: 73
+KozyrevSN:
+  obj_ip: 10.13.129.172
+  obj_num: 237
+Krasnodar_Firewall:
+  obj_ip: 10.7.239.14
+  obj_num: 57
+Krasnodar_Router:
+  obj_ip: 10.7.239.1
+  obj_num: 58
+Krasnodar_S-Terra:
+  obj_ip: 10.7.239.6
+  obj_num: 59
+Kravtsev_IA_Astrakhans_WS:
+  obj_ip: 10.7.233.232
+  obj_num: 326
+KrivashovaMV:
+  obj_ip: 10.13.129.197
+  obj_num: 127
+KruglyhinaYA:
+  obj_ip: 10.13.130.118
+  obj_num: 203
+Kulikova:
+  obj_ip: 10.13.130.156
+  obj_num: 268
+KulikovaOA:
+  obj_ip: 10.13.130.156
+  obj_num: 269
+KuptsovPG:
+  obj_ip: 10.5.169.117
+  obj_num: 132
+KuzinaTO:
+  obj_ip: 10.13.132.153
+  obj_num: 321
+KuzminAA:
+  obj_ip: 10.13.132.133
+  obj_num: 285
+KuzminaEE:
+  obj_ip: 10.13.128.168
+  obj_num: 171
+LapshinaEA:
+  obj_ip: 10.13.131.79
+  obj_num: 103
+LazarenkoAS:
+  obj_ip: 10.13.129.2
+  obj_num: 97
+LazukovaEA:
+  obj_ip: 10.5.169.8
+  obj_num: 113
+LeontevaPN:
+  obj_ip: 10.13.128.181
+  obj_num: 179
+LevitckySN:
+  obj_ip: 10.13.129.193
+  obj_num: 124
+ListkovDA:
+  obj_ip: 10.13.130.31
+  obj_num: 273
+LobanovaEY:
+  obj_ip: 10.13.129.241
+  obj_num: 192
+LosevaLE:
+  obj_ip: 10.13.131.39
+  obj_num: 102
+MOS-ETRANTERM-2K3:
+  obj_ip: 10.5.169.200
+  obj_num: 254
+MOS-ETRTS1-2K12:
+  obj_ip: 10.5.169.200
+  obj_num: 370
+MOS_NTP_SERVER:
+  obj_ip: 10.5.169.194
+  obj_num: 16
+MailRelay:
+  obj_ip: 10.250.4.10
+  obj_num: 8
+MailRelay2:
+  obj_ip: 10.250.4.13
+  obj_num: 9
+Mailhost:
+  obj_ip: 10.250.3.4
+  obj_num: 3
+Mailhost1:
+  obj_ip: 10.250.3.22
+  obj_num: 27
+Mailhost2:
+  obj_ip: 10.250.3.23
+  obj_num: 28
+Mailrelay3:
+  obj_ip: 10.250.4.45
+  obj_num: 12
+Mailrelay4:
+  obj_ip: 10.250.4.18
+  obj_num: 29
+MalyarevichAV:
+  obj_ip: 10.13.130.83
+  obj_num: 198
+MardanovAR:
+  obj_ip: 10.5.169.160
+  obj_num: 259
+MardanovaTB:
+  obj_ip: 10.5.168.28
+  obj_num: 185
+MashkinaNV:
+  obj_ip: 10.5.168.125
+  obj_num: 275
+MelekhinMI:
+  obj_ip: 10.13.130.233
+  obj_num: 239
+MelnikovaOA:
+  obj_ip: 10.13.131.73
+  obj_num: 169
+MinaevIA:
+  obj_ip: 10.5.168.188
+  obj_num: 177
+MolodovskayaOV:
+  obj_ip: 10.13.131.28
+  obj_num: 281
+MuravievSA:
+  obj_ip: 10.5.168.89
+  obj_num: 109
+MyasnikovVS:
+  obj_ip: 10.13.131.80
+  obj_num: 207
+Nalog_Server:
+  obj_ip: 213.24.62.225
+  obj_num: 367
+NaumenkoAL:
+  obj_ip: 10.5.169.104
+  obj_num: 233
+NekrashevichNA:
+  obj_ip: 10.5.168.9
+  obj_num: 77
+NetBackup_Clients:
+  obj_ip: 10.5.139.114
+  obj_num: 376
+NilokaevaIA:
+  obj_ip: 10.5.168.21
+  obj_num: 287
+NurgalievaGM:
+  obj_ip: 10.7.233.175
+  obj_num: 89
+NyatinaOV1:
+  obj_ip: 10.13.129.101
+  obj_num: 223
+OdinecNV:
+  obj_ip: 10.13.130.226
+  obj_num: 291
+Orenburg_Das:
+  obj_ip: 10.7.66.80
+  obj_num: 225
+Orenburg_PalevAV:
+  obj_ip: 10.7.66.13
+  obj_num: 209
+Orenburg_RedinSG:
+  obj_ip: 10.7.66.30
+  obj_num: 208
+Orenburg_SharovAN:
+  obj_ip: 10.7.66.29
+  obj_num: 210
+OrlovIA:
+  obj_ip: 10.13.129.228
+  obj_num: 65
+PROTON:
+  obj_ip: 10.5.169.212
+  obj_num: 26
+PanasukTI:
+  obj_ip: 10.5.168.169
+  obj_num: 246
+PanshinIV:
+  obj_ip: 10.13.132.16
+  obj_num: 213
+ParaschenkoIA:
+  obj_ip: 10.13.132.23
+  obj_num: 270
+PashigorevaEV:
+  obj_ip: 10.13.131.99
+  obj_num: 105
+PatsukAV:
+  obj_ip: 10.13.132.10
+  obj_num: 215
+PechenkinAA:
+  obj_ip: 10.13.131.87
+  obj_num: 199
+Pechkin:
+  obj_ip: 10.5.139.66
+  obj_num: 2
+Pechkin_SMTP_Server:
+  obj_ip: 10.5.168.251
+  obj_num: 19
+PerkhurovaNN:
+  obj_ip: 10.13.131.152
+  obj_num: 117
+PetrovaYuS:
+  obj_ip: 10.13.131.101
+  obj_num: 216
+PleshakovMV:
+  obj_ip: 10.13.128.223
+  obj_num: 121
+PlotnikovaYuA:
+  obj_ip: 10.13.129.250
+  obj_num: 262
+PodolskayaOS:
+  obj_ip: 10.5.168.69
+  obj_num: 61
+PolovnikovaYA:
+  obj_ip: 10.5.169.22
+  obj_num: 60
+PolukarovaIA:
+  obj_ip: 10.13.128.136
+  obj_num: 222
+PomaskinDV:
+  obj_ip: 10.5.169.49
+  obj_num: 178
+Post_Server_Surgut:
+  obj_ip: 10.7.237.2
+  obj_num: 369
+Post_and_Proxy_Server_Ast:
+  obj_ip: 10.7.233.2
+  obj_num: 368
+Poxy_Servers_Remote_offices:
+  obj_ip: 10.7.233.3
+  obj_num: 372
+PozdnyakovAA:
+  obj_ip: 10.13.129.59
+  obj_num: 84
+PozdnyakovMS:
+  obj_ip: 10.5.168.121
+  obj_num: 116
+PozdnyakovNS:
+  obj_ip: 10.5.169.95
+  obj_num: 128
+Proxy_TMG_Server:
+  obj_ip: 10.5.139.201
+  obj_num: 14
+Proxy_Temporary:
+  obj_ip: 10.5.168.3
+  obj_num: 13
+Proxy_Yamal:
+  obj_ip: 10.14.99.195
+  obj_num: 139
+PulyaevaKV:
+  obj_ip: 10.13.130.242
+  obj_num: 176
+RTMP:
+  obj_ip: '1935'
+  obj_num: 382
+Rancid_user:
+  obj_ip: 10.5.168.131
+  obj_num: 24
+RijaevaNA:
+  obj_ip: 10.13.131.246
+  obj_num: 194
+RubtsovAA:
+  obj_ip: 10.13.131.201
+  obj_num: 122
+RudnichenkoNV:
+  obj_ip: 10.7.233.46
+  obj_num: 91
+RyabkinaEY:
+  obj_ip: 10.5.169.156
+  obj_num: 196
+S-Terra_Amur_inside:
+  obj_ip: 10.5.139.137
+  obj_num: 163
+S-Terra_Amur_outside:
+  obj_ip: 10.5.139.130
+  obj_num: 164
+SHatskihLV:
+  obj_ip: 10.13.131.224
+  obj_num: 320
+SUR-1C8-2K8:
+  obj_ip: 10.7.237.44
+  obj_num: 316
+SafaryanKG:
+  obj_ip: 10.5.168.124
+  obj_num: 284
+SakaevaIV:
+  obj_ip: 10.5.169.141
+  obj_num: 110
+SamoshenkoLA:
+  obj_ip: 10.13.131.74
+  obj_num: 138
+SapeginskayaME:
+  obj_ip: 10.13.131.23
+  obj_num: 99
+SapeginskiyGF:
+  obj_ip: 10.13.130.147
+  obj_num: 75
+SavchenkoLV:
+  obj_ip: 10.5.168.227
+  obj_num: 283
+SavinovaNY(standalone):
+  obj_ip: 10.13.129.100
+  obj_num: 64
+SchkurovaTA:
+  obj_ip: 10.13.132.52
+  obj_num: 267
+SelivanenkoIV:
+  obj_ip: 10.13.129.121
+  obj_num: 201
+SeltsovaEY:
+  obj_ip: 10.5.168.38
+  obj_num: 108
+SennikovAV:
+  obj_ip: 10.5.169.60
+  obj_num: 180
+ShardakovaZN:
+  obj_ip: 10.13.129.85
+  obj_num: 197
+ShatalovaAR:
+  obj_ip: 10.13.132.47
+  obj_num: 241
+SheleninDY:
+  obj_ip: 10.5.169.241
+  obj_num: 78
+ShestakovMY:
+  obj_ip: 10.13.131.252
+  obj_num: 101
+SladkovVI:
+  obj_ip: 10.13.205.51
+  obj_num: 143
+SlijovaMS:
+  obj_ip: 10.13.131.117
+  obj_num: 190
+SmyslovAV:
+  obj_ip: 10.13.129.76
+  obj_num: 82
+StukanovVN:
+  obj_ip: 10.13.128.53
+  obj_num: 83
+Surgut_Electonnoe_declarirovanie_server:
+  obj_ip: 87.229.154.41
+  obj_num: 21
+Surgut_FServer:
+  obj_ip: 10.7.237.67
+  obj_num: 256
+Surgut_Firewall:
+  obj_ip: 10.7.236.126
+  obj_num: 43
+Surgut_Router:
+  obj_ip: 10.7.236.125
+  obj_num: 44
+Surgut_RybalkinaYV:
+  obj_ip: 10.7.237.18
+  obj_num: 188
+Surgut_S-Terra_OGP:
+  obj_ip: 10.7.237.65
+  obj_num: 45
+Surgut_S-Terra_Office:
+  obj_ip: 10.7.237.1
+  obj_num: 46
+Surgut_S-Terra_Prom:
+  obj_ip: 10.7.236.134
+  obj_num: 47
+Surgut_S-Terra_PromIn:
+  obj_ip: 10.7.237.129
+  obj_num: 260
+Surgut_S-Terra_SNE:
+  obj_ip: 10.7.236.138
+  obj_num: 48
+Surgut_Salnikov:
+  obj_ip: 10.7.237.75
+  obj_num: 200
+Surgut_Switch:
+  obj_ip: 10.7.236.130
+  obj_num: 49
+Surgut_TveretinaEM:
+  obj_ip: 10.7.237.13
+  obj_num: 189
+Surgut_YarullinaGK:
+  obj_ip: 10.7.237.102
+  obj_num: 183
+SvetlovaEP:
+  obj_ip: 10.5.169.132
+  obj_num: 125
+TAXCOM_Client:
+  obj_ip: 10.13.128.151
+  obj_num: 378
+TatarenkovDS:
+  obj_ip: 10.5.168.238
+  obj_num: 81
+Taxcom_Users:
+  obj_ip: 10.13.128.151
+  obj_num: 377
+Test_DMZ_Host:
+  obj_ip: 10.5.139.203
+  obj_num: 35
+TominSI:
+  obj_ip: 10.13.130.0
+  obj_num: 231
+ToropovOO:
+  obj_ip: 10.5.169.222
+  obj_num: 232
+TotcevichFV:
+  obj_ip: 10.13.128.201
+  obj_num: 257
+Transkreditbank:
+  obj_ip: 195.161.5.4
+  obj_num: 11
+TrishinaNV:
+  obj_ip: 10.5.168.247
+  obj_num: 62
+TyurinDY:
+  obj_ip: 10.5.168.213
+  obj_num: 205
+Uhta_Firewall:
+  obj_ip: 10.7.235.6
+  obj_num: 53
+Uhta_Router:
+  obj_ip: 10.7.235.1
+  obj_num: 54
+Uhta_S-Terra_1:
+  obj_ip: 10.7.235.129
+  obj_num: 55
+Uhta_S-Terra_2:
+  obj_ip: 10.7.235.193
+  obj_num: 56
+Urengoy_Firewall:
+  obj_ip: 10.7.240.6
+  obj_num: 40
+Urengoy_Mahnovskiy:
+  obj_ip: 10.7.240.181
+  obj_num: 136
+Urengoy_Naumov:
+  obj_ip: 10.7.240.206
+  obj_num: 137
+Urengoy_Router:
+  obj_ip: 10.7.240.1
+  obj_num: 41
+Urengoy_S-Terra_1:
+  obj_ip: 10.7.240.129
+  obj_num: 42
+Urengoy_Sidorova:
+  obj_ip: 10.7.240.148
+  obj_num: 135
+UstinovaEI:
+  obj_ip: 10.5.168.66
+  obj_num: 204
+VNAdm:
+  obj_ip: 10.5.139.231
+  obj_num: 263
+VeselovaVS:
+  obj_ip: 10.5.168.187
+  obj_num: 248
+VipNet1:
+  obj_ip: 10.5.139.226
+  obj_num: 4
+VipNet2:
+  obj_ip: 10.5.139.240
+  obj_num: 5
+VipNet_Administrator_New:
+  obj_ip: 10.13.131.179
+  obj_num: 39
+VlasovaAS:
+  obj_ip: 10.5.169.149
+  obj_num: 119
+VlasovaEE:
+  obj_ip: 10.5.168.32
+  obj_num: 217
+VolkovaOV:
+  obj_ip: 10.5.169.71
+  obj_num: 250
+VologzhaninAA:
+  obj_ip: 10.13.131.174
+  obj_num: 130
+VoronovaAK:
+  obj_ip: 10.5.168.155
+  obj_num: 227
+WSUS_Server:
+  obj_ip: 10.5.169.171
+  obj_num: 30
+WSUS_Uhta:
+  obj_ip: 10.7.235.174
+  obj_num: 304
+WSUS_Urengoy:
+  obj_ip: 10.7.240.205
+  obj_num: 146
+WSUS_Yamal:
+  obj_ip: 10.13.204.10
+  obj_num: 142
+Web_Izarb:
+  obj_ip: All_Filials
+  obj_num: 381
+YakimovaLA:
+  obj_ip: 10.13.131.89
+  obj_num: 214
+YakunyaNM:
+  obj_ip: 10.13.131.161
+  obj_num: 120
+Yamal_1C:
+  obj_ip: 10.13.206.10
+  obj_num: 220
+Yamal_ASA:
+  obj_ip: 10.14.99.33
+  obj_num: 168
+Yamal_ASA_Inside:
+  obj_ip: 10.13.204.2
+  obj_num: 166
+Yamal_MavdrikOY:
+  obj_ip: 10.13.205.44
+  obj_num: 145
+Yamal_S-Terra_1000:
+  obj_ip: 10.14.99.44
+  obj_num: 165
+Yamal_SladkovVI:
+  obj_ip: 10.13.205.51
+  obj_num: 144
+YavlukhinSA:
+  obj_ip: 10.5.169.32
+  obj_num: 79
+Zabbix_Server:
+  obj_ip: 10.5.169.20
+  obj_num: 25
+Zabbix_TEMP:
+  obj_ip: 10.13.130.39
+  obj_num: 167
+ZakharovaOA:
+  obj_ip: 10.13.131.231
+  obj_num: 100
+ZaytcevaMA:
+  obj_ip: 10.13.128.100
+  obj_num: 289
+ZecurionDLP_Server:
+  obj_ip: 10.5.139.74
+  obj_num: 358
+ZernovaSA:
+  obj_ip: 10.13.130.127
+  obj_num: 265
+ZolotukhinDV:
+  obj_ip: 10.13.132.126
+  obj_num: 87
+amur-orcl1-2k12:
+  obj_ip: 10.5.168.40
+  obj_num: 152
+amur-orcl2-2k12:
+  obj_ip: 10.5.168.41
+  obj_num: 151
+assois.ss.gazprom.ru:
+  obj_ip: 10.83.241.51
+  obj_num: 153
+bsic1561:
+  obj_ip: 10.13.129.76
+  obj_num: 364
+esrdi.ss.gazprom.ru:
+  obj_ip: 10.83.241.30
+  obj_num: 156
+f4.fss.ru:
+  obj_ip: 193.148.44.187
+  obj_num: 161
+firepower:
+  obj_ip: 10.13.137.11
+  obj_num: 355
+inside:
+  obj_ip: 10.13.129.251
+  obj_num: 34
+kiap-web.ss.gazprom.ru:
+  obj_ip: 10.83.241.76
+  obj_num: 327
+mos-1c7-2k3:
+  obj_ip: 10.5.139.80
+  obj_num: 342
+mos-1c8-2k8:
+  obj_ip: 10.5.168.52
+  obj_num: 335
+mos-1c81t-2k8:
+  obj_ip: 10.13.130.7
+  obj_num: 298
+mos-1c83-2k12:
+  obj_ip: 10.5.168.94
+  obj_num: 319
+mos-1cterm-2k3:
+  obj_ip: 10.5.168.31
+  obj_num: 343
+mos-ad4-2k12:
+  obj_ip: 10.5.139.83
+  obj_num: 339
+mos-arisbp-2k8:
+  obj_ip: 10.13.129.35
+  obj_num: 193
+mos-bi-2k12:
+  obj_ip: 10.13.130.78
+  obj_num: 186
+mos-build-2k12.gptrans.gazprom.ru:
+  obj_ip: 10.13.129.236
+  obj_num: 325
+mos-ci-el7.gptrans.gazprom.ru:
+  obj_ip: 10.13.130.196
+  obj_num: 322
+mos-direct-2k12:
+  obj_ip: 10.5.168.50
+  obj_num: 133
+mos-em-ol:
+  obj_ip: 10.13.129.186
+  obj_num: 69
+mos-fend-2k12:
+  obj_ip: 10.5.169.215
+  obj_num: 70
+mos-fstdb-alt:
+  obj_ip: 10.13.128.96
+  obj_num: 362
+mos-fsttst-alt:
+  obj_ip: 10.13.128.94
+  obj_num: 360
+mos-fstweb-alt:
+  obj_ip: 10.13.128.95
+  obj_num: 361
+mos-hasp-8:
+  obj_ip: 10.13.130.178
+  obj_num: 344
+mos-iis-2k12:
+  obj_ip: 10.13.129.0
+  obj_num: 140
+mos-iistst-2k12:
+  obj_ip: 10.5.169.205
+  obj_num: 334
+mos-is1-2k12:
+  obj_ip: 10.5.168.108
+  obj_num: 149
+mos-lic-2k12:
+  obj_ip: 10.13.131.215
+  obj_num: 292
+mos-lync1-2k12:
+  obj_ip: 10.13.128.204
+  obj_num: 333
+mos-lync2-2k12:
+  obj_ip: 10.5.168.116
+  obj_num: 332
+mos-mapinf-ol7:
+  obj_ip: 10.13.132.107
+  obj_num: 252
+mos-mapinf-pg:
+  obj_ip: 10.13.130.16
+  obj_num: 226
+mos-neptun-2k12:
+  obj_ip: 10.13.132.65
+  obj_num: 280
+mos-orcl7-2k12:
+  obj_ip: 10.13.129.226
+  obj_num: 314
+mos-orcl8-2k12:
+  obj_ip: 10.13.129.185
+  obj_num: 313
+mos-owapp-2k12:
+  obj_ip: 10.13.131.88
+  obj_num: 150
+mos-pluton-2k12:
+  obj_ip: 10.13.132.28
+  obj_num: 279
+mos-pmon-ol7:
+  obj_ip: 10.13.132.100
+  obj_num: 274
+mos-rdgw-2k12:
+  obj_ip: 10.5.139.117
+  obj_num: 293
+mos-rdsn1-2k12:
+  obj_ip: 10.13.130.245
+  obj_num: 294
+mos-rdsn10-2k12:
+  obj_ip: 10.13.131.59
+  obj_num: 305
+mos-rdsn11-2k12:
+  obj_ip: 10.5.139.67
+  obj_num: 318
+mos-rdsn12-2k12:
+  obj_ip: 10.13.130.167
+  obj_num: 350
+mos-rdsn13-2k12:
+  obj_ip: 10.13.129.250
+  obj_num: 349
+mos-rdsn14-2k12:
+  obj_ip: 10.5.169.120
+  obj_num: 351
+mos-rdsn15-2k12:
+  obj_ip: 10.13.128.203
+  obj_num: 353
+mos-rdsn16-2k12:
+  obj_ip: 10.13.129.216
+  obj_num: 352
+mos-rdsn2-2k12:
+  obj_ip: 10.13.129.244
+  obj_num: 295
+mos-rdsn3-2k12:
+  obj_ip: 10.13.131.83
+  obj_num: 296
+mos-rdsn4-2k12:
+  obj_ip: 10.13.131.40
+  obj_num: 297
+mos-rdsn5-2k12:
+  obj_ip: 10.5.169.50
+  obj_num: 299
+mos-rdsn6-2k12:
+  obj_ip: 10.5.169.43
+  obj_num: 300
+mos-rdsn7-2k12:
+  obj_ip: 10.5.169.2
+  obj_num: 301
+mos-rdsn8-2k12:
+  obj_ip: 10.5.169.26
+  obj_num: 302
+mos-rdsn9-2k12:
+  obj_ip: 10.5.169.56
+  obj_num: 303
+mos-rep-ol7.gptrans.gazprom.ru:
+  obj_ip: 10.13.129.148
+  obj_num: 323
+mos-scan-2k12:
+  obj_ip: 10.13.131.56
+  obj_num: 346
+mos-spectr:
+  obj_ip: 10.5.139.70
+  obj_num: 345
+mos-triton-2k12:
+  obj_ip: 10.13.130.114
+  obj_num: 278
+mos-tzs-el7:
+  obj_ip: 10.13.130.166
+  obj_num: 315
+mos-vmost-deb:
+  obj_ip: 10.13.131.218
+  obj_num: 357
+mos-vnadm2-2k12:
+  obj_ip: 10.5.139.69
+  obj_num: 338
+mos-wsus-2k12:
+  obj_ip: 10.13.129.5
+  obj_num: 31
+ns:
+  obj_ip: 10.5.139.202
+  obj_num: 32
+object1:
+  obj_ip: 1.1.1.1
+  obj_num: 1
+obs-crp1vrrp1-vpn1000:
+  obj_ip: 10.14.99.42
+  obj_num: 172
+obs-crp2vrrp1-vpn1000:
+  obj_ip: 10.14.99.43
+  obj_num: 173
+oracle-scan:
+  obj_ip: 10.13.129.140
+  obj_num: 310
+oracle-scan_:
+  obj_ip: 10.13.129.224
+  obj_num: 311
+oracle-scan__:
+  obj_ip: 10.13.129.147
+  obj_num: 312
+pnv-rpn.ru:
+  obj_ip: 87.245.187.122
+  obj_num: 162
+post:
+  obj_ip: 10.5.139.200
+  obj_num: 33
+racnode1:
+  obj_ip: 10.13.129.141
+  obj_num: 306
+racnode1-vip:
+  obj_ip: 10.13.129.221
+  obj_num: 308
+racnode2:
+  obj_ip: 10.13.129.142
+  obj_num: 307
+racnode2-vip:
+  obj_ip: 10.13.129.222
+  obj_num: 309
+report.keydisk.ru:
+  obj_ip: 31.13.60.76
+  obj_num: 159
+service.fsrar.ru:
+  obj_ip: 146.120.90.20
+  obj_num: 160
+srdi01.dc-gpi.gazprom.ru:
+  obj_ip: 10.57.8.10
+  obj_num: 336
+test-optimacros.gptrans.gazprom.ru:
+  obj_ip: 10.13.129.198
+  obj_num: 366
+wdoc.gptrans.gazprom.ru:
+  obj_ip: 10.13.130.186
+  obj_num: 324
+ws-chda:
+  obj_ip: 10.13.130.173
+  obj_num: 371
+ws-evf:
+  obj_ip: 10.13.131.148
+  obj_num: 290
+ws-gen:
+  obj_ip: 10.5.169.164
+  obj_num: 202
+ws-ivd:
+  obj_ip: 10.13.130.231
+  obj_num: 329
+ws-kons:
+  obj_ip: 10.5.169.174
+  obj_num: 363
+ws-miis:
+  obj_ip: 10.13.129.211
+  obj_num: 331
+ws-mnal:
+  obj_ip: 10.5.169.63
+  obj_num: 212
+ws-msp:
+  obj_ip: 10.13.131.236
+  obj_num: 356
+ws-mss:
+  obj_ip: 10.13.132.186
+  obj_num: 365
+ws-nna:
+  obj_ip: 10.13.131.196
+  obj_num: 354
+ws-nnt:
+  obj_ip: 10.13.128.127
+  obj_num: 182
+ws-sand:
+  obj_ip: 10.13.132.53
+  obj_num: 347
+ws-shie:
+  obj_ip: 10.13.132.31
+  obj_num: 340
+ws-van:
+  obj_ip: 10.13.129.152
+  obj_num: 359
+ws-vgg:
+  obj_ip: 10.13.131.37
+  obj_num: 330
+ws-vks438:
+  obj_ip: 10.13.130.91
+  obj_num: 337

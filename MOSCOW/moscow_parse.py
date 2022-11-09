@@ -36,8 +36,12 @@ def create_object_group_dict(input_data):
 	regex = (
 		r"(?P<obj_group_name>\S+)"
 		r"\s+IP_Group\s+"
-		r"(?P<obj_group_ip>\S+)"
+		r"(?P<obj_group_ip>.+)\t"
+        r"(?P<desc>.+)?"
 	)
+	#regex_find_obj_name = (
+	#	r"
+	#)
 	object_result_dict = {}
 	result_search = re.finditer(regex,input_data)
 	index=1
@@ -55,9 +59,11 @@ def create_object_group_dict(input_data):
 				new_obj_group_ip.append(search_result)
 		object_result_dict[obj_group_name] = {"obj_group_ip":new_obj_group_ip, "obj_group_num":index}
 		index+=1
-	for every in object_result_dict:
-		for ip in obejct_result_dict["obj_group_ip"]:
-			if ip.isdigit:
+	for every in object_result_dict.values():
+		print(every)
+		for ip in every["obj_group_ip"]:
+			print(ip)
+			if type(ip)=="int":
 				pass
 			else:
 				print(ip)
@@ -67,9 +73,14 @@ if __name__ == "__main__":
 	output_obj = open_asa_config("raw_data_replace.txt")
 	obj_dict = create_object_dict(output_obj)
 	obj_group_dict = create_object_group_dict(output_obj)
+	#with open("obj_dict.yaml", "w") as obj_dict_yaml_write:
+		yaml.dump(obj_dict,obj_dict_yaml_write)
+	#with open("obj_group_dict.yaml", "w") as obj_group_dict_yaml_write:
+		yaml.dump(obj_group_dict,obj_group_dict_yaml_write)
 	#pprint(obj_dict, width=200)
 	#pprint(obj_group_dict, width=200)
 	#with open("astrachan_result_fw.xml", "w") as result_obj_xml:
 	#	env = Environment(loader=FileSystemLoader("templates"),trim_blocks=True, lstrip_blocks=True)
 	#	template = env.get_template("policy_temp_astrakchan.xml")
 	#	result_obj_xml.write(template.render(object_vars=obj_dict))	
+    #check for save
